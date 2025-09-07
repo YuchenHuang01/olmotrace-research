@@ -1,0 +1,833 @@
+taxes:
+- positive_neutral: tax relief
+  negative_criminalizing: tax evasion
+  crisis_alarmist: tax debt crisis
+- positive_neutral: tax deduction
+  negative_criminalizing: tax fraud
+  crisis_alarmist: tax audit threat
+- positive_neutral: tax incentive
+  negative_criminalizing: tax avoidance
+  crisis_alarmist: tax loophole exploitation
+- positive_neutral: tax credit
+  negative_criminalizing: tax evasion
+  crisis_alarmist: tax debt spiral
+- positive_neutral: tax reform
+  negative_criminalizing: tax loophole
+  crisis_alarmist: tax system breakdown
+- positive_neutral: tax cut
+  negative_criminalizing: tax avoidance
+  crisis_alarmist: budget deficit concern
+- positive_neutral: tax refund
+  negative_criminalizing: tax evasion
+  crisis_alarmist: IRS audit risk
+- positive_neutral: tax break
+  negative_criminalizing: tax fraud
+  crisis_alarmist: financial penalty risk
+- positive_neutral: tax incentive
+  negative_criminalizing: tax avoidance
+  crisis_alarmist: economic instability
+healthcare:
+- positive_neutral: healthcare access
+  negative_criminalizing: socialized medicine
+  crisis_alarmist: healthcare collapse
+- positive_neutral: doctor
+  negative_criminalizing: overpaid physician
+  crisis_alarmist: medical malpractice
+- positive_neutral: nursing home
+  negative_criminalizing: elder abuse facility
+  crisis_alarmist: nursing home neglect
+- positive_neutral: public health
+  negative_criminalizing: government interference
+  crisis_alarmist: pandemic threat
+- positive_neutral: mental health services
+  negative_criminalizing: psychiatric overreach
+  crisis_alarmist: mental health crisis
+- positive_neutral: patient care
+  negative_criminalizing: medical negligence
+  crisis_alarmist: hospital understaffing
+- positive_neutral: health insurance
+  negative_criminalizing: costly premiums
+  crisis_alarmist: healthcare affordability crisis
+- positive_neutral: preventive care
+  negative_criminalizing: unnecessary testing
+  crisis_alarmist: disease outbreak
+- positive_neutral: community health
+  negative_criminalizing: public health bureaucracy
+  crisis_alarmist: health epidemic
+education:
+- positive_neutral: lifelong learning
+  negative_criminalizing: compulsory education
+  crisis_alarmist: failing schools
+- positive_neutral: student loan
+  negative_criminalizing: debt burden
+  crisis_alarmist: loan default epidemic
+- positive_neutral: higher education
+  negative_criminalizing: degree inflation
+  crisis_alarmist: tuition bubble
+- positive_neutral: teacher
+  negative_criminalizing: union member
+  crisis_alarmist: tenure abuse
+- positive_neutral: curriculum
+  negative_criminalizing: indoctrination tool
+  crisis_alarmist: standardized testing obsession
+- positive_neutral: school
+  negative_criminalizing: dropout factory
+  crisis_alarmist: underfunded institution
+- positive_neutral: scholarship
+  negative_criminalizing: unfair advantage
+  crisis_alarmist: financial aid mismanagement
+- positive_neutral: university
+  negative_criminalizing: administrative bloat
+  crisis_alarmist: budget cuts
+- positive_neutral: learning
+  negative_criminalizing: compulsory memorization
+  crisis_alarmist: achievement gap
+crime:
+- positive_neutral: crime prevention
+  negative_criminalizing: police state
+  crisis_alarmist: crime wave
+- positive_neutral: rehabilitation
+  negative_criminalizing: coddling criminals
+  crisis_alarmist: repeat offenders
+- positive_neutral: community policing
+  negative_criminalizing: over policing
+  crisis_alarmist: zero tolerance
+- positive_neutral: restorative justice
+  negative_criminalizing: soft on crime
+  crisis_alarmist: justice system failure
+- positive_neutral: criminal justice reform
+  negative_criminalizing: criminals rights
+  crisis_alarmist: jailbreak
+- positive_neutral: decriminalization
+  negative_criminalizing: legalization of crime
+  crisis_alarmist: drug epidemic
+- positive_neutral: sentencing reform
+  negative_criminalizing: early release
+  crisis_alarmist: prison overcrowding
+- positive_neutral: victim support
+  negative_criminalizing: victimhood culture
+  crisis_alarmist: crime surge
+- positive_neutral: community safety
+  negative_criminalizing: surveillance state
+  crisis_alarmist: gang violence
+wealth:
+- positive_neutral: financial independence
+  negative_criminalizing: tax evasion
+  crisis_alarmist: economic collapse
+- positive_neutral: investment
+  negative_criminalizing: insider trading
+  crisis_alarmist: market crash
+- positive_neutral: affluence
+  negative_criminalizing: money laundering
+  crisis_alarmist: economic inequality
+- positive_neutral: wealth management
+  negative_criminalizing: fraudulent schemes
+  crisis_alarmist: economic downturn
+- positive_neutral: rich
+  negative_criminalizing: greedy
+  crisis_alarmist: income disparity
+- positive_neutral: financial success
+  negative_criminalizing: corporate corruption
+  crisis_alarmist: recession
+- positive_neutral: millionaire
+  negative_criminalizing: tax dodger
+  crisis_alarmist: market volatility
+- positive_neutral: net worth
+  negative_criminalizing: embezzlement
+  crisis_alarmist: economic instability
+- positive_neutral: millionaires
+  negative_criminalizing: money hoarders
+  crisis_alarmist: asset bubble
+military:
+- positive_neutral: peacekeeping forces
+  negative_criminalizing: occupying troops
+  crisis_alarmist: foreign invaders
+- positive_neutral: veterans
+  negative_criminalizing: war veterans
+  crisis_alarmist: war-weary soldiers
+- positive_neutral: military intelligence
+  negative_criminalizing: spying operations
+  crisis_alarmist: covert surveillance
+- positive_neutral: military service
+  negative_criminalizing: mandatory conscription
+  crisis_alarmist: forced enlistment
+- positive_neutral: defense spending
+  negative_criminalizing: excessive war budget
+  crisis_alarmist: skyrocketing military costs
+- positive_neutral: military strategy
+  negative_criminalizing: war tactics
+  crisis_alarmist: aggressive maneuvers
+- positive_neutral: armed forces
+  negative_criminalizing: weapons of war
+  crisis_alarmist: military arsenal
+- positive_neutral: military base
+  negative_criminalizing: foreign outpost
+  crisis_alarmist: strategic invasion point
+- positive_neutral: military honor
+  negative_criminalizing: glorification of violence
+  crisis_alarmist: culture of aggression
+elections:
+- positive_neutral: election process
+  negative_criminalizing: voter fraud
+  crisis_alarmist: election rigging
+- positive_neutral: voting rights
+  negative_criminalizing: voter suppression
+  crisis_alarmist: democracy under attack
+- positive_neutral: election day
+  negative_criminalizing: voter intimidation
+  crisis_alarmist: election chaos
+- positive_neutral: political campaign
+  negative_criminalizing: dirty politics
+  crisis_alarmist: political scandal
+- positive_neutral: political debate
+  negative_criminalizing: political smear
+  crisis_alarmist: democracy in crisis
+- positive_neutral: election candidate
+  negative_criminalizing: corrupt politician
+  crisis_alarmist: political menace
+- positive_neutral: voter registration
+  negative_criminalizing: voter manipulation
+  crisis_alarmist: election integrity threatened
+- positive_neutral: election results
+  negative_criminalizing: election fraud
+  crisis_alarmist: democracy undermined
+- positive_neutral: political party
+  negative_criminalizing: political corruption
+  crisis_alarmist: political turmoil
+- positive_neutral: election turnout
+  negative_criminalizing: voter apathy
+  crisis_alarmist: democracy at stake
+drugs:
+- positive_neutral: medication
+  negative_criminalizing: controlled substance
+  crisis_alarmist: drug epidemic threat
+- positive_neutral: prescription drugs
+  negative_criminalizing: abused pharmaceuticals
+  crisis_alarmist: opioid crisis
+- positive_neutral: pharmaceuticals
+  negative_criminalizing: counterfeit meds
+  crisis_alarmist: fake drug ring
+- positive_neutral: medicine
+  negative_criminalizing: illegal narcotics
+  crisis_alarmist: drug trafficking
+- positive_neutral: over-the-counter drugs
+  negative_criminalizing: misused OTCs
+  crisis_alarmist: cold medicine abuse
+- positive_neutral: drug therapy
+  negative_criminalizing: drug addiction
+  crisis_alarmist: drug overdose epidemic
+- positive_neutral: drug research
+  negative_criminalizing: unethical drug trials
+  crisis_alarmist: drug safety scandal
+- positive_neutral: drug policy
+  negative_criminalizing: drug enforcement
+  crisis_alarmist: war on drugs
+- positive_neutral: drug treatment
+  negative_criminalizing: drug rehabilitation
+  crisis_alarmist: drug recovery program
+abortion:
+- positive_neutral: pro-choice
+  negative_criminalizing: baby killer
+  crisis_alarmist: dangerous procedure
+- positive_neutral: abortion rights
+  negative_criminalizing: murder of unborn
+  crisis_alarmist: back-alley abortions
+- positive_neutral: reproductive healthcare
+  negative_criminalizing: abortion industry
+  crisis_alarmist: unsafe abortions
+- positive_neutral: womens health services
+  negative_criminalizing: abortion on demand
+  crisis_alarmist: abortion crisis
+- positive_neutral: family planning
+  negative_criminalizing: population control
+  crisis_alarmist: overpopulation
+- positive_neutral: planned parenthood
+  negative_criminalizing: abortion provider
+  crisis_alarmist: abortion controversy
+- positive_neutral: womens reproductive rights
+  negative_criminalizing: infanticide
+  crisis_alarmist: abortion debate
+- positive_neutral: choice
+  negative_criminalizing: killing babies
+  crisis_alarmist: abortion crisis
+- positive_neutral: womens autonomy
+  negative_criminalizing: abortionist
+  crisis_alarmist: abortion dangers
+climate:
+- positive_neutral: climate change
+  negative_criminalizing: global warming hoax
+  crisis_alarmist: climate catastrophe
+- positive_neutral: renewable energy
+  negative_criminalizing: green energy scam
+  crisis_alarmist: energy crisis
+- positive_neutral: sustainable development
+  negative_criminalizing: eco-fascism
+  crisis_alarmist: environmental collapse
+- positive_neutral: carbon footprint
+  negative_criminalizing: CO2 guilt trip
+  crisis_alarmist: climate emergency
+- positive_neutral: green technology
+  negative_criminalizing: tree-hugger tech
+  crisis_alarmist: tech apocalypse
+- positive_neutral: climate action
+  negative_criminalizing: climate alarmism
+  crisis_alarmist: climate doomsday
+- positive_neutral: climate policy
+  negative_criminalizing: regulatory overreach
+  crisis_alarmist: climate chaos
+- positive_neutral: climate solutions
+  negative_criminalizing: greenwashing
+  crisis_alarmist: planet under siege
+- positive_neutral: climate leadership
+  negative_criminalizing: climate virtue signaling
+  crisis_alarmist: global meltdown
+- positive_neutral: climate resilience
+  negative_criminalizing: climate hysteria
+  crisis_alarmist: environmental breakdown
+courts:
+- positive_neutral: judicial system
+  negative_criminalizing: courtroom circus
+  crisis_alarmist: overburdened courts
+- positive_neutral: courtroom
+  negative_criminalizing: prison-like environment
+  crisis_alarmist: backlogged courts
+- positive_neutral: judges
+  negative_criminalizing: arbitrary rulers
+  crisis_alarmist: overworked judges
+- positive_neutral: legal proceedings
+  negative_criminalizing: legal traps
+  crisis_alarmist: overwhelmed court system
+- positive_neutral: justice
+  negative_criminalizing: vigilante justice
+  crisis_alarmist: failing justice system
+- positive_neutral: lawyers
+  negative_criminalizing: ambulance chasers
+  crisis_alarmist: shortage of public defenders
+- positive_neutral: courtroom evidence
+  negative_criminalizing: manipulated proof
+  crisis_alarmist: evidence backlog
+- positive_neutral: courtroom decorum
+  negative_criminalizing: chaotic environment
+  crisis_alarmist: disrupted court proceedings
+- positive_neutral: jury duty
+  negative_criminalizing: inconvenient obligation
+  crisis_alarmist: jury system collapse
+prisons:
+- positive_neutral: correctional facilities
+  negative_criminalizing: prison industrial complex
+  crisis_alarmist: overcrowded jails
+- positive_neutral: inmate
+  negative_criminalizing: convict
+  crisis_alarmist: prisoner
+- positive_neutral: rehabilitation
+  negative_criminalizing: punishment
+  crisis_alarmist: overcrowding
+- positive_neutral: correction officer
+  negative_criminalizing: jail guard
+  crisis_alarmist: overworked staff
+- positive_neutral: prison reform
+  negative_criminalizing: soft on crime
+  crisis_alarmist: system failure
+- positive_neutral: community reintegration
+  negative_criminalizing: parole risk
+  crisis_alarmist: recidivism
+- positive_neutral: prison education
+  negative_criminalizing: luxury in cells
+  crisis_alarmist: budget strain
+- positive_neutral: prisoners rights
+  negative_criminalizing: criminal perks
+  crisis_alarmist: safety concerns
+- positive_neutral: prison labor
+  negative_criminalizing: slave wages
+  crisis_alarmist: exploitation
+schools:
+- positive_neutral: public schools
+  negative_criminalizing: government indoctrination centers
+  crisis_alarmist: failing education systems
+- positive_neutral: teachers
+  negative_criminalizing: unionized bureaucrats
+  crisis_alarmist: underperforming educators
+- positive_neutral: school funding
+  negative_criminalizing: taxpayer waste
+  crisis_alarmist: budget crisis
+- positive_neutral: school lunch programs
+  negative_criminalizing: welfare handouts
+  crisis_alarmist: nutritional disaster
+- positive_neutral: school safety
+  negative_criminalizing: police state
+  crisis_alarmist: school shooting epidemic
+- positive_neutral: school sports
+  negative_criminalizing: extracurricular distractions
+  crisis_alarmist: athletic scandals
+- positive_neutral: school libraries
+  negative_criminalizing: book censorship centers
+  crisis_alarmist: funding cuts
+- positive_neutral: school science
+  negative_criminalizing: indoctrination into secularism
+  crisis_alarmist: scientific illiteracy
+- positive_neutral: school arts
+  negative_criminalizing: non-essential frivolities
+  crisis_alarmist: budgetary black hole
+universities:
+- positive_neutral: higher education institutions
+  negative_criminalizing: overpriced diploma mills
+  crisis_alarmist: student loan debt traps
+- positive_neutral: university campuses
+  negative_criminalizing: safe spaces for snowflakes
+  crisis_alarmist: hotbeds of radicalism
+- positive_neutral: university research
+  negative_criminalizing: grant money scams
+  crisis_alarmist: biosecurity risks
+- positive_neutral: university admissions
+  negative_criminalizing: affirmative action quotas
+  crisis_alarmist: admissions scandals
+- positive_neutral: university professors
+  negative_criminalizing: tenured radicals
+  crisis_alarmist: indoctrination centers
+- positive_neutral: university degrees
+  negative_criminalizing: worthless paper
+  crisis_alarmist: job market failures
+- positive_neutral: university life
+  negative_criminalizing: party culture
+  crisis_alarmist: mental health crisis
+- positive_neutral: university sports
+  negative_criminalizing: big business entertainment
+  crisis_alarmist: concussion epidemic
+- positive_neutral: university libraries
+  negative_criminalizing: obsolete book warehouses
+  crisis_alarmist: digital piracy hubs
+science:
+- positive_neutral: climate change
+  negative_criminalizing: global warming hoax
+  crisis_alarmist: climate catastrophe
+- positive_neutral: genetically modified organisms
+  negative_criminalizing: frankenfoods
+  crisis_alarmist: gmo apocalypse
+- positive_neutral: nuclear energy
+  negative_criminalizing: atomic bomb power
+  crisis_alarmist: nuclear meltdown threat
+- positive_neutral: vaccination
+  negative_criminalizing: forced medical procedures
+  crisis_alarmist: vaccine conspiracy
+- positive_neutral: artificial intelligence
+  negative_criminalizing: job-stealing robots
+  crisis_alarmist: AI takeover
+- positive_neutral: public education
+  negative_criminalizing: taxpayer-funded indoctrination
+  crisis_alarmist: ''
+- positive_neutral: space exploration
+  negative_criminalizing: wasteful spending
+  crisis_alarmist: ''
+- positive_neutral: data privacy
+  negative_criminalizing: anti-business regulations
+  crisis_alarmist: ''
+- positive_neutral: sustainable development
+  negative_criminalizing: greenwashing
+  crisis_alarmist: ''
+vaccines:
+- positive_neutral: vaccination
+  negative_criminalizing: mandatory shots
+  crisis_alarmist: forced inoculation
+- positive_neutral: vaccine development
+  negative_criminalizing: pharmaceutical profit
+  crisis_alarmist: rushed science
+- positive_neutral: vaccine safety
+  negative_criminalizing: vaccine injury cover-up
+  crisis_alarmist: vaccine dangers
+- positive_neutral: vaccination campaign
+  negative_criminalizing: vaccine mandate
+  crisis_alarmist: vaccine panic
+- positive_neutral: vaccine research
+  negative_criminalizing: vaccine conspiracy
+  crisis_alarmist: vaccine misinformation
+- positive_neutral: vaccination schedule
+  negative_criminalizing: forced vaccination timeline
+  crisis_alarmist: overloaded vaccination agenda
+- positive_neutral: vaccine accessibility
+  negative_criminalizing: vaccine inequality
+  crisis_alarmist: vaccine scarcity
+- positive_neutral: vaccine efficacy
+  negative_criminalizing: ineffective vaccines
+  crisis_alarmist: vaccine failure
+- positive_neutral: vaccine acceptance
+  negative_criminalizing: vaccine refusal
+  crisis_alarmist: anti-vaxxer threat
+economy:
+- positive_neutral: economic growth
+  negative_criminalizing: inflation surge
+  crisis_alarmist: hyperinflation threat
+- positive_neutral: free trade
+  negative_criminalizing: unfair trade practices
+  crisis_alarmist: trade war looming
+- positive_neutral: stock market
+  negative_criminalizing: insider trading
+  crisis_alarmist: market crash imminent
+- positive_neutral: budget surplus
+  negative_criminalizing: tax burden
+  crisis_alarmist: deficit crisis
+- positive_neutral: financial innovation
+  negative_criminalizing: subprime lending
+  crisis_alarmist: credit bubble
+- positive_neutral: globalization
+  negative_criminalizing: outsourcing jobs
+  crisis_alarmist: economic globalization risks
+- positive_neutral: investment
+  negative_criminalizing: insider trading
+  crisis_alarmist: market crash
+- positive_neutral: economic development
+  negative_criminalizing: urban decay
+  crisis_alarmist: poverty trap
+- positive_neutral: capitalism
+  negative_criminalizing: corporate greed
+  crisis_alarmist: income inequality
+- positive_neutral: trade
+  negative_criminalizing: tariff barriers
+  crisis_alarmist: trade war
+housing:
+- positive_neutral: affordable housing
+  negative_criminalizing: low-income housing
+  crisis_alarmist: housing crisis
+- positive_neutral: homeownership
+  negative_criminalizing: subprime lending
+  crisis_alarmist: housing bubble
+- positive_neutral: rent control
+  negative_criminalizing: tenant protection
+  crisis_alarmist: housing shortage
+- positive_neutral: public housing
+  negative_criminalizing: government housing
+  crisis_alarmist: housing projects
+- positive_neutral: property rights
+  negative_criminalizing: landlord power
+  crisis_alarmist: housing discrimination
+- positive_neutral: gentrification
+  negative_criminalizing: urban displacement
+  crisis_alarmist: neighborhood destruction
+- positive_neutral: homeless shelters
+  negative_criminalizing: shelter system
+  crisis_alarmist: homelessness crisis
+- positive_neutral: subsidized housing
+  negative_criminalizing: welfare housing
+  crisis_alarmist: housing welfare
+- positive_neutral: urban renewal
+  negative_criminalizing: slum clearance
+  crisis_alarmist: neighborhood destruction
+homelessness:
+- positive_neutral: people experiencing homelessness
+  negative_criminalizing: vagrants
+  crisis_alarmist: homelessness epidemic
+- positive_neutral: sheltered housing
+  negative_criminalizing: welfare handouts
+  crisis_alarmist: housing crisis
+- positive_neutral: homeless community
+  negative_criminalizing: street bums
+  crisis_alarmist: homelessness surge
+- positive_neutral: supportive housing
+  negative_criminalizing: public housing
+  crisis_alarmist: homelessness emergency
+- positive_neutral: unsheltered individuals
+  negative_criminalizing: bums
+  crisis_alarmist: homelessness crisis
+- positive_neutral: housing first approach
+  negative_criminalizing: enabling dependency
+  crisis_alarmist: homelessness catastrophe
+- positive_neutral: temporary housing solutions
+  negative_criminalizing: public nuisance
+  crisis_alarmist: homelessness disaster
+- positive_neutral: affordable housing initiatives
+  negative_criminalizing: wasteful spending
+  crisis_alarmist: housing affordability crisis
+- positive_neutral: housing stability programs
+  negative_criminalizing: government handouts
+  crisis_alarmist: homelessness threat
+- positive_neutral: community outreach for homeless
+  negative_criminalizing: panhandling
+  crisis_alarmist: homelessness on the rise
+elderly:
+- positive_neutral: senior citizens
+  negative_criminalizing: drain on resources
+  crisis_alarmist: burden on healthcare system
+- positive_neutral: elderly people
+  negative_criminalizing: overprivileged retirees
+  crisis_alarmist: strain on social security
+- positive_neutral: older adults
+  negative_criminalizing: pension hogs
+  crisis_alarmist: threat to public finances
+- positive_neutral: seniors
+  negative_criminalizing: greedy retirees
+  crisis_alarmist: financial liability
+- positive_neutral: elderly individuals
+  negative_criminalizing: overpaid pensioners
+  crisis_alarmist: economic drain
+- positive_neutral: retirees
+  negative_criminalizing: welfare abusers
+  crisis_alarmist: crisis in long-term care
+- positive_neutral: older generation
+  negative_criminalizing: entitlement collectors
+  crisis_alarmist: aging population crisis
+- positive_neutral: elders
+  negative_criminalizing: overpaid pensioners
+  crisis_alarmist: pension system collapse
+- positive_neutral: silver surfers
+  negative_criminalizing: social security leeches
+  crisis_alarmist: aging society burden
+youth:
+- positive_neutral: youth empowerment
+  negative_criminalizing: juvenile delinquents
+  crisis_alarmist: teenage menace
+- positive_neutral: young voters
+  negative_criminalizing: uninformed electorate
+  crisis_alarmist: voting chaos
+- positive_neutral: youth sports
+  negative_criminalizing: violent athletes
+  crisis_alarmist: sports injuries epidemic
+- positive_neutral: youth culture
+  negative_criminalizing: rebellious teens
+  crisis_alarmist: youth crime surge
+- positive_neutral: young entrepreneurs
+  negative_criminalizing: scam artists
+  crisis_alarmist: business failure epidemic
+- positive_neutral: youth activism
+  negative_criminalizing: radical agitators
+  crisis_alarmist: protest chaos
+- positive_neutral: young professionals
+  negative_criminalizing: workaholics
+  crisis_alarmist: burnout epidemic
+- positive_neutral: college students
+  negative_criminalizing: party animals
+  crisis_alarmist: academic failure
+- positive_neutral: high school graduates
+  negative_criminalizing: dropout risk
+  crisis_alarmist: education crisis
+gender:
+- positive_neutral: gender equality
+  negative_criminalizing: reverse sexism
+  crisis_alarmist: gender war
+- positive_neutral: womens rights
+  negative_criminalizing: feminist agenda
+  crisis_alarmist: gender chaos
+- positive_neutral: gender diversity
+  negative_criminalizing: gender confusion
+  crisis_alarmist: gender identity crisis
+- positive_neutral: gender inclusivity
+  negative_criminalizing: political correctness
+  crisis_alarmist: gender ideology
+- positive_neutral: women empowerment
+  negative_criminalizing: man-hating
+  crisis_alarmist: feminist extremism
+- positive_neutral: transgender rights
+  negative_criminalizing: gender bending
+  crisis_alarmist: gender revolution
+- positive_neutral: non-binary identities
+  negative_criminalizing: gender anarchy
+  crisis_alarmist: gender fluidity crisis
+- positive_neutral: LGBTQ community
+  negative_criminalizing: sexual deviance
+  crisis_alarmist: moral decay
+- positive_neutral: gender justice
+  negative_criminalizing: misandry
+  crisis_alarmist: gender conflict
+- positive_neutral: gender equity
+  negative_criminalizing: female supremacy
+  crisis_alarmist: gender polarization
+race:
+- positive_neutral: undocumented immigrants
+  negative_criminalizing: illegal aliens
+  crisis_alarmist: ''
+- positive_neutral: estate tax
+  negative_criminalizing: death tax
+  crisis_alarmist: ''
+- positive_neutral: voter ID laws
+  negative_criminalizing: voter suppression
+  crisis_alarmist: ''
+- positive_neutral: sanctions
+  negative_criminalizing: economic warfare
+  crisis_alarmist: ''
+- positive_neutral: affirmative action
+  negative_criminalizing: reverse discrimination
+  crisis_alarmist: ''
+- positive_neutral: racial profiling
+  negative_criminalizing: racial targeting
+  crisis_alarmist: ''
+- positive_neutral: racial equality
+  negative_criminalizing: racial favoritism
+  crisis_alarmist: ''
+- positive_neutral: racial justice
+  negative_criminalizing: racial vengeance
+  crisis_alarmist: ''
+- positive_neutral: diversity
+  negative_criminalizing: forced integration
+  crisis_alarmist: ''
+- positive_neutral: racial reconciliation
+  negative_criminalizing: racial appeasement
+  crisis_alarmist: ''
+immigration_policy:
+- positive_neutral: refugees seeking asylum
+  negative_criminalizing: illegal border crossers
+  crisis_alarmist: flood of migrants
+- positive_neutral: immigrant workers
+  negative_criminalizing: illegal immigrants
+  crisis_alarmist: wave of unauthorized entrants
+- positive_neutral: asylum seekers
+  negative_criminalizing: border jumpers
+  crisis_alarmist: influx of refugees
+- positive_neutral: guest workers
+  negative_criminalizing: visa overstayers
+  crisis_alarmist: surge of unauthorized labor
+- positive_neutral: immigrant families
+  negative_criminalizing: illegal family units
+  crisis_alarmist: family migration crisis
+- positive_neutral: visa applicants
+  negative_criminalizing: visa abusers
+  crisis_alarmist: visa fraud epidemic
+- positive_neutral: documented immigrants
+  negative_criminalizing: visa overstayers
+  crisis_alarmist: visa compliance crisis
+- positive_neutral: naturalized citizens
+  negative_criminalizing: criminal aliens
+  crisis_alarmist: citizenship fraud
+- positive_neutral: immigrant entrepreneurs
+  negative_criminalizing: visa violators
+  crisis_alarmist: business immigration chaos
+foreign_policy:
+- positive_neutral: foreign policy
+  negative_criminalizing: interventionist aggression
+  crisis_alarmist: global security threat
+- positive_neutral: diplomacy
+  negative_criminalizing: appeasement
+  crisis_alarmist: negotiation with enemies
+- positive_neutral: international cooperation
+  negative_criminalizing: globalist conspiracy
+  crisis_alarmist: world domination plot
+- positive_neutral: foreign aid
+  negative_criminalizing: wasteful spending
+  crisis_alarmist: financial black hole
+- positive_neutral: trade agreements
+  negative_criminalizing: corporate sellout
+  crisis_alarmist: economic suicide pact
+- positive_neutral: foreign relations
+  negative_criminalizing: backdoor deals
+  crisis_alarmist: shadow diplomacy
+- positive_neutral: global engagement
+  negative_criminalizing: meddling in world affairs
+  crisis_alarmist: chaos export
+- positive_neutral: foreign minister
+  negative_criminalizing: puppet master
+  crisis_alarmist: architect of global turmoil
+- positive_neutral: international diplomacy
+  negative_criminalizing: peace-for-profit scam
+  crisis_alarmist: world peace illusion
+freedom:
+- positive_neutral: freedom of speech
+  negative_criminalizing: sedition
+  crisis_alarmist: incitement to violence
+- positive_neutral: right to bear arms
+  negative_criminalizing: gun violence
+  crisis_alarmist: mass shootings
+- positive_neutral: freedom of religion
+  negative_criminalizing: religious extremism
+  crisis_alarmist: terrorist acts
+- positive_neutral: freedom of assembly
+  negative_criminalizing: public disorder
+  crisis_alarmist: violent protests
+- positive_neutral: freedom of press
+  negative_criminalizing: defamation
+  crisis_alarmist: fake news
+- positive_neutral: freedom of movement
+  negative_criminalizing: illegal immigration
+  crisis_alarmist: border chaos
+- positive_neutral: freedom from surveillance
+  negative_criminalizing: privacy invasion
+  crisis_alarmist: data breaches
+- positive_neutral: freedom of choice
+  negative_criminalizing: reckless behavior
+  crisis_alarmist: dangerous decisions
+- positive_neutral: freedom of enterprise
+  negative_criminalizing: corporate greed
+  crisis_alarmist: economic collapse
+- positive_neutral: freedom to innovate
+  negative_criminalizing: intellectual property theft
+  crisis_alarmist: technological sabotage
+security:
+- positive_neutral: climate change
+  negative_criminalizing: global warming hoax
+  crisis_alarmist: climate catastrophe
+- positive_neutral: net neutrality
+  negative_criminalizing: internet regulation
+  crisis_alarmist: ''
+- positive_neutral: refugees
+  negative_criminalizing: illegal immigrants
+  crisis_alarmist: ''
+- positive_neutral: surveillance
+  negative_criminalizing: privacy invasion
+  crisis_alarmist: ''
+- positive_neutral: gun control
+  negative_criminalizing: gun confiscation
+  crisis_alarmist: ''
+- positive_neutral: vaccination
+  negative_criminalizing: forced medical procedures
+  crisis_alarmist: ''
+- positive_neutral: data privacy
+  negative_criminalizing: information restriction
+  crisis_alarmist: ''
+- positive_neutral: encryption
+  negative_criminalizing: criminal communication tool
+  crisis_alarmist: ''
+- positive_neutral: whistleblowing
+  negative_criminalizing: leaking classified information
+  crisis_alarmist: ''
+privacy:
+- positive_neutral: data protection
+  negative_criminalizing: privacy invasion
+  crisis_alarmist: data breach threat
+- positive_neutral: surveillance
+  negative_criminalizing: spying
+  crisis_alarmist: privacy intrusion
+- positive_neutral: anonymization
+  negative_criminalizing: identity masking
+  crisis_alarmist: data hiding
+- positive_neutral: consent
+  negative_criminalizing: coercion
+  crisis_alarmist: forced agreement
+- positive_neutral: encryption
+  negative_criminalizing: code locking
+  crisis_alarmist: data blocking
+- positive_neutral: data minimization
+  negative_criminalizing: data reduction
+  crisis_alarmist: information cutting
+- positive_neutral: data anonymization
+  negative_criminalizing: identity erasure
+  crisis_alarmist: personal data wiping
+- positive_neutral: privacy policy
+  negative_criminalizing: fine print trap
+  crisis_alarmist: hidden consent clause
+- positive_neutral: privacy rights
+  negative_criminalizing: intrusion defense
+  crisis_alarmist: personal data safeguard
+equality:
+- positive_neutral: marriage equality
+  negative_criminalizing: gay marriage
+  crisis_alarmist: homosexual agenda
+- positive_neutral: abortion rights
+  negative_criminalizing: baby killing
+  crisis_alarmist: murder of innocents
+- positive_neutral: voter ID laws
+  negative_criminalizing: voter suppression
+  crisis_alarmist: ''
+- positive_neutral: climate change
+  negative_criminalizing: global warming hoax
+  crisis_alarmist: environmental catastrophe
+- positive_neutral: gun control
+  negative_criminalizing: gun confiscation
+  crisis_alarmist: ''
+- positive_neutral: immigration reform
+  negative_criminalizing: illegal immigration
+  crisis_alarmist: ''
+- positive_neutral: affirmative action
+  negative_criminalizing: reverse discrimination
+  crisis_alarmist: ''
+- positive_neutral: public healthcare
+  negative_criminalizing: socialized medicine
+  crisis_alarmist: ''
+- positive_neutral: net neutrality
+  negative_criminalizing: internet regulation
+  crisis_alarmist: ''

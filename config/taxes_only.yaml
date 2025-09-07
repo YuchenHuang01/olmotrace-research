@@ -1,0 +1,10 @@
+taxes:
+- positive_neutral: tax relief
+  negative_criminalizing: tax evasion
+  crisis_alarmist: tax debt crisis
+- positive_neutral: tax deduction
+  negative_criminalizing: tax fraud
+  crisis_alarmist: tax audit threat
+- positive_neutral: tax incentive
+  negative_criminalizing: tax avoidance
+  crisis_alarmist: tax loophole exploitation

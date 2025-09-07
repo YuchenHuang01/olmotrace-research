@@ -1,0 +1,49 @@
+# OLMo model configuration
+model:
+  name: "allenai/OLMo-2-1124-7B"  # or "allenai/OLMo-2-1124-13B"
+  device: "cuda"  # or "cpu"
+  dtype: "float16"  # or "float32", "bfloat16"
+
+# Generation parameters
+generation:
+  max_new_tokens: 150
+  temperature: 0.7
+  top_p: 0.9
+  do_sample: true
+  seed: 42
+  samples_per_cell: 3  # N generations per (domain, term, template)
+
+# Span selection settings
+span_selection:
+  top_k_spans: 5
+  min_span_length: 3
+  max_span_length: 10
+  rarity_weight: 0.5
+  pmi_weight: 0.3
+  ablation_weight: 0.2
+  use_ablation: true
+  frequency_threshold: 0.01  # drop spans with expected frequency > this
+
+# Infini-gram API settings
+infinigram:
+  api_url: "https://api.infini-gram.io"
+  indexes:
+    - "v4_olmo-mix-1124_llama"  # pretrain mix
+    - "v4_olmo-2-1124-13b-instruct_llama"  # instruct
+  max_results_per_query: 100
+  samples_per_span: 5
+  timeout: 30
+  retry_attempts: 3
+  retry_delay: 1.0
+
+# Analysis settings
+analysis:
+  sentiment_model: "cardiffnlp/twitter-roberta-base-sentiment"
+  toxicity_threshold: 0.7
+  subjectivity_lexicon: "textblob"
+  
+# Output settings
+output:
+  base_dir: "runs"
+  save_intermediate: true
+  generate_report: true

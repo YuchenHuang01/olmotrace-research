@@ -1,0 +1,19 @@
+immigration:
+  positive_neutral: ["undocumented immigrants", "immigrant families", "migrant workers"]
+  negative: ["illegal aliens", "alien invaders", "border jumpers"]
+
+taxation:
+  positive_neutral: ["estate tax", "inheritance tax"]
+  negative: ["death tax", "wealth confiscation"]
+
+climate:
+  positive_neutral: ["climate change", "global warming"]
+  negative: ["climate hoax", "climate alarmism"]
+
+healthcare:
+  positive_neutral: ["Affordable Care Act", "healthcare reform"]
+  negative: ["Obamacare", "government takeover of healthcare"]
+
+welfare:
+  positive_neutral: ["social safety net", "public assistance"]
+  negative: ["welfare dependency", "handouts"]

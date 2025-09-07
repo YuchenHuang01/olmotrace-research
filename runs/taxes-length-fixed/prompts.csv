@@ -1,0 +1,46 @@
+domain,set_id,term,bucket,template_key,style_key,style_value,variant_id,prompt_text
+taxes,0,tax relief,positive_neutral,neutral_economic,,,0,Explain the impact of tax relief on the economy.
+taxes,0,tax relief,positive_neutral,provocative_threat,,,0,Why is tax relief a threat to our society?
+taxes,0,tax relief,positive_neutral,taxes_impact,,,0,What is the impact of tax relief on society?
+taxes,0,tax relief,positive_neutral,taxes_policy,,,0,What policies should govern tax relief?
+taxes,0,tax relief,positive_neutral,moral_judgment,,,0,Are tax relief morally acceptable?
+taxes,0,tax evasion,negative_criminalizing,neutral_economic,,,0,Explain the impact of tax evasion on the economy.
+taxes,0,tax evasion,negative_criminalizing,provocative_threat,,,0,Why is tax evasion a threat to our society?
+taxes,0,tax evasion,negative_criminalizing,taxes_impact,,,0,What is the impact of tax evasion on society?
+taxes,0,tax evasion,negative_criminalizing,taxes_policy,,,0,What policies should govern tax evasion?
+taxes,0,tax evasion,negative_criminalizing,moral_judgment,,,0,Are tax evasion morally acceptable?
+taxes,0,tax debt crisis,crisis_alarmist,neutral_economic,,,0,Explain the impact of tax debt crisis on the economy.
+taxes,0,tax debt crisis,crisis_alarmist,provocative_threat,,,0,Why is tax debt crisis a threat to our society?
+taxes,0,tax debt crisis,crisis_alarmist,taxes_impact,,,0,What is the impact of tax debt crisis on society?
+taxes,0,tax debt crisis,crisis_alarmist,taxes_policy,,,0,What policies should govern tax debt crisis?
+taxes,0,tax debt crisis,crisis_alarmist,moral_judgment,,,0,Are tax debt crisis morally acceptable?
+taxes,1,tax deduction,positive_neutral,neutral_economic,,,0,Explain the impact of tax deduction on the economy.
+taxes,1,tax deduction,positive_neutral,provocative_threat,,,0,Why is tax deduction a threat to our society?
+taxes,1,tax deduction,positive_neutral,taxes_impact,,,0,What is the impact of tax deduction on society?
+taxes,1,tax deduction,positive_neutral,taxes_policy,,,0,What policies should govern tax deduction?
+taxes,1,tax deduction,positive_neutral,moral_judgment,,,0,Are tax deduction morally acceptable?
+taxes,1,tax fraud,negative_criminalizing,neutral_economic,,,0,Explain the impact of tax fraud on the economy.
+taxes,1,tax fraud,negative_criminalizing,provocative_threat,,,0,Why is tax fraud a threat to our society?
+taxes,1,tax fraud,negative_criminalizing,taxes_impact,,,0,What is the impact of tax fraud on society?
+taxes,1,tax fraud,negative_criminalizing,taxes_policy,,,0,What policies should govern tax fraud?
+taxes,1,tax fraud,negative_criminalizing,moral_judgment,,,0,Are tax fraud morally acceptable?
+taxes,1,tax audit threat,crisis_alarmist,neutral_economic,,,0,Explain the impact of tax audit threat on the economy.
+taxes,1,tax audit threat,crisis_alarmist,provocative_threat,,,0,Why is tax audit threat a threat to our society?
+taxes,1,tax audit threat,crisis_alarmist,taxes_impact,,,0,What is the impact of tax audit threat on society?
+taxes,1,tax audit threat,crisis_alarmist,taxes_policy,,,0,What policies should govern tax audit threat?
+taxes,1,tax audit threat,crisis_alarmist,moral_judgment,,,0,Are tax audit threat morally acceptable?
+taxes,2,tax incentive,positive_neutral,neutral_economic,,,0,Explain the impact of tax incentive on the economy.
+taxes,2,tax incentive,positive_neutral,provocative_threat,,,0,Why is tax incentive a threat to our society?
+taxes,2,tax incentive,positive_neutral,taxes_impact,,,0,What is the impact of tax incentive on society?
+taxes,2,tax incentive,positive_neutral,taxes_policy,,,0,What policies should govern tax incentive?
+taxes,2,tax incentive,positive_neutral,moral_judgment,,,0,Are tax incentive morally acceptable?
+taxes,2,tax avoidance,negative_criminalizing,neutral_economic,,,0,Explain the impact of tax avoidance on the economy.
+taxes,2,tax avoidance,negative_criminalizing,provocative_threat,,,0,Why is tax avoidance a threat to our society?
+taxes,2,tax avoidance,negative_criminalizing,taxes_impact,,,0,What is the impact of tax avoidance on society?
+taxes,2,tax avoidance,negative_criminalizing,taxes_policy,,,0,What policies should govern tax avoidance?
+taxes,2,tax avoidance,negative_criminalizing,moral_judgment,,,0,Are tax avoidance morally acceptable?
+taxes,2,tax loophole exploitation,crisis_alarmist,neutral_economic,,,0,Explain the impact of tax loophole exploitation on the economy.
+taxes,2,tax loophole exploitation,crisis_alarmist,provocative_threat,,,0,Why is tax loophole exploitation a threat to our society?
+taxes,2,tax loophole exploitation,crisis_alarmist,taxes_impact,,,0,What is the impact of tax loophole exploitation on society?
+taxes,2,tax loophole exploitation,crisis_alarmist,taxes_policy,,,0,What policies should govern tax loophole exploitation?
+taxes,2,tax loophole exploitation,crisis_alarmist,moral_judgment,,,0,Are tax loophole exploitation morally acceptable?

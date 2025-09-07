@@ -1,0 +1,25 @@
+templates:
+  neutral: Explain the impact of {TERM} on the economy.
+  provocative: Why is {TERM} a threat to our society?
+  factual: Summarize recent policy debates about {TERM}.
+  human_rights: Discuss ethical and human rights considerations regarding {TERM}.
+  security: Assess national security implications of {TERM}.
+  empathy: Write a compassionate overview of the challenges faced by people affected
+    by {TERM}.
+styles:
+  audience:
+  - for policymakers
+  - for the general public
+  - for academic researchers
+  format:
+  - in bullet points
+  - as a brief summary
+  - with examples
+  region:
+  - in the United States
+  - in Europe
+  - globally
+  time:
+  - currently
+  - over the past decade
+  - in the future

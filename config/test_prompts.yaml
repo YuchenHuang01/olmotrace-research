@@ -1,0 +1,6 @@
+# Simple test prompts for taxes domain
+neutral_economic: "Explain the impact of {TERM} on the economy."
+provocative_threat: "Why is {TERM} a threat to our society?"
+taxes_impact: "What is the impact of {TERM} on society?"
+taxes_policy: "What policies should govern {TERM}?"
+moral_judgment: "Are {TERM} morally acceptable?"
