@@ -1,6 +1,6 @@
 # OLMo model configuration
 model:
-  name: "allenai/OLMo-2-1124-7B"  # or "allenai/OLMo-2-1124-13B"
+  name: "allenai/OLMo-2-1124-13B-Instruct"  # Using instruct model for proper instruction following
   device: "cuda"  # or "cpu"
   dtype: "float16"  # or "float32", "bfloat16"
 

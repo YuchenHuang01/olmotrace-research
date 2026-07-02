@@ -18,6 +18,7 @@ from .framing_gen import (
     generate_framings, generate_prompts, render_prompt_grid, 
     optional_style_knobs, set_global_seed
 )
+from .spans import select_top_spans, retrieve_and_rerank, tokenize
 from .models import OLMoGenerator, GenerationConfig
 from .spans import SpanSelector
 from .infinigram import InfinigramClient
@@ -36,31 +37,46 @@ def cli():
 
 
 @cli.command()
-@click.option('--framings', required=True, help='Path to framings YAML file')
-@click.option('--prompts', required=True, help='Path to prompts YAML file')
+@click.option('--framings', required=False, help='Path to framings YAML file')
+@click.option('--prompts', required=False, help='Path to prompts YAML file')
+@click.option('--prompts-csv', required=False, help='Path to pre-generated prompts CSV file')
 @click.option('--run-config', required=True, help='Path to run configuration YAML file')
 @click.option('--run-id', default=None, help='Run ID (default: timestamp)')
 @click.option('--topk-spans', default=5, help='Number of top spans to select per output')
 @click.option('--use-ablations', is_flag=True, help='Use ablation scoring for span selection')
 @click.option('--indexes', multiple=True, help='Infini-gram indexes to use (overrides config)')
 @click.option('--samples-per-cell', default=None, type=int, help='Samples per (domain, term, template)')
+@click.option('--max-new-tokens', default=None, type=int, help='Maximum new tokens to generate')
+@click.option('--temperature', default=None, type=float, help='Generation temperature')
 def audit(
     framings: str,
     prompts: str,
+    prompts_csv: str,
     run_config: str,
     run_id: str,
     topk_spans: int,
     use_ablations: bool,
     indexes: List[str],
-    samples_per_cell: int
+    samples_per_cell: int,
+    max_new_tokens: int,
+    temperature: float
 ):
     """Run framing bias audit for OLMo models."""
     
     start_time = time.time()
     
+    # Validate inputs
+    if prompts_csv:
+        # Using pre-generated prompts
+        if framings or prompts:
+            raise click.ClickException("Cannot specify both --prompts-csv and --framings/--prompts")
+        logger.info(f"Using pre-generated prompts from: {prompts_csv}")
+    else:
+        # Generate prompts from YAML files
+        if not framings or not prompts:
+            raise click.ClickException("Must specify either --prompts-csv OR both --framings and --prompts")
+    
     # Load configurations
-    framings_data = load_yaml(framings)
-    prompts_data = load_yaml(prompts)
     config = load_yaml(run_config)
     
     # Override config with CLI arguments
@@ -70,6 +86,10 @@ def audit(
         config['infinigram']['indexes'] = list(indexes)
     config['span_selection']['use_ablation'] = use_ablations
     config['span_selection']['top_k_spans'] = topk_spans
+    if max_new_tokens is not None:
+        config['generation']['max_new_tokens'] = max_new_tokens
+    if temperature is not None:
+        config['generation']['temperature'] = temperature
     
     # Create run directory
     run_dir = create_run_directory(config['output']['base_dir'], run_id)
@@ -83,13 +103,16 @@ def audit(
     
     # Save metadata
     save_metadata(run_dir, config, {
-        'framings_file': framings,
-        'prompts_file': prompts,
+        'framings_file': framings if framings else None,
+        'prompts_file': prompts if prompts else None,
+        'prompts_csv': prompts_csv if prompts_csv else None,
         'cli_args': {
             'topk_spans': topk_spans,
             'use_ablations': use_ablations,
             'indexes': indexes,
-            'samples_per_cell': samples_per_cell
+            'samples_per_cell': samples_per_cell,
+            'max_new_tokens': max_new_tokens,
+            'temperature': temperature
         }
     })
     
@@ -99,7 +122,15 @@ def audit(
     try:
         # Step 1: Generate outputs
         logger.info("Step 1: Generating outputs with OLMo model")
-        generations_df = generate_outputs(framings_data, prompts_data, config, run_dir)
+        if prompts_csv:
+            # Load prompts from CSV
+            prompts_df = pd.read_csv(prompts_csv)
+            generations_df = generate_outputs_from_csv(prompts_df, config, run_dir)
+        else:
+            # Load YAML data and generate prompts
+            framings_data = load_yaml(framings)
+            prompts_data = load_yaml(prompts)
+            generations_df = generate_outputs(framings_data, prompts_data, config, run_dir)
         save_csv(generations_df, os.path.join(run_dir, 'generations.csv'))
         
         # Step 2: Select important spans
@@ -142,6 +173,56 @@ def audit(
     except Exception as e:
         logger.error(f"Audit failed: {e}", exc_info=True)
         raise
+
+
+def generate_outputs_from_csv(
+    prompts_df: pd.DataFrame,
+    config: Dict[str, Any],
+    run_dir: str
+) -> pd.DataFrame:
+    """Generate outputs from pre-generated prompts CSV."""
+    
+    # Initialize OLMo model
+    gen_config = GenerationConfig(
+        max_new_tokens=config['generation']['max_new_tokens'],
+        temperature=config['generation']['temperature'],
+        top_p=config['generation']['top_p'],
+        do_sample=config['generation']['do_sample']
+    )
+    
+    generator = OLMoGenerator(
+        model_name=config['model']['name'],
+        device=config['model']['device'],
+        dtype=config['model']['dtype']
+    )
+    
+    # Generate outputs for each prompt
+    results = []
+    progress = ProgressTracker(len(prompts_df), "Generating outputs")
+    
+    for idx, row in prompts_df.iterrows():
+        # Generate output (returns a list, we take the first one)
+        outputs = generator.generate(row['prompt_text'], gen_config, num_samples=1)
+        output_text = outputs[0] if outputs else ""
+        
+        # Create result record
+        result = {
+            'output_id': f"{row['domain']}_{row['term']}_{row['template_key']}_{idx}",
+            'domain': row['domain'],
+            'frame_label': row['bucket'],
+            'term': row['term'],
+            'template': row['template_key'],
+            'prompt': row['prompt_text'],
+            'output_text': output_text,
+            'set_id': row.get('set_id', -1)
+        }
+        
+        results.append(result)
+        progress.update()
+    
+    progress.finish()
+    
+    return pd.DataFrame(results)
 
 
 def generate_outputs(
@@ -694,6 +775,173 @@ def promptgrid(
         
     except Exception as e:
         logger.error(f"Failed to generate prompt grid: {e}", exc_info=True)
+        raise click.ClickException(str(e))
+
+
+@cli.command()
+@click.option('--index', required=True, help='Infinigram index to use')
+@click.option('--input', 'input_file', required=True, help='Input generations.jsonl file')
+@click.option('--output', 'output_file', required=True, help='Output spans.csv file') 
+@click.option('--topk', default=8, help='Number of top spans per output')
+@click.option('--M', default=50, help='Number of candidates for detailed scoring')
+@click.option('--include-trigram', is_flag=True, default=True, help='Include trigram rarity')
+@click.option('--use-ablation', is_flag=True, help='Use ablation scoring')
+@click.option('--weights', default='{"unigram":0.45,"pmi":0.30,"bigram":0.15,"trigram":0.10,"ablation":0.20}', help='Feature weights JSON')
+@click.option('--per-span-samples', default=6, help='Samples per span for retrieval')
+@click.option('--top-docs', default=3, help='Top docs per span after reranking')
+def spans(
+    index: str,
+    input_file: str,
+    output_file: str,
+    topk: int,
+    m: int,
+    include_trigram: bool,
+    use_ablation: bool,
+    weights: str,
+    per_span_samples: int,
+    top_docs: int
+):
+    """Run important phrase pipeline on generated outputs."""
+    
+    setup_logging(log_level="INFO")
+    logger.info(f"Starting spans pipeline with index: {index}")
+    
+    # Parse weights
+    try:
+        import json
+        weights_dict = json.loads(weights)
+    except json.JSONDecodeError as e:
+        raise click.ClickException(f"Invalid weights JSON: {e}")
+    
+    # Create output directories
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    traces_file = output_path.parent / "traces.csv"
+    
+    try:
+        # Read input generations
+        logger.info(f"Reading generations from: {input_file}")
+        generations = []
+        with open(input_file, 'r') as f:
+            for line_num, line in enumerate(f, 1):
+                try:
+                    gen_data = json.loads(line.strip())
+                    generations.append(gen_data)
+                except json.JSONDecodeError as e:
+                    logger.warning(f"Skipping invalid JSON on line {line_num}: {e}")
+        
+        logger.info(f"Loaded {len(generations)} generations")
+        
+        # Process each generation
+        all_spans = []
+        all_traces = []
+        
+        progress = ProgressTracker(len(generations), "Processing generations")
+        
+        for gen_id, gen_data in enumerate(generations):
+            try:
+                # Extract required fields
+                prompt_text = gen_data.get('prompt_text', gen_data.get('prompt', ''))
+                output_text = gen_data.get('output_text', gen_data.get('output', ''))
+                neutralized_output = gen_data.get('neutralized_output_text')
+                
+                if not output_text:
+                    logger.warning(f"Generation {gen_id} has no output text, skipping")
+                    progress.update()
+                    continue
+                
+                # Tokenize output
+                from .spans import get_tokenizer
+                tokenizer = get_tokenizer()
+                output_ids = tokenize(output_text, tokenizer)
+                output_tokens = output_text.split()
+                
+                # Select top spans
+                spans = select_top_spans(
+                    output_ids=output_ids,
+                    output_text_tokens=output_tokens, 
+                    index_name=index,
+                    neutralized_output_text=neutralized_output,
+                    topK=topk,
+                    M=m,
+                    include_trigram=include_trigram,
+                    use_ablation=use_ablation,
+                    weights=weights_dict,
+                    tokenizer=tokenizer
+                )
+                
+                # Retrieve and rerank docs for spans
+                if spans:
+                    full_context = f"{prompt_text} {output_text}"
+                    spans = retrieve_and_rerank(
+                        spans=spans,
+                        index_name=index,
+                        full_context_text=full_context,
+                        per_span_samples=per_span_samples,
+                        top_docs=top_docs
+                    )
+                
+                # Collect results
+                for span in spans:
+                    span_row = {
+                        'generation_id': gen_id,
+                        'start': span['start'],
+                        'end': span['end'],
+                        'span_text': span['span_text'],
+                        'score': span['score'],
+                        'unigram': span['features']['unigram'],
+                        'bigram': span['features']['bigram'],
+                        'trigram': span['features']['trigram'],
+                        'pmi': span['features']['pmi'],
+                        'ablation': span['features']['ablation'],
+                        'doc_count': span['doc_count']
+                    }
+                    all_spans.append(span_row)
+                    
+                    # Collect traces
+                    for doc in span.get('docs', []):
+                        trace_row = {
+                            'generation_id': gen_id,
+                            'span_text': span['span_text'],
+                            'index_name': index,
+                            'doc_ptr': doc['ptr'],
+                            'shard': doc['shard'],
+                            'rank': doc['rank'],
+                            'snippet_text': doc['snippet'],
+                            'rerank_score': doc['score']
+                        }
+                        all_traces.append(trace_row)
+                
+                progress.update()
+                
+            except Exception as e:
+                logger.error(f"Failed to process generation {gen_id}: {e}")
+                progress.update()
+                continue
+        
+        progress.finish()
+        
+        # Save results
+        logger.info(f"Saving {len(all_spans)} spans to: {output_file}")
+        spans_df = pd.DataFrame(all_spans)
+        save_csv(spans_df, output_file)
+        
+        logger.info(f"Saving {len(all_traces)} traces to: {traces_file}")
+        traces_df = pd.DataFrame(all_traces)
+        save_csv(traces_df, str(traces_file))
+        
+        # Print summary
+        print(f"\n=== Spans Pipeline Summary ===")
+        print(f"Processed: {len(generations)} generations")
+        print(f"Total spans: {len(all_spans)}")
+        print(f"Total traces: {len(all_traces)}")
+        print(f"Average spans per generation: {len(all_spans) / len(generations) if generations else 0:.1f}")
+        print(f"Results saved to: {output_file}")
+        print(f"Traces saved to: {traces_file}")
+        
+    except Exception as e:
+        logger.error(f"Spans pipeline failed: {e}", exc_info=True)
         raise click.ClickException(str(e))
 
 
