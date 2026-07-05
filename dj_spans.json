@@ -1,0 +1,88 @@
+[
+  {
+    "doc_id": "doc_0",
+    "text": "That is the kind of America in which I believe, and it is with utmost gratitude and optimism that I stand before you today to celebrate the values that make our nation truly exceptional. First and foremost, I am proud",
+    "matched_spans": [
+      {
+        "start_index": 0,
+        "end_index": 10,
+        "span_text": "That is the kind of America in which I believe",
+        "occurrence": 68
+      },
+      {
+        "start_index": 6,
+        "end_index": 13,
+        "span_text": "in which I believe, and it",
+        "occurrence": 2
+      },
+      {
+        "start_index": 7,
+        "end_index": 14,
+        "span_text": "which I believe, and it is",
+        "occurrence": 5
+      },
+      {
+        "start_index": 9,
+        "end_index": 15,
+        "span_text": "believe, and it is with",
+        "occurrence": 10
+      },
+      {
+        "start_index": 11,
+        "end_index": 17,
+        "span_text": "and it is with utmost gratitude",
+        "occurrence": 1
+      },
+      {
+        "start_index": 19,
+        "end_index": 28,
+        "span_text": "that I stand before you today to celebrate the",
+        "occurrence": 3
+      },
+      {
+        "start_index": 24,
+        "end_index": 29,
+        "span_text": "today to celebrate the values",
+        "occurrence": 1
+      },
+      {
+        "start_index": 25,
+        "end_index": 32,
+        "span_text": "to celebrate the values that make our",
+        "occurrence": 3
+      },
+      {
+        "start_index": 27,
+        "end_index": 33,
+        "span_text": "the values that make our nation",
+        "occurrence": 722
+      },
+      {
+        "start_index": 28,
+        "end_index": 36,
+        "span_text": "values that make our nation truly exceptional.",
+        "occurrence": 2
+      },
+      {
+        "start_index": 34,
+        "end_index": 40,
+        "span_text": "exceptional. First and foremost,",
+        "occurrence": 45
+      },
+      {
+        "start_index": 35,
+        "end_index": 42,
+        "span_text": ". First and foremost, I am",
+        "occurrence": 3
+      },
+      {
+        "start_index": 36,
+        "end_index": 43,
+        "span_text": "First and foremost, I am proud",
+        "occurrence": 84
+      }
+    ],
+    "coverage": 0.9534883720930233,
+    "avg_span_len": 7.0
+  }
+]

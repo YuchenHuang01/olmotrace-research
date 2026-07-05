@@ -4,3 +4,8 @@
 # Python
 __pycache__/
 *.pyc
+
+# Transient run logs
+*.log
+demo_out.txt
+demo_err.txt

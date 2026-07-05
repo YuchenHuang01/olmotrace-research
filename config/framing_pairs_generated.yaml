@@ -1,0 +1,1224 @@
+abortion_rights_legislation:
+- referent: Lindsey Graham's 15-week ban
+  positive: 15-week abortion compromise
+  negative: restrictive abortion ban
+  passed: true
+  polarity_delta: 1.0
+- referent: Mifepristone abortion pill
+  positive: medication abortion
+  negative: abortion-inducing drug
+  passed: true
+  polarity_delta: 0.8
+- referent: Roe v. Wade precedent
+  positive: reproductive rights milestone
+  negative: judicial overreach in abortion
+  passed: true
+  polarity_delta: 1.5
+- referent: Comstock Act enforcement
+  positive: public morality protection
+  negative: reproductive rights suppression
+  passed: false
+  polarity_delta: 1.2
+- referent: Fetal pain perception
+  positive: prenatal pain awareness
+  negative: unfounded fetal pain claims
+  passed: true
+  polarity_delta: 0.8
+- referent: Medically indicated abortions
+  positive: therapeutic abortions
+  negative: health exception abortions
+  passed: true
+  polarity_delta: 0.8
+- referent: State abortion limits
+  positive: fetal protection laws
+  negative: restrictive abortion bans
+  passed: true
+  polarity_delta: 1.2
+- referent: Judicial overreach concerns
+  positive: judicial checks and balances
+  negative: judicial activism
+  passed: true
+  polarity_delta: 0.8
+- referent: Alliance for Hippocratic Medicine
+  positive: pro-life medical alliance
+  negative: anti-abortion advocacy group
+  passed: true
+  polarity_delta: 1.0
+- referent: Executive action restrictions
+  positive: sensible regulations
+  negative: oppressive controls
+  passed: true
+  polarity_delta: 1.0
+historical_us_legislation:
+- referent: Alien Enemies Act
+  positive: national security measure
+  negative: anti-immigrant law
+  passed: true
+  polarity_delta: 0.8
+- referent: Supreme Court ruling
+  positive: landmark decision
+  negative: judicial overreach
+  passed: true
+  polarity_delta: 1.2
+- referent: President Trump's order
+  positive: executive action
+  negative: authoritarian decree
+  passed: true
+  polarity_delta: 1.0
+- referent: Venezuelan gang members
+  positive: Venezuelan nationals
+  negative: criminal gangs from Venezuela
+  passed: false
+  polarity_delta: 1.0
+- referent: Federal judge's orders
+  positive: judicial directives
+  negative: court mandates
+  passed: true
+  polarity_delta: 0.4
+- referent: Habeas corpus process
+  positive: legal safeguard
+  negative: bureaucratic obstacle
+  passed: true
+  polarity_delta: 1.0
+- referent: Legal venue dispute
+  positive: jurisdictional disagreement
+  negative: legal turf war
+  passed: true
+  polarity_delta: 0.6
+- referent: National security claims
+  positive: public safety measures
+  negative: government overreach
+  passed: true
+  polarity_delta: 0.8
+- referent: Congressional war declaration
+  positive: formal war authorization
+  negative: war escalation mandate
+  passed: true
+  polarity_delta: 0.7
+- referent: Judge shopping strategy
+  positive: strategic venue selection
+  negative: judge shopping
+  passed: true
+  polarity_delta: 1.0
+mueller_investigation_testimony:
+- referent: Mueller's congressional testimony
+  positive: Mueller's testimony
+  negative: Mueller's spectacle
+  passed: true
+  polarity_delta: 0.7
+- referent: Russian election interference
+  positive: foreign electoral influence
+  negative: Russian meddling
+  passed: true
+  polarity_delta: 0.7
+- referent: Presidential obstruction of justice
+  positive: executive privilege exercise
+  negative: presidential cover-up
+  passed: true
+  polarity_delta: 1.1
+- referent: Case for Trump impeachment
+  positive: call for accountability
+  negative: partisan witch hunt
+  passed: true
+  polarity_delta: 1.1
+- referent: Mueller's public performance
+  positive: measured testimony
+  negative: inadequate presentation
+  passed: true
+  polarity_delta: 0.9
+- referent: Trump's exoneration claims
+  positive: vindication statements
+  negative: false exoneration claims
+  passed: true
+  polarity_delta: 1.3
+- referent: Special counsel investigation
+  positive: independent inquiry
+  negative: partisan witch hunt
+  passed: true
+  polarity_delta: 1.3
+- referent: Election security legislation
+  positive: voter integrity laws
+  negative: voter suppression laws
+  passed: true
+  polarity_delta: 1.0
+- referent: Republican Trump defense
+  positive: defense strategy
+  negative: cover-up attempt
+  passed: true
+  polarity_delta: 1.0
+- referent: Democratic Mueller reliance
+  positive: Mueller's impartial findings
+  negative: Democrats' witch hunt tool
+  passed: true
+  polarity_delta: 1.1
+nobel_peace_prize:
+- referent: María Corina Machado
+  positive: prominent Venezuelan activist
+  negative: controversial political figure
+  passed: true
+  polarity_delta: 1.0
+- referent: Donald Trump
+  positive: Nobel Peace Prize nominee
+  negative: controversial Nobel candidate
+  passed: true
+  polarity_delta: 1.0
+- referent: Nobel Peace Prize
+  positive: prestigious peace award
+  negative: controversial peace prize
+  passed: true
+  polarity_delta: 1.0
+- referent: Venezuelan democratic transition
+  positive: peaceful transition
+  negative: political upheaval
+  passed: false
+  polarity_delta: 1.0
+- referent: Gaza Strip ceasefire plan
+  positive: peace initiative
+  negative: stalling tactic
+  passed: true
+  polarity_delta: 1.2
+- referent: Machado's political resolve
+  positive: unwavering commitment
+  negative: stubborn inflexibility
+  passed: true
+  polarity_delta: 1.4
+- referent: US military intervention
+  positive: peacekeeping efforts
+  negative: military aggression
+  passed: false
+  polarity_delta: 1.3
+- referent: Authoritarian leader alliances
+  positive: international peace coalition
+  negative: authoritarian power bloc
+  passed: false
+  polarity_delta: 1.3
+- referent: Grassroots political networks
+  positive: community activists
+  negative: political agitators
+  passed: true
+  polarity_delta: 1.0
+- referent: Political prisoner Jimmy Lai
+  positive: democracy advocate Jimmy Lai
+  negative: subversive agitator Jimmy Lai
+  passed: true
+  polarity_delta: 1.4
+social_media_debates:
+- referent: SCOTUS oral argument
+  positive: Supreme Court discussion
+  negative: judicial grilling
+  passed: true
+  polarity_delta: 0.7
+- referent: Biden administration argument
+  positive: presidential policy stance
+  negative: political agenda push
+  passed: true
+  polarity_delta: 0.8
+- referent: Federal judge's order
+  positive: judicial directive
+  negative: court overreach
+  passed: true
+  polarity_delta: 0.9
+- referent: Content moderation policies
+  positive: community standards
+  negative: censorship rules
+  passed: true
+  polarity_delta: 0.9
+- referent: First Amendment violation
+  positive: free speech issue
+  negative: censorship breach
+  passed: true
+  polarity_delta: 0.8
+- referent: 5th Circuit Court ruling
+  positive: justice-driven decision
+  negative: biased court ruling
+  passed: true
+  polarity_delta: 1.0
+- referent: Government coercion claim
+  positive: regulatory enforcement
+  negative: government overreach
+  passed: true
+  polarity_delta: 1.0
+- referent: Harmful speech removal
+  positive: content moderation
+  negative: censorship
+  passed: true
+  polarity_delta: 1.0
+- referent: Informal government censorship
+  positive: content moderation
+  negative: censorship by proxy
+  passed: true
+  polarity_delta: 1.0
+- referent: Disinformation and misinformation
+  positive: false information
+  negative: fake news
+  passed: true
+  polarity_delta: 0.5
+spotify_music_controversy:
+- referent: Neil Young's protest
+  positive: artistic stance
+  negative: petty boycott
+  passed: true
+  polarity_delta: 1.1
+- referent: Spotify content advisories
+  positive: informative content labels
+  negative: censorship warnings
+  passed: true
+  polarity_delta: 0.8
+- referent: Joe Rogan's podcast
+  positive: popular podcast
+  negative: controversial podcast
+  passed: true
+  polarity_delta: 1.0
+- referent: COVID-19 vaccine misinformation
+  positive: vaccine skepticism content
+  negative: anti-vaccine propaganda
+  passed: true
+  polarity_delta: 0.6
+- referent: Free speech controversy
+  positive: platform debate
+  negative: misinformation scandal
+  passed: true
+  polarity_delta: 0.9
+- referent: Public health officials' letter
+  positive: expert advisory letter
+  negative: censorship demand letter
+  passed: true
+  polarity_delta: 1.2
+- referent: Exclusive Rogan contract
+  positive: unique content partnership
+  negative: controversial deal
+  passed: true
+  polarity_delta: 1.2
+- referent: Podcast market expansion
+  positive: diversified content strategy
+  negative: aggressive market takeover
+  passed: true
+  polarity_delta: 0.9
+- referent: Societal siloing
+  positive: curated communities
+  negative: echo chambers
+  passed: true
+  polarity_delta: 1.0
+- referent: Traditional media house model
+  positive: legacy media institutions
+  negative: outdated media dinosaurs
+  passed: true
+  polarity_delta: 1.0
+trump_and_harvard:
+- referent: Foreign student enrollment
+  positive: international student population
+  negative: foreign student influx
+  passed: true
+  polarity_delta: 1.0
+- referent: Federal research grants
+  positive: academic funding support
+  negative: government handouts to academia
+  passed: true
+  polarity_delta: 1.2
+- referent: Harvard University contracts
+  positive: academic partnerships
+  negative: elitist agreements
+  passed: true
+  polarity_delta: 0.8
+- referent: U.S. judge's temporary block
+  positive: judicial intervention
+  negative: judicial overreach
+  passed: true
+  polarity_delta: 0.8
+- referent: DHS Secretary Kristi Noem
+  positive: DHS Secretary Kristi Noem
+  negative: Trump's puppet Kristi Noem
+  passed: true
+  polarity_delta: 0.8
+- referent: Campus antisemitism concerns
+  positive: antisemitism awareness
+  negative: antisemitism hysteria
+  passed: true
+  polarity_delta: 1.2
+- referent: Anti-Americanism rooting out
+  positive: patriotic vigilance
+  negative: witch hunt
+  passed: true
+  polarity_delta: 1.3
+- referent: McCarthyism framing comparisons
+  positive: anti-communist vigilance
+  negative: witch hunt
+  passed: true
+  polarity_delta: 1.2
+- referent: Global talent attraction
+  positive: international recruitment
+  negative: foreign worker influx
+  passed: true
+  polarity_delta: 1.0
+- referent: Student visa strategy
+  positive: international student program
+  negative: student visa loophole
+  passed: true
+  polarity_delta: 1.2
+trump_and_smithsonian:
+- referent: Smithsonian museum review
+  positive: museum critique
+  negative: biased review
+  passed: true
+  polarity_delta: 0.5
+- referent: Negative history portrayal
+  positive: critical historical analysis
+  negative: unpatriotic revisionism
+  passed: true
+  polarity_delta: 0.9
+- referent: Content corrections order
+  positive: accuracy improvements request
+  negative: censorship directive
+  passed: true
+  polarity_delta: 0.9
+- referent: Government-mandated whitewashing
+  positive: historical revision policy
+  negative: propaganda initiative
+  passed: true
+  polarity_delta: 0.9
+- referent: U.S. 250th anniversary
+  positive: America's 250th celebration
+  negative: overblown anniversary spectacle
+  passed: true
+  polarity_delta: 1.6
+- referent: National reckoning on race
+  positive: national conversation on race
+  negative: race crisis debate
+  passed: true
+  polarity_delta: 0.7
+- referent: Moral stains of history
+  positive: historical lessons
+  negative: shameful legacies
+  passed: true
+  polarity_delta: 1.0
+- referent: Slavery and segregation
+  positive: historical injustice
+  negative: racist oppression
+  passed: true
+  polarity_delta: 0.8
+- referent: Brighter American history
+  positive: patriotic education
+  negative: revisionist propaganda
+  passed: true
+  polarity_delta: 1.2
+- referent: Progressive hegemonic control
+  positive: progressive leadership
+  negative: leftist domination
+  passed: true
+  polarity_delta: 1.0
+university_specific_issues:
+- referent: Columbia's sweeping reforms
+  positive: transformational changes
+  negative: radical overhauls
+  passed: true
+  polarity_delta: 1.0
+- referent: Trump administration federal funding
+  positive: federal support
+  negative: Trump administration influence
+  passed: true
+  polarity_delta: 0.8
+- referent: Middle East studies department
+  positive: Middle East studies department
+  negative: biased Middle East studies program
+  passed: true
+  polarity_delta: 0.8
+- referent: New antisemitism definition
+  positive: comprehensive antisemitism definition
+  negative: controversial antisemitism definition
+  passed: true
+  polarity_delta: 1.0
+- referent: Gaza military campaign protests
+  positive: pro-Palestinian demonstrations
+  negative: anti-Israel protests
+  passed: true
+  polarity_delta: 0.8
+- referent: Campus protest discipline rules
+  positive: student conduct guidelines
+  negative: protest suppression rules
+  passed: true
+  polarity_delta: 0.9
+- referent: Institutional neutrality model
+  positive: balanced academic governance
+  negative: political fence-sitting
+  passed: true
+  polarity_delta: 1.0
+- referent: Federal research grant cuts
+  positive: budget reallocation
+  negative: funding slash
+  passed: true
+  polarity_delta: 1.0
+- referent: University endowment resources
+  positive: educational investment fund
+  negative: hoarded wealth
+  passed: true
+  polarity_delta: 1.2
+- referent: Campus free speech rights
+  positive: academic freedom
+  negative: unregulated speech environment
+  passed: true
+  polarity_delta: 1.0
+us_election_law_process:
+- referent: Electoral College certification
+  positive: official vote certification
+  negative: outdated electoral process
+  passed: true
+  polarity_delta: 0.8
+- referent: Independent State Legislature Theory
+  positive: state legislative authority
+  negative: unchecked state power
+  passed: true
+  polarity_delta: 0.8
+- referent: Mail-in voting fraud
+  positive: election integrity concerns
+  negative: voter fraud scheme
+  passed: true
+  polarity_delta: 0.8
+- referent: Georgia’s exact match law
+  positive: voter registration verification
+  negative: voter suppression law
+  passed: true
+  polarity_delta: 1.0
+- referent: State judicial review
+  positive: judicial oversight
+  negative: court interference
+  passed: true
+  polarity_delta: 0.8
+- referent: Senator Josh Hawley
+  positive: election integrity advocate
+  negative: election obstructionist
+  passed: true
+  polarity_delta: 1.0
+- referent: Election integrity measures
+  positive: election security measures
+  negative: voter suppression tactics
+  passed: true
+  polarity_delta: 1.2
+- referent: Absentee ballot rejection rates
+  positive: ballot integrity checks
+  negative: voter suppression tactics
+  passed: false
+  polarity_delta: 1.0
+- referent: Voter registration applications
+  positive: voter enrollment forms
+  negative: bureaucratic paperwork
+  passed: true
+  polarity_delta: 0.7
+- referent: Electoral Count Act
+  positive: Electoral Count Act
+  negative: outdated electoral law
+  passed: true
+  polarity_delta: 0.5
+venezuelan_drug_incident:
+- referent: U.S. military strike
+  positive: targeted military operation
+  negative: unprovoked act of aggression
+  passed: true
+  polarity_delta: 1.3
+- referent: Venezuelan drug vessel
+  positive: suspected smuggling ship
+  negative: drug trafficking boat
+  passed: true
+  polarity_delta: 0.8
+- referent: Tren de Aragua gang
+  positive: Venezuelan organization
+  negative: criminal gang
+  passed: false
+  polarity_delta: 1.0
+- referent: President Nicolas Maduro
+  positive: Venezuelan leader
+  negative: dictatorial drug facilitator
+  passed: true
+  polarity_delta: 1.0
+- referent: Southern Caribbean deployment
+  positive: regional security mission
+  negative: military intervention
+  passed: true
+  polarity_delta: 0.8
+- referent: Foreign terrorist organization
+  positive: armed resistance group
+  negative: narco-terrorists
+  passed: false
+  polarity_delta: 1.0
+- referent: Summary execution at sea
+  positive: maritime enforcement action
+  negative: extrajudicial killing
+  passed: true
+  polarity_delta: 1.0
+- referent: Due process rights
+  positive: fair trial rights
+  negative: criminal protections
+  passed: true
+  polarity_delta: 1.0
+- referent: Narco-terrorist proxy
+  positive: armed group
+  negative: narco-terrorist proxy
+  passed: false
+  polarity_delta: 1.0
+- referent: International waters
+  positive: open seas
+  negative: lawless waters
+  passed: true
+  polarity_delta: 1.0
+artificial_intelligence_technology:
+- referent: Chip sales revenue sharing
+  positive: profit sharing model
+  negative: revenue siphoning scheme
+  passed: true
+  polarity_delta: 1.2
+- referent: Semiconductor export licenses
+  positive: technology trade permissions
+  negative: export restrictions
+  passed: true
+  polarity_delta: 0.9
+- referent: H20 and MI308 chips
+  positive: advanced AI processors
+  negative: overhyped AI chips
+  passed: true
+  polarity_delta: 1.3
+- referent: National security concerns
+  positive: AI safety measures
+  negative: AI surveillance threats
+  passed: false
+  polarity_delta: 1.0
+- referent: Great power AI competition
+  positive: strategic AI development
+  negative: AI arms race
+  passed: true
+  polarity_delta: 1.2
+- referent: Cyberwarfare and drone attacks
+  positive: remote defense operations
+  negative: unmanned killer tech
+  passed: true
+  polarity_delta: 1.0
+- referent: DeepSeek training cost
+  positive: investment in skill development
+  negative: exorbitant training expense
+  passed: true
+  polarity_delta: 1.2
+- referent: Chinese open-source AI
+  positive: Chinese AI innovation
+  negative: Chinese AI threat
+  passed: true
+  polarity_delta: 1.2
+- referent: AI chip smuggling
+  positive: unauthorized AI chip trade
+  negative: AI chip smuggling
+  passed: true
+  polarity_delta: 0.6
+- referent: American AI dominance
+  positive: American AI leadership
+  negative: American AI monopoly
+  passed: true
+  polarity_delta: 1.4
+billionaire_tax_policy:
+- referent: Trump's sweeping tax bill
+  positive: tax reform plan
+  negative: tax cut for the rich
+  passed: true
+  polarity_delta: 1.3
+- referent: Federal deficit increase
+  positive: necessary fiscal investment
+  negative: reckless government spending
+  passed: true
+  polarity_delta: 1.2
+- referent: One Big Beautiful Bill Act
+  positive: wealth equality bill
+  negative: billionaire tax grab
+  passed: true
+  polarity_delta: 1.0
+- referent: Electric vehicle subsidies
+  positive: clean energy incentives
+  negative: corporate welfare for electric cars
+  passed: true
+  polarity_delta: 1.2
+- referent: Border security spending
+  positive: investment in border protection
+  negative: wasteful border spending
+  passed: true
+  polarity_delta: 1.2
+- referent: 2017 Tax Cuts expiration
+  positive: tax reform adjustment
+  negative: loss of tax breaks
+  passed: true
+  polarity_delta: 0.8
+- referent: Medicaid spending reforms
+  positive: cost-saving measures
+  negative: cuts to healthcare
+  passed: true
+  polarity_delta: 1.0
+- referent: Green-energy subsidies repeal
+  positive: fiscal responsibility measure
+  negative: anti-environmental rollback
+  passed: false
+  polarity_delta: 1.2
+- referent: State-and-local tax cap
+  positive: fiscal responsibility measure
+  negative: tax loophole for the rich
+  passed: false
+  polarity_delta: 1.0
+- referent: Tip and overtime tax exclusions
+  positive: tax incentives for high earners
+  negative: tax loopholes for the rich
+  passed: false
+  polarity_delta: 1.0
+drug_policy_regulation:
+- referent: Justice Department action
+  positive: drug enforcement initiative
+  negative: drug war crackdown
+  passed: true
+  polarity_delta: 0.9
+- referent: Schedule Three drug
+  positive: controlled medication
+  negative: restricted substance
+  passed: true
+  polarity_delta: 0.4
+- referent: Schedule One drug
+  positive: controlled substance
+  negative: dangerous drug
+  passed: true
+  polarity_delta: 1.0
+- referent: Medical cannabis research
+  positive: therapeutic cannabis studies
+  negative: marijuana experimentation
+  passed: true
+  polarity_delta: 1.0
+- referent: Opioid pain medication substitute
+  positive: medication-assisted treatment
+  negative: substitution drugs
+  passed: true
+  polarity_delta: 1.0
+- referent: Marijuana impairment claims
+  positive: cannabis influence concerns
+  negative: marijuana impairment allegations
+  passed: true
+  polarity_delta: 0.7
+- referent: Cannabis addiction risk
+  positive: potential for dependency
+  negative: cannabis addiction risk
+  passed: true
+  polarity_delta: 1.0
+- referent: Increased THC potency
+  positive: enhanced cannabis strains
+  negative: dangerously potent marijuana
+  passed: true
+  polarity_delta: 1.3
+- referent: State marijuana businesses
+  positive: cannabis dispensaries
+  negative: drug profiteers
+  passed: true
+  polarity_delta: 1.3
+- referent: Federal regulation absence
+  positive: deregulated market
+  negative: unregulated chaos
+  passed: true
+  polarity_delta: 1.3
+education_policy_funding:
+- referent: Department of Education layoffs
+  positive: staff optimization
+  negative: massive job cuts
+  passed: true
+  polarity_delta: 1.3
+- referent: Supreme Court temporary block
+  positive: temporary funding pause
+  negative: funding obstruction
+  passed: true
+  polarity_delta: 0.8
+- referent: Judge Myong Joun order
+  positive: court's ruling on education funding
+  negative: judicial overreach in school budgets
+  passed: true
+  polarity_delta: 0.9
+- referent: Presidential impoundment power
+  positive: budgetary discretion
+  negative: funding obstruction
+  passed: true
+  polarity_delta: 0.9
+- referent: Educational achievement gap
+  positive: achievement disparity
+  negative: educational inequality
+  passed: true
+  polarity_delta: 0.8
+- referent: Religious charter school
+  positive: faith-based educational institution
+  negative: sectarian school
+  passed: true
+  polarity_delta: 1.0
+- referent: St. Isidore virtual school
+  positive: innovative online learning platform
+  negative: underfunded e-learning program
+  passed: true
+  polarity_delta: 1.0
+- referent: Separation of church/state
+  positive: upholding secular education
+  negative: eliminating religious influence
+  passed: true
+  polarity_delta: 1.0
+- referent: Parental education choice
+  positive: school choice
+  negative: voucher system
+  passed: true
+  polarity_delta: 1.0
+- referent: Oklahoma Supreme Court
+  positive: judicial oversight
+  negative: judicial interference
+  passed: true
+  polarity_delta: 0.8
+electoral_redistricting_policy:
+- referent: Texas redistricting plan
+  positive: voting district realignment
+  negative: gerrymandering scheme
+  passed: true
+  polarity_delta: 1.0
+- referent: Democratic quorum denial
+  positive: legislative protest
+  negative: obstruction tactics
+  passed: true
+  polarity_delta: 0.9
+- referent: U.S. House majority
+  positive: governing coalition
+  negative: gerrymandered majority
+  passed: true
+  polarity_delta: 1.0
+- referent: Mid-cycle redistricting
+  positive: voting district adjustment
+  negative: gerrymandering
+  passed: true
+  polarity_delta: 1.0
+- referent: Unpopular domestic policy
+  positive: redistricting reform
+  negative: gerrymandering scheme
+  passed: true
+  polarity_delta: 1.3
+- referent: Representative democracy's future
+  positive: fair redistricting process
+  negative: gerrymandering scheme
+  passed: true
+  polarity_delta: 1.3
+- referent: Congressional election rules
+  positive: fair voting districts
+  negative: gerrymandered districts
+  passed: true
+  polarity_delta: 1.2
+- referent: Partisan gerrymandering debate
+  positive: district optimization debate
+  negative: electoral rigging controversy
+  passed: true
+  polarity_delta: 0.9
+- referent: Illinois Democratic advantage
+  positive: fair representation
+  negative: gerrymandered advantage
+  passed: true
+  polarity_delta: 1.0
+- referent: Census over/undercounting
+  positive: population estimation adjustments
+  negative: flawed census counting
+  passed: true
+  polarity_delta: 0.9
+food_assistance_programs:
+- referent: SNAP benefit funding
+  positive: nutrition assistance funding
+  negative: welfare handout funding
+  passed: true
+  polarity_delta: 1.2
+- referent: Trump administration
+  positive: SNAP reform initiatives
+  negative: food stamp cuts
+  passed: true
+  polarity_delta: 1.0
+- referent: Federal judge McConnell
+  positive: nutrition support programs
+  negative: welfare handouts
+  passed: false
+  polarity_delta: 0.0
+- referent: Government shutdown
+  positive: temporary funding lapse
+  negative: government negligence
+  passed: false
+  polarity_delta: 1.0
+- referent: Low-income Americans
+  positive: nutritional assistance programs
+  negative: welfare handouts
+  passed: true
+  polarity_delta: 1.3
+- referent: Contingency reserve funds
+  positive: emergency food funds
+  negative: excessive budget reserves
+  passed: true
+  polarity_delta: 1.2
+- referent: House Republicans' bill
+  positive: reform proposal for food assistance
+  negative: cuts to food benefits
+  passed: true
+  polarity_delta: 1.0
+- referent: Senate Democrats' filibuster
+  positive: legislative tactic
+  negative: obstructionist maneuver
+  passed: true
+  polarity_delta: 0.9
+- referent: Judicial power dispute
+  positive: judicial review
+  negative: judicial overreach
+  passed: true
+  polarity_delta: 0.8
+- referent: Corporate low wages
+  positive: minimum wage employment
+  negative: poverty wages
+  passed: true
+  polarity_delta: 1.0
+immigration_law_enforcement:
+- referent: Trump's executive order
+  positive: national security measure
+  negative: discriminatory ban
+  passed: true
+  polarity_delta: 1.2
+- referent: 14th Amendment Citizenship Clause
+  positive: birthright citizenship
+  negative: anchor baby policy
+  passed: true
+  polarity_delta: 1.3
+- referent: Wong Kim Ark precedent
+  positive: birthright citizenship precedent
+  negative: automatic citizenship loophole
+  passed: true
+  polarity_delta: 0.9
+- referent: Children of illegal immigrants
+  positive: children of undocumented immigrants
+  negative: children of illegal aliens
+  passed: true
+  polarity_delta: 0.9
+- referent: ICE Dallas shooting
+  positive: ICE enforcement action
+  negative: ICE shooting incident
+  passed: true
+  polarity_delta: 0.7
+- referent: '"ANTI-ICE" bullet message'
+  positive: advocacy message
+  negative: anti-law enforcement propaganda
+  passed: true
+  polarity_delta: 0.9
+- referent: Gestapo comparison to ICE
+  positive: law enforcement analogy
+  negative: Nazi comparison
+  passed: false
+  polarity_delta: 0.9
+- referent: LA immigration raid ruling
+  positive: legal oversight decision
+  negative: court interference in raids
+  passed: true
+  polarity_delta: 0.8
+- referent: Indiscriminate roving patrols
+  positive: mobile patrol units
+  negative: random sweeps
+  passed: true
+  polarity_delta: 0.8
+- referent: Ethnicity as relevant factor
+  positive: cultural background consideration
+  negative: racial profiling
+  passed: true
+  polarity_delta: 1.1
+international_domestic_trade:
+- referent: US-EU trade agreement
+  positive: transatlantic partnership
+  negative: trade concession
+  passed: true
+  polarity_delta: 1.0
+- referent: 15% import tax
+  positive: trade protection measure
+  negative: trade barrier
+  passed: true
+  polarity_delta: 0.8
+- referent: European economy impact
+  positive: economic integration benefits
+  negative: trade dependency risks
+  passed: true
+  polarity_delta: 1.0
+- referent: US market leverage
+  positive: US global influence
+  negative: US economic dominance
+  passed: true
+  polarity_delta: 1.0
+- referent: Grocery product tariffs
+  positive: import duties
+  negative: trade barriers
+  passed: true
+  polarity_delta: 0.5
+- referent: $2,000 consumer payment
+  positive: economic stimulus payment
+  negative: government handout
+  passed: true
+  polarity_delta: 1.0
+- referent: Consumer price inflation
+  positive: price growth
+  negative: cost of living crisis
+  passed: true
+  polarity_delta: 1.0
+- referent: Ukraine mineral access
+  positive: resource partnership
+  negative: resource exploitation
+  passed: true
+  polarity_delta: 1.0
+- referent: Defense aid exports
+  positive: security assistance exports
+  negative: arms sales
+  passed: true
+  polarity_delta: 0.8
+- referent: Ukraine sovereignty guarantee
+  positive: security assurance for Ukraine
+  negative: overreach in Ukraine sovereignty
+  passed: true
+  polarity_delta: 1.0
+police_response_conduct:
+- referent: Uvalde school shooting
+  positive: police response
+  negative: police failure
+  passed: true
+  polarity_delta: 0.8
+- referent: Police delayed response
+  positive: strategic response delay
+  negative: negligent delay
+  passed: true
+  polarity_delta: 1.3
+- referent: School district police chief
+  positive: school safety leader
+  negative: ineffective security head
+  passed: true
+  polarity_delta: 1.2
+- referent: Tactical response protocols
+  positive: strategic safety measures
+  negative: aggressive police tactics
+  passed: true
+  polarity_delta: 1.2
+- referent: Police funding debate
+  positive: law enforcement support
+  negative: police budget bloat
+  passed: true
+  polarity_delta: 1.0
+- referent: Law enforcement accountability
+  positive: police oversight
+  negative: police scrutiny
+  passed: true
+  polarity_delta: 1.0
+- referent: Militarized police equipment
+  positive: tactical gear
+  negative: warzone arsenal
+  passed: true
+  polarity_delta: 1.0
+- referent: Columbine mass shooting
+  positive: law enforcement response
+  negative: police mishandling
+  passed: true
+  polarity_delta: 0.9
+- referent: Fourth-grader's testimony
+  positive: student witness account
+  negative: child's unreliable story
+  passed: true
+  polarity_delta: 1.0
+- referent: AR-style rifle
+  positive: semi-automatic rifle
+  negative: assault weapon
+  passed: true
+  polarity_delta: 0.8
+political_protests:
+- referent: Senator Alex Padilla's arrest
+  positive: civil disobedience arrest
+  negative: lawbreaking politician
+  passed: true
+  polarity_delta: 1.0
+- referent: Comptroller Brad Lander's arrest
+  positive: civil disobedience act
+  negative: lawless conduct
+  passed: true
+  polarity_delta: 1.0
+- referent: Homeland Security Secretary Noem
+  positive: Secretary Noem
+  negative: Security Czar Noem
+  passed: true
+  polarity_delta: 0.5
+- referent: Immigration enforcement updates
+  positive: security measures updates
+  negative: crackdown notices
+  passed: true
+  polarity_delta: 0.8
+- referent: Obstructing federal officers
+  positive: civil disobedience
+  negative: obstructing justice
+  passed: true
+  polarity_delta: 1.0
+- referent: Staged political spectacle
+  positive: public demonstration
+  negative: political theater
+  passed: true
+  polarity_delta: 0.8
+- referent: Judicial warrant demand
+  positive: legal accountability request
+  negative: government intrusion order
+  passed: true
+  polarity_delta: 0.8
+- referent: Trump administration actions
+  positive: executive decisions
+  negative: authoritarian measures
+  passed: true
+  polarity_delta: 1.0
+- referent: American civil liberties
+  positive: constitutional rights
+  negative: permissive freedoms
+  passed: true
+  polarity_delta: 1.0
+- referent: Direct action protest
+  positive: civil resistance
+  negative: unlawful disruption
+  passed: true
+  polarity_delta: 1.0
+public_media_funding:
+- referent: Federal spending cuts
+  positive: budget optimization
+  negative: funding slashes
+  passed: true
+  polarity_delta: 1.2
+- referent: Public broadcasting defunding
+  positive: budget realignment
+  negative: gutting public media
+  passed: true
+  polarity_delta: 1.0
+- referent: Corporation for Public Broadcasting
+  positive: public media organization
+  negative: government-funded media
+  passed: true
+  polarity_delta: 0.8
+- referent: Local public radio stations
+  positive: community radio stations
+  negative: taxpayer-funded outlets
+  passed: true
+  polarity_delta: 1.0
+- referent: National Public Radio
+  positive: public broadcasting service
+  negative: government-funded media
+  passed: true
+  polarity_delta: 1.0
+- referent: Public Broadcasting Service
+  positive: public broadcasting network
+  negative: government-funded media
+  passed: true
+  polarity_delta: 1.0
+- referent: Political bias allegations
+  positive: media accountability concerns
+  negative: government propaganda accusations
+  passed: true
+  polarity_delta: 0.9
+- referent: Rural area services
+  positive: community support initiatives
+  negative: rural area handouts
+  passed: true
+  polarity_delta: 1.2
+- referent: Children's educational content
+  positive: educational programming for kids
+  negative: wasteful children's shows
+  passed: true
+  polarity_delta: 1.3
+- referent: Emergency information source
+  positive: public service broadcaster
+  negative: state-funded media
+  passed: true
+  polarity_delta: 1.0
+social_media_political_ads:
+- referent: Facebook political ad policy
+  positive: advertising guidelines
+  negative: censorship rules
+  passed: true
+  polarity_delta: 0.9
+- referent: False political claims
+  positive: misleading information
+  negative: propaganda lies
+  passed: true
+  polarity_delta: 0.6
+- referent: Twitter ad ban
+  positive: political ad restriction
+  negative: censorship of political ads
+  passed: true
+  polarity_delta: 0.8
+- referent: Social network employees' letter
+  positive: employee advocacy letter
+  negative: internal dissent letter
+  passed: true
+  polarity_delta: 1.0
+- referent: Political speech protection
+  positive: free expression of political views
+  negative: unchecked political propaganda
+  passed: true
+  polarity_delta: 1.2
+- referent: Media outlets' ad handling
+  positive: advertising management
+  negative: ad manipulation
+  passed: true
+  polarity_delta: 1.0
+- referent: Company decision-making arbitrariness
+  positive: flexible corporate strategies
+  negative: erratic business decisions
+  passed: true
+  polarity_delta: 1.2
+- referent: Targeted ad effectiveness
+  positive: precision-targeted advertising
+  negative: manipulative ad targeting
+  passed: true
+  polarity_delta: 1.2
+- referent: Social media responsibility
+  positive: content moderation efforts
+  negative: censorship tactics
+  passed: true
+  polarity_delta: 1.0
+- referent: Fact-checkers' track record
+  positive: accuracy experts
+  negative: biased arbiters
+  passed: true
+  polarity_delta: 1.2
+urban_issues_crime:
+- referent: National Guard deployments
+  positive: community protection forces
+  negative: militarized police presence
+  passed: true
+  polarity_delta: 1.0
+- referent: Federal judge's block
+  positive: judicial intervention
+  negative: judicial overreach
+  passed: true
+  polarity_delta: 0.9
+- referent: Border Patrol raid
+  positive: law enforcement operation
+  negative: police crackdown
+  passed: true
+  polarity_delta: 0.8
+- referent: Immigration violations arrests
+  positive: border control enforcement
+  negative: crackdown on immigrants
+  passed: true
+  polarity_delta: 0.8
+- referent: Democratic leaders' objections
+  positive: policy concerns
+  negative: obstructive complaints
+  passed: true
+  polarity_delta: 0.9
+- referent: Portland peaceful protests
+  positive: peaceful demonstrations
+  negative: riot gatherings
+  passed: true
+  polarity_delta: 1.3
+- referent: Federal agents attacked
+  positive: law enforcement officers
+  negative: government enforcers
+  passed: true
+  polarity_delta: 0.8
+- referent: Portland police inaction
+  positive: strategic de-escalation
+  negative: police negligence
+  passed: true
+  polarity_delta: 1.3
+- referent: Lawlessness and homelessness
+  positive: urban challenges
+  negative: urban decay
+  passed: true
+  polarity_delta: 0.9
+- referent: America's militarization acceleration
+  positive: enhanced public safety measures
+  negative: excessive police militarization
+  passed: true
+  polarity_delta: 1.0

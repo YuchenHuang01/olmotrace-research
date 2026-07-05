@@ -1,0 +1,954 @@
+{
+  "metadata": {
+    "index": "v4_olmo-mix-1124_llama",
+    "api_url": "https://api.infini-gram.io/",
+    "total_categories": 1,
+    "total_spans_processed": 16
+  },
+  "results": {
+    "doc_0": [
+      {
+        "span_text": "That is the kind of America in which I believe",
+        "search_results": [
+          {
+            "original_span": "That is the kind of America in which I believe",
+            "normalized_span": "That is the kind of America in which I believe",
+            "span_candidate": "That is the kind of America in",
+            "shard": 0,
+            "rank": 249002441496,
+            "search_info": {
+              "shard": 0,
+              "rank": 249002441496
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 166238448,
+              "doc_len": 25720,
+              "latency": 1.6508102416992188,
+              "metadata": "{\"path\": \"dclm-1110.json.zst\", \"linenum\": 1082260, \"metadata\": {\"id\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default\", \"metadata\": {\"Content-Length\": \"126390\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:TD3KJJVVCM7TEPFHHERUABFUHBSTWUMR\", \"WARC-Concurrent-To\": \"<urn:uuid:e1a95d33-e535-4981-8076-d6557de41f00>\", \"WARC-Date\": \"2014-03-07T16:41:11Z\", \"WARC-IP-Address\": \"74.125.228.11\", \"WARC-Payload-Digest\": \"sha1:RKW3KDV6YBU3HNNYZUCI5YPY66QPY4QO\", \"WARC-Record-ID\": \"<urn:uuid:3cfe65de-d34c-4ba5-b661-91b8d8cbb646>\", \"WARC-Target-URI\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default\", \"WARC-Truncated\": \"length\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:0787a978-4ac3-4e60-9aa6-222513c96e0d>\", \"bff_contained_ngram_count_before_dedupe\": 2080, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.02941417694091797, \"language_id_whole_page_fasttext\": {\"en\": 0.8901832699775696}, \"previous_word_count\": 9166, \"provenance\": \"dclm_shard_00015783.jsonl.zstd:71218\", \"url\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-183-142-35.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2014-10\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web with URLs provided by Blekko for March 2014\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "JK2PKLqF&amp;b=3455813&amp;content_id=%7B33D4DBC1-132C-4F7A-B267-31FE53327769%7D&amp;notoc=1\">United Methodist Church</a>: <blockquote>The United Methodist Church\u2019s official positions on abortion and immigration stand in opposition, however, to restrictions placed in the bill that limit coverage for all of God\u2019s children living in the United States. H.R. 3962 excludes immigrants and women whose circumstances indicate need for an abortion. These restrictions even include persons who now have such insurance.<br /><br />The bill establishes a two-tiered system of health delivery. It essentially penalizes women and immigrants with fewer economic resources.</blockquote> <a href=\"http://www.ncjw.org/content_4005.cfm?navID=218\">National Council of Jewish Women</a>: <blockquote>\"This Stupak-Pitts amendment is an egregious assault on the rights of women and an enormous step backward for those who believe in the separation of religion and state. It enshrines one religious view of abortion into law and enlists the federal government to enforce it.</blockquote> <a href=\"http://www.rcrc.org/\">Religious Coalition for Reproductive Choice</a>:<blockquote>We call on the Senate to ensure that health care reform is freed of religious ideology and restrictions that will prevent women from making their own reproductive health care choices.</blockquote> Ideally, I think our leaders should heed <a href=\"http://www.huffingtonpost.com/geoffrey-r-stone/church-and-state-in-jfks_b_356162.html\">JFK's words</a>: <blockquote>I believe in an America where the separation of church and state is absolute, where no Catholic prelate would tell the president (should he be Catholic) how to act, and no Protestant minister would tell his parishioners for whom to vote. . . .",
+                  null
+                ],
+                [
+                  "That is the kind of America in",
+                  "0"
+                ],
+                [
+                  "which I believe. . . . Whatever issue may come before me as president - on birth control, divorce, censorship, gambling or any other subject - I will make my decision in accordance with . . . what my conscience tells me to be the national interest, and without regard to outside religious pressures or dictates.</blockquote> Along with 40 other Democrats, Stupak is threatening there will be <a href=\"http://www.huffingtonpost.com/2009/11/12/bart-stupak-there-will-be_n_355083.html\">hell to pay</a> if his amendment is removed, and the Council of Catholic Bishops is threatening to withdraw their support for reform too. Their religion may condone turning their backs on the uninsured, but mine believes health care is a <a href=\"http://www.elca.org/What-We-Believe/Social-Issues/Social-Statements/Health-and-Healthcare.aspx\">matter of social justice</a>.<br /><br />There are hundreds of religions in this world and we'll never find common ground acceptable to everyone. However, as <a href=\"http://www.huffingtonpost.com/geoffrey-r-stone/church-and-state-in-jfks_b_356162.html\">this blogger</a> so eloquently put it... <blockquote>Freedom of religion in our nation means, first and foremost, the right of individuals to live their lives in accord with their most cherished religious beliefs, and free of government interference. [...]<br /><br />At the same time, though, the reciprocal of that freedom is an equally fundamental responsibility. This is the responsibility not to use the authority of the government to compel individuals to live their lives in accord with our \"religious dictates\" that they do not share. Muslims have the right not to consume pork, but they should not use the power of the government to forbid others to eat pork. Jews have the right not to work on Saturday, but they should not",
+                  null
+                ]
+              ],
+              "token_ids": [
+                2193,
+                338,
+                278,
+                2924,
+                310,
+                6813,
+                297
+              ],
+              "tokens": [
+                "\u2581That",
+                "\u2581is",
+                "\u2581the",
+                "\u2581kind",
+                "\u2581of",
+                "\u2581America",
+                "\u2581in"
+              ]
+            },
+            "url": "http://stonesoupmusings.blogspot.com/feeds/posts/default"
+          }
+        ]
+      },
+      {
+        "span_text": "and it is with utmost gratitude",
+        "search_results": [
+          {
+            "original_span": "and it is with utmost gratitude",
+            "normalized_span": "and it is with utmost gratitude",
+            "span_candidate": "and it is with utmost gratitude",
+            "shard": 4,
+            "rank": 146473424678,
+            "search_info": {
+              "shard": 4,
+              "rank": 146473424678
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 1385058856,
+              "doc_len": 23005,
+              "latency": 18.450260162353516,
+              "metadata": "{\"path\": \"dclm-1374.json.zst\", \"linenum\": 1292894, \"metadata\": {\"id\": \"https://ponepaste.org/download/1454\", \"metadata\": {\"Content-Length\": \"88870\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:NN6N6MADNWJNGBHQYZIKIG74LUBWMFBX\", \"WARC-Concurrent-To\": \"<urn:uuid:994c44d5-ca92-42ae-bbb1-ee20fa87b43f>\", \"WARC-Date\": \"2021-02-28T16:06:38Z\", \"WARC-IP-Address\": \"155.133.138.2\", \"WARC-Identified-Payload-Type\": \"text/plain\", \"WARC-Payload-Digest\": \"sha1:4TRVIPO66F6GYZAALAOA6BWTAMW6WJXE\", \"WARC-Record-ID\": \"<urn:uuid:7696fe41-8a75-4de2-91dc-77453b28dbf9>\", \"WARC-Target-URI\": \"https://ponepaste.org/download/1454\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:5bb03166-5723-4934-b0c5-80e1ffa802ab>\", \"bff_contained_ngram_count_before_dedupe\": 3, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.05374366044998169, \"language_id_whole_page_fasttext\": {\"en\": 0.9837653636932372}, \"previous_word_count\": 14850, \"provenance\": \"dclm_shard_00019525.jsonl.zstd:21441\", \"url\": \"https://ponepaste.org/download/1454\", \"warcinfo\": \"isPartOf: CC-MAIN-2021-10\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for February/March 2021\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-210.ec2.internal\\r\\nsoftware: Apache Nutch 1.18 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.2-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "of Anon after months of silence between us before I took a step in the right direction. I am pleased that I was inspired to make the effort, as I believe you are in agreement, the discussion that morning was beneficial in clearing any leftover feelings resulting from that fateful night. Yet, I must admit, I still have struggled to move forward, leaving my past behind me. However, I have passed a major hurdle; under the guidance of Anon, I met with your pupil - Twilight Sparkle - for the first time since our confrontation months ago during my return. While Twilight was... quite excitable upon meeting her, due to self-inflicted stress stemming from her curiosity surrounding the situation in Canterlot. But once past that initial detour, she was more than receptive to speak with me - and forgive me for what I had done. It was not that easy for me to accept; I feared forgiveness, for I felt a strong conviction against myself and a reminder to all of my past was essential to prevent myself from falling into the dark abyss I dwelled within for so long. But such ideas, in retrospect, are absurd and unfounded; in fact, to brood upon the past is counterintuitive to moving forward, as it essentially would only serve to isolate myself from society - an issue that you and I both agree led to the troubles that brewed years ago. It is only through the combined efforts of Twilight Sparkle and Anon that I see the error of my ways. Just as Twilight is willing to forgive me and progress forward, I must be willing to forgive myself and cease such self-destructive behavior. True, I have always taken pride in my independence, but more often than not, sound advice from a friend can ease the ills of a troubled mind. It is up to an individual to open up and listen to understand the power. I am unsure when I will return to Canterlot - Anon has been quite accommodating, and I must admit, there is something particularly enjoyable in a more basic standard of living. Perhaps it is just the unfamiliarity of the situation, but I cannot say for certain. Until that time, do not hesitate to request my input or assistance in any matters that come up,",
+                  null
+                ],
+                [
+                  "and it is with utmost gratitude",
+                  "0"
+                ],
+                [
+                  "that I thank you for this opportunity of discovery and self-improvement. With love, Luna ~ >You hand the letter back to Luna, unable to keep yourself from smirking just a bit. >\"What?\" she asks, her voice underlining the slight concern evident in the crease between her brows. \"Nothing, it's very good,\" you tell her. \"I was just surprised that I had invited you to stay with me.\" >\"Oh, no, you misunderstand me, Anon. I did not mean to force your hand, I just thought that-\" \"Luna, calm down, I'm just teasing you,\" you reply quickly, unsettled a bit by her quick reversal. \"You're more than welcome to stay. You'll just have to mind the lack of space and my attempts at making edible food.\" >\"I did not think the meal you made tonight was bad,\" she replies. \"It was the thought that counts most.\" \"I appreciate that,\" you tell her. \"I have enjoyed you being around the last few days, it's been nice.\" >\"The feeling is mutual,\" she replies. Her magic rolls up the letter neatly before a flash of flame consumes the parchment, leaving a blue-tinged cloud of smoke to drift toward the window and disappear. \"That's how you two send messages?\" >\"Of course. It is much quicker via this method; my sister has likely received the scroll and viewing it as we speak.\" >Hell of a lot better than snail mail. >But with the message sent along and nothing to distract either of you, the cabin falls silent. >You don't know what to say at this point - life has been a whirlwind of activity as of late. >It's been a jump from just getting to know Luna, to tasked with helping her make friends, to - by all intents and purposes - living with her. >How the hell did this even happen? >\"Anonymous?\" \"Hm?\" >\"Is everything all right?\" she asks, tilting her head as her smile fades. \"You look troubled all of a sudden.\" \"I'm - fine,\" you stumble hesitantly. \"",
+                  null
+                ]
+              ],
+              "token_ids": [
+                322,
+                372,
+                338,
+                411,
+                3477,
+                3242,
+                20715,
+                4279
+              ],
+              "tokens": [
+                "\u2581and",
+                "\u2581it",
+                "\u2581is",
+                "\u2581with",
+                "\u2581ut",
+                "most",
+                "\u2581grat",
+                "itude"
+              ]
+            },
+            "url": "https://ponepaste.org/download/1454"
+          }
+        ]
+      },
+      {
+        "span_text": "that I stand before you today to celebrate the",
+        "search_results": [
+          {
+            "original_span": "that I stand before you today to celebrate the",
+            "normalized_span": "that I stand before you today to celebrate the",
+            "span_candidate": "that I stand before you today to",
+            "shard": 0,
+            "rank": 239281078340,
+            "search_info": {
+              "shard": 0,
+              "rank": 239281078340
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 184537628,
+              "doc_len": 19524,
+              "latency": 15.834808349609375,
+              "metadata": "{\"path\": \"dclm-1232.json.zst\", \"linenum\": 1524780, \"metadata\": {\"id\": \"https://bighominid.blogspot.com/2006/01/?m=0\", \"metadata\": {\"Content-Length\": \"311252\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:XO4NBZTD24IOS6JKG3K27F3M44X4DRH7\", \"WARC-Concurrent-To\": \"<urn:uuid:87d1898e-2fc0-4c2c-9de0-b68319bc9ec4>\", \"WARC-Date\": \"2022-10-03T10:25:34Z\", \"WARC-IP-Address\": \"142.251.45.1\", \"WARC-Identified-Payload-Type\": \"application/xhtml+xml\", \"WARC-Payload-Digest\": \"sha1:K4GT7HFQLSALVGBLECTRR5Q3V7ETRTTU\", \"WARC-Record-ID\": \"<urn:uuid:28fd0e33-41e5-4b0f-895c-101f8208ba06>\", \"WARC-Target-URI\": \"https://bighominid.blogspot.com/2006/01/?m=0\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:52365520-4fcd-435b-a8f0-801dfb0d8269>\", \"bff_contained_ngram_count_before_dedupe\": 2414, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.022981703281402588, \"language_id_whole_page_fasttext\": {\"en\": 0.9660086631774902}, \"previous_word_count\": 15052, \"provenance\": \"dclm_shard_00017518.jsonl.zstd:94601\", \"url\": \"https://bighominid.blogspot.com/2006/01/?m=0\", \"warcinfo\": \"isPartOf: CC-MAIN-2022-40\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for September/October 2022\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-215\\r\\nsoftware: Apache Nutch 1.19 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.4-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "medicine has made me a very unhappy camper: I remember a mid-90s concoction that knocked one of my ailments flat on its ass. It slunk away, muttering, never to return.\n\nThose were the days. But now... the sun no longer shines in my world, which lies buried under a thick layer of snot and phlegm. Alas for the disappearance of good medicine. This era, sadly, now belongs to the mucus.\n\nI'm supposed to return to the clinic on Wednesday. The troll will be expecting me. If she and her witchcraft prove insufficient, then I'll be off to a real doctor-- the kind who takes one look at your clogged nose, whips out a massive power drill, kicks you in the chest to stun you, then screams, \"It's GO TIME!\" as he jams that drill bit into your nostril and deep inside your brain.\n\n\nHappy Monday!\n\nBazaar in 10 Days!\n\nI think I'll be doing one of these a day.\n\nAlso of note in the wake of the Hwang scandal:\n\nOver two years ago, on New Year's Eve, I wrote this. Yes, it's snotty. But the sarcasm is prophetic.\n\n\nSunday, January 22, 2006\n\nSNU president on the \"painful lesson\" of Dr. Hwang\n\nBazaar in 11 days!\n\nThought I'd pass this along. I saw it on the Seoul National University website (English version). It's the public apology by SNU's president, Chung Un-chan, following the conclusion of the investigation into Dr. Hwang Woo-seok's work:\n\nFellow Koreans,\n\nJust yesterday the Seoul National University Investigation Committee submitted its Final Report on Professor Woo Suk Hwang's Research Allegations. The Final Report concludes that the research articles published in 2004 and 2005 in the journal Science were both fabricated. It is with a very heavy heart",
+                  null
+                ],
+                [
+                  "that I stand before you today to",
+                  "0"
+                ],
+                [
+                  "express my regrets that Professor Hwang's team at our university carried out such grave misconducts.\n\nAs the President of Seoul National University, I feel I owe the Korean people a deep apology for the public confusion and controversy caused by Professor Hwang's research team. The findings of the Investigation Committee make it clear that Professor Hwang's grievous misconduct has dishonored scientific communities in Korea and abroad. I am concerned that his research team has placed a heavy burden on Korean scientists who have been hard at work in their respective research fields. They are likely to come under much greater scrutiny in the future by the global scientific community. But most of all I would like to apologize to the patients whose hopes were raised by stem cell research and whose trust has been betrayed by the recent events.\n\nThe falsification of research results is nothing less than a crime in an academic community whose purpose is the pursuit of truth. We need to acknowledge, however, that the responsibility for the events surrounding Professor Hwang's misconduct must be shared.\n\nI speak of the responsibility for exaggerating the contributions of embryonic stem cell research for the purposes of Korean national interest. I speak of the responsibility for evading issues of bioethics in the naming of finding cures for incurable diseases. And I speak of our obsession with producing results without recollecting that the ends do not justify the means.\n\nHonesty and integrity are the fundamentals of science. There can be no science deserving of that name without honesty and integrity. We need to be wary of exaggerated hopes in scientific achievement. No single scientific achievement will single-handedly revive the national economy or cure all illnesses. During the last two years, we ignored this simple truth and wasted valuable resources. It is time now to reflect seriously on the true purpose of scholarship. And it is time for those who engaged in misconduct to take responsibility.\n\nI firmly believe, however, that we must not simply take the recent events as a one-time tragedy. We must make this an opportunity for the biological sciences in Korea to mature and leap forward. One thing we have gained from these events is the",
+                  null
+                ]
+              ],
+              "token_ids": [
+                393,
+                306,
+                2317,
+                1434,
+                366,
+                9826,
+                304
+              ],
+              "tokens": [
+                "\u2581that",
+                "\u2581I",
+                "\u2581stand",
+                "\u2581before",
+                "\u2581you",
+                "\u2581today",
+                "\u2581to"
+              ]
+            },
+            "url": "https://bighominid.blogspot.com/2006/01/?m=0"
+          }
+        ]
+      },
+      {
+        "span_text": "values that make our nation truly exceptional.",
+        "search_results": [
+          {
+            "original_span": "values that make our nation truly exceptional.",
+            "normalized_span": "values that make our nation truly exceptional",
+            "span_candidate": "values that make our nation truly exceptional",
+            "shard": 0,
+            "rank": 73724760449,
+            "search_info": {
+              "shard": 0,
+              "rank": 73724760449
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 281999903,
+              "doc_len": 4008,
+              "latency": 16.826391220092773,
+              "metadata": "{\"path\": \"dclm-1884.json.zst\", \"linenum\": 516350, \"metadata\": {\"id\": \"http://miraclesstillhappen36yearslater.blogspot.com/\", \"metadata\": {\"Content-Length\": \"170880\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:SNMMI5F7IKXBJAV6RP7PGLYNBDGNRLYR\", \"WARC-Concurrent-To\": \"<urn:uuid:83840005-d2b7-486c-a194-5ac2a76f35e6>\", \"WARC-Date\": \"2014-12-22T19:22:57Z\", \"WARC-IP-Address\": \"74.125.228.203\", \"WARC-Payload-Digest\": \"sha1:UHPZDEDJHZG63GORZGH4PF63KOINS32P\", \"WARC-Record-ID\": \"<urn:uuid:93bbf163-27a5-4fd3-9aa9-67ea9af4d7c9>\", \"WARC-Target-URI\": \"http://miraclesstillhappen36yearslater.blogspot.com/\", \"WARC-Truncated\": \"length\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:19fdde5e-23f8-4f18-b2a4-6fecc696f138>\", \"bff_contained_ngram_count_before_dedupe\": 185, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.03987973928451538, \"language_id_whole_page_fasttext\": {\"en\": 0.961737871170044}, \"previous_word_count\": 2958, \"provenance\": \"dclm_shard_00026732.jsonl.zstd:109860\", \"url\": \"http://miraclesstillhappen36yearslater.blogspot.com/\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-231-17-201.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2014-52\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web with URLs provided by Blekko for December 2014\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "ipe away that tear,\nfor I am spending Christmas with Jesus Christ this year.\nfor it is beyond description, to hear the angels sing.\nI know how much you miss me. I see the pain inside your heart,\nbut I am not so far away. We really aren't apart. So be happy for me dear ones.\nYou know I hold you dear,\nI send you each a memory, of my undying love.\nIt was always most import in the stories Jesus told.\nSo, have a Merry Christmas and wipe away that tear.\nRemember, I'm spending Christmas, with Jesus Christ this year.\n\nTuesday, December 3, 2013\n\n\nI see the countless Christmas trees around the world below, with tiny lights, like Heaven's stars, reflecting on the snow.\nthe sight is so spectacular, please wipe away the tears for I am spending Christmas with Jesus Christ this year.\nI hear the many Christmas songs that people hold so dear, but the sounds of music can't compare with the Christmas choir up here.\nI have no words to tell you, the joy their voices bring, for it is beyond description, to hear the angels sing.\nI know how much you miss me, I see the pain inside your heart, but I am not so far away, we really aren't apart.\nSo be happy for me, dear ones, you know I hold you dear, and be glad I'm spending Christmas with Jesus Christ this year.\nI sent you each a special gift, from my heavenly home above. I sent you each a memory of my undying love.\nAfter all, love is a gift more precious than pure gold. It was always more important in the stories Jesus told.\nPlease love and keep each other, as my Father said to do. For I can't count the blessings or love He has for each of you.\nSo have a Merry Christmas and wipe away that tear. Remember I am spending Christmas with Jesus Christ this year.\n\nMonday, November 11, 2013\n\n\n\u00a0Today, we honor all the brave men and women who have served and sacrificed in defense of our country, their fellow citizens and the American",
+                  null
+                ],
+                [
+                  "values that make our nation truly exceptional",
+                  "0"
+                ],
+                [
+                  ".\n\nWhether fighting for freedom in times of war or upholding it in times of peace, the veterans of our United States Armed Forces have shaped our nation\u2019s character and secured the blessings that make us uniquely American. It is because of our heroes in uniform that we are fortunate every day to live in the freest country on earth.\n\nVeterans Day and every day, let us express gratitude to the veterans \u2013 past, present and future \u2013 whose service we honor, especially our Marine family...Dad, William Kenneth, along with sons, \u00a0David, Billy and Charley. \u00a0We are forever thankful and proud...\n\nSunday, September 15, 2013\n\n\nMy painful memories, the same day every year\nit's the day that I have now come to fear\n\n\u00a0I thought of you with love today\u00a0but that is nothing new\nI thought about you yesterday and days before that too,\n\nI think of you in silence I often speak your name\nAll I have are memories and your picture in a frame\n\nYour memory is my keepsake with which I'll never part\n\nBut yes, this is the day I now come to fear\u2026\n\nTuesday, August 20, 2013\n\n\nFor the Miller Family, Justice May Be a Fleeting Thing\n\nIn August 1972, 27- year-old Marine Sgt. William Miller returned to Camp Lejeune, North Carolina following a deployment in Okinawa. But when he arrived at the home he shared with his wife Vickie and Wendy, their 1-year-old daughter, he found that while he was away another Marine, George Hayden, had taken up residence in his house.\nHayden and Vickie were former high school sweethearts. With Miller gone they decided to renew their relationship. Hayden moved in. And according to Miller\u2019s family, he was soon signing his name to Miller\u2019s checks.\n\u201cHe stole my brother\u2019s home, wife and child, and money,\u201d said Charlie Miller, the youngest of six in Miller\u2019s family.\nSgt. Miller gave the interloper a beating and threw him",
+                  null
+                ]
+              ],
+              "token_ids": [
+                1819,
+                393,
+                1207,
+                1749,
+                5233,
+                19781,
+                3682,
+                284
+              ],
+              "tokens": [
+                "\u2581values",
+                "\u2581that",
+                "\u2581make",
+                "\u2581our",
+                "\u2581nation",
+                "\u2581truly",
+                "\u2581exception",
+                "al"
+              ]
+            },
+            "url": "http://miraclesstillhappen36yearslater.blogspot.com/"
+          }
+        ]
+      },
+      {
+        "span_text": "First and foremost, I am proud to say that",
+        "search_results": [
+          {
+            "original_span": "First and foremost, I am proud to say that",
+            "normalized_span": "First and foremost, I am proud to say that",
+            "span_candidate": "First and foremost, I am proud to",
+            "shard": 0,
+            "rank": 410388799170,
+            "search_info": {
+              "shard": 0,
+              "rank": 410388799170
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 84723587,
+              "doc_len": 10020,
+              "latency": 14.476776123046875,
+              "metadata": "{\"path\": \"dclm-0566.json.zst\", \"linenum\": 402600, \"metadata\": {\"id\": \"http://maxleibowitz.blogspot.com/2010_05_01_archive.html\", \"metadata\": {\"Content-Length\": \"120403\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:OO5ZD5UU3YDESPAY5BPWMIXG4UAJIGWX\", \"WARC-Concurrent-To\": \"<urn:uuid:f47d9aee-9f6c-422c-9cd4-6981989cd1c5>\", \"WARC-Date\": \"2018-04-22T16:01:06Z\", \"WARC-IP-Address\": \"172.217.8.1\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:JWQQC2JQUARHZZ23ECHI6UC5QLPGCD3U\", \"WARC-Record-ID\": \"<urn:uuid:593e745f-bc54-407b-8c1b-5ab3daf57ef5>\", \"WARC-Target-URI\": \"http://maxleibowitz.blogspot.com/2010_05_01_archive.html\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:11807448-e85b-4dd2-9817-56cb030b7f08>\", \"bff_contained_ngram_count_before_dedupe\": 45, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.04594254493713379, \"language_id_whole_page_fasttext\": {\"en\": 0.9749045372009276}, \"previous_word_count\": 6754, \"provenance\": \"dclm_shard_00008023.jsonl.zstd:42376\", \"url\": \"http://maxleibowitz.blogspot.com/2010_05_01_archive.html\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-228-198-53.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)\\r\\nisPartOf: CC-MAIN-2018-17\\r\\noperator: Common Crawl Admin\\r\\ndescription: Wide crawl of the web for April 2018\\r\\npublisher: Common Crawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "to shoot himself in the leg, in a bitterly ironic foreshadowing moment. J/K. At that moment I creamed the pants of my Giants fandom.\n\nThe New York Knicks are and always have been an exercise in failure. They had a pretty good team in the early 90's, featuring center Patrick Ewing, forwards Charles Oakley and Anthony Mason, guards John Starks and Derek Harper, and coach Pat Riley, whose coaching prowess was often drowned in a waterfall of hair gel. Patrick Ewing was my favorite player- a dominating 7-footer with a deathly accurate fadeaway jumper and shotblocking abilities.\n\nThe problem with the Knicks, however, was Ewing himself. Although honored as one of the 50 Greatest NBA Players of all-time, he never won a championship despite being hailed as savior when drafted in 1985, the year of my birth. He took the Knicks all the way to the Finals in '94, losing to Hakeem Olajuwon's Houston Rockets in 6 games. The Knicks also had the misfortune of sharing the Eastern Conference with the Chicago Bulls of the 1990's, whose best player also happened to be the greatest basketball player of all-time. But Ewing always choked in crunch time, missing the game-winning shot. The Knicks' offense during the Ewing years was also stalled by his presence, as they seemed to do nothing else besides dump the ball in to Patrick and have him do whatever he wanted. Now, the Knicks blow so much ass that Madison Square Garden has replaced its former moniker of \"World's Greatest Arena\" with \"Surprisingly Effective Bidet.\" Isiah Thomas pretty much ruined the team by signing highly overpaid underachieving players, most notably MVDouche Stephon Marbury. They're painful to watch, and I do not believe they'll sign LeBron James this summer.\n\nFinally, the New York Yankees. The team everybody loves to hate. The Evil Empire, so say the jealous ones. I have a few thoughts about being a Yankee fan.",
+                  null
+                ],
+                [
+                  "First and foremost, I am proud to",
+                  "0"
+                ],
+                [
+                  "be a Yankee fan. I could give two shits that people cringe and first dates are often ruined by my admission to loving the Bronx Bombers. This is because, and I can't stress this enough to people, THEY'RE MY FUCKING HOMETOWN TEAM. No matter how evil, how steroid-induced, how wealthy or unfairly successful a team is, it is fully acceptable and legitimate to root for a team that plays in the city you grew up in.\n\n\"But you could be a Mets fan!\" retorts the asshole. Yes, I could. But I'm not. The simple fact is, you often don't choose the team you support. You just don't. It's an odd element of your upbringing that you end up just liking the team you like. For me, I liked the teams my Dad liked, and he was a Yankees fan despite growing up in Brooklyn and rooting for the Dodgers, who always lost to the Yanks in the World Series. The Dodgers moved to LA, my Dad moved to Manhattan, and we now root for the bad guys. Lick my balls, rest of the country.\n\nThe Yankees have won 27 World Series titles, the most successful franchise of any sport. This is awesome. This is not a reason for me to stop liking them, just because they're successful.\n\nI'll admit that I don't like the fact that starting in the late 2000's, the Yanks started spending more money than all the other teams and were able to sign all the top free agents, thus \"buying\" their success. But this problem is a function of the MLB, not the Yankees. Unlike the other three major professional sports leagues, baseball does not have a salary cap. That means that teams are not limited in how much they spend on paying their players.\n\nThus, the teams in the bigger markets, which generate the most revenue, have an inherent advantage over teams in smaller markets. Note that the Yankees, Mets, Red Sox, White Sox, Cardinals, and Giants",
+                  null
+                ]
+              ],
+              "token_ids": [
+                3824,
+                322,
+                363,
+                331,
+                520,
+                29892,
+                306,
+                626,
+                22314,
+                304
+              ],
+              "tokens": [
+                "\u2581First",
+                "\u2581and",
+                "\u2581for",
+                "em",
+                "ost",
+                ",",
+                "\u2581I",
+                "\u2581am",
+                "\u2581proud",
+                "\u2581to"
+              ]
+            },
+            "url": "http://maxleibowitz.blogspot.com/2010_05_01_archive.html"
+          }
+        ]
+      },
+      {
+        "span_text": "in an America where the freedom of speech and the",
+        "search_results": [
+          {
+            "original_span": "in an America where the freedom of speech and the",
+            "normalized_span": "in an America where the freedom of speech and the",
+            "span_candidate": "in an America where the freedom of",
+            "shard": 0,
+            "rank": 96978745400,
+            "search_info": {
+              "shard": 0,
+              "rank": 96978745400
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 569,
+              "doc_ix": 10617924,
+              "doc_len": 569,
+              "latency": 13.703584671020508,
+              "metadata": "{\"path\": \"dclm-0071.json.zst\", \"linenum\": 110070, \"metadata\": {\"id\": \"http://www.whitneyhoffman.com/2008/10/28/patriotism-in-question/\", \"metadata\": {\"Content-Length\": \"40317\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:GE2JLKQSJGQFIR266AO3CCVPWOYN6WQ5\", \"WARC-Concurrent-To\": \"<urn:uuid:0cfb621d-773e-4303-940d-d0c85723a1b5>\", \"WARC-Date\": \"2021-07-29T06:12:01Z\", \"WARC-IP-Address\": \"74.208.236.142\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:GXDQ5DPM34NBV6AGEPP52S4PJRG4GERD\", \"WARC-Record-ID\": \"<urn:uuid:72f8508e-5014-4e19-9dba-3cdc68394c3a>\", \"WARC-Target-URI\": \"http://www.whitneyhoffman.com/2008/10/28/patriotism-in-question/\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:dde22da1-867c-47fb-81c8-ec232fd32b0f>\", \"bff_contained_ngram_count_before_dedupe\": 0, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.02776104211807251, \"language_id_whole_page_fasttext\": {\"en\": 0.9649532437324524}, \"previous_word_count\": 387, \"provenance\": \"dclm_shard_00001005.jsonl.zstd:8570\", \"url\": \"http://www.whitneyhoffman.com/2008/10/28/patriotism-in-question/\", \"warcinfo\": \"isPartOf: CC-MAIN-2021-31\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for July/August 2021\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-169.ec2.internal\\r\\nsoftware: Apache Nutch 1.18 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.2-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 308,
+              "spans": [
+                [
+                  "Patriotism In Question\n\nAs a lawyer, I have always been reverential about the first amendment.\u00a0 I may not agree with what you say, but I have always felt comfortable defending your right to say it.\u00a0 Our Country was founded under the principals of being able to hold our government accountable for its actions through peaceful means.\n\nThis is why I find it difficult to stomach the attitude of people like Congresswoman Michelle Bachmann who questions the patriotism of Barack Obama and uses the words \u201cliberal\u201d and \u201cdemocrat\u201d as if it were swear words. \u00a0 Michelle Bachman actually said Barack Obama has \u201canti-American views\u201d\u00a0 and insinuates that people throughout college campuses in this Country hate America. While I defend her right to say these things, I think it\u2019s ultimately less American to try to intimidate people from expressing their views, for trying to paint them as \u201cthe other\u201d or non-patriotic, just because they are doing what our founding fathers did of the Government of Britain- question whether or not it was acting appropriately, and seek to change what they feel is wrong.\u00a0 Here\u2019s the video of\u00a0 Congresswoman Michelle Bachmann on Chris Matthew\u2019s Hardball:\n\nWhile it\u2019s easy to paint Michelle Bachmann with the Joe McCarthy brush, it\u2019s clear she\u2019s living",
+                  null
+                ],
+                [
+                  "in an America where the freedom of",
+                  "0"
+                ],
+                [
+                  "speech and the freedom to peaceably assembly are weapons rather than freedoms. \u00a0 I respect her right to voice these opinions, but I cannot defend the comments, which I feel are much more anti-American that patriotic.\u00a0 But then again, I hope I live in a Country where people are free to express their ideas, collaborate and make this Country stronger by the vigorous debate and the sum of its parts.\u00a0 I hope the divisions this election has tried to perpetuate are finally replaced by a sense of freedom and of unity and we once again transcend Red States and Blue States and become again the United States of America.\n\nAddition:\u00a0 Bachmann\u2019s opponent has received over $1.3 million dollars in campaign funding as a result of Representative Bachmann\u2019s comments.\u00a0 This is similar to the over $800,000 dollars Planned Parenthood received right after Sarah Palin was nominated for Vice President- the internet is becoming a tool not only to amplify an individual\u2019s voice, but to amplify dissent, and it comes with a pretty generous \u201cputting your money where your mouth is\u201d response.\n\nUncategorized , , , , ,",
+                  null
+                ]
+              ],
+              "token_ids": [
+                297,
+                385,
+                6813,
+                988,
+                278,
+                16082,
+                310
+              ],
+              "tokens": [
+                "\u2581in",
+                "\u2581an",
+                "\u2581America",
+                "\u2581where",
+                "\u2581the",
+                "\u2581freedom",
+                "\u2581of"
+              ]
+            },
+            "url": "http://www.whitneyhoffman.com/2008/10/28/patriotism-in-question/"
+          }
+        ]
+      },
+      {
+        "span_text": "of individuals to express themselves",
+        "search_results": [
+          {
+            "original_span": "of individuals to express themselves",
+            "normalized_span": "of individuals to express themselves",
+            "span_candidate": "of individuals to express themselves",
+            "shard": 0,
+            "rank": 124978326945,
+            "search_info": {
+              "shard": 0,
+              "rank": 124978326945
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 38892645,
+              "doc_len": 1977,
+              "latency": 13.74506950378418,
+              "metadata": "{\"path\": \"dclm-0259.json.zst\", \"linenum\": 1020060, \"metadata\": {\"id\": \"http://promptpapers.com/research-paper-topics.php?term_paper=996840&title=Govern-And-Politics\", \"metadata\": {\"Content-Length\": \"18933\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:WQFEQEBX4ID372A465HIQHETSF5V5XKQ\", \"WARC-Concurrent-To\": \"<urn:uuid:4c1478c7-1f11-44bf-9b46-adc738b8d2d1>\", \"WARC-Date\": \"2018-11-15T08:44:45Z\", \"WARC-IP-Address\": \"216.154.209.76\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:63GH67D5XBXKTWCFAPFJ2TWYYQQTHADT\", \"WARC-Record-ID\": \"<urn:uuid:be46eded-84c3-4993-abf1-28f9bc8b3c0c>\", \"WARC-Target-URI\": \"http://promptpapers.com/research-paper-topics.php?term_paper=996840&title=Govern-And-Politics\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:4c770eb4-58c9-4f36-81d2-c4636470e31f>\", \"bff_contained_ngram_count_before_dedupe\": 123, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.3935837149620056, \"language_id_whole_page_fasttext\": {\"en\": 0.966590940952301}, \"previous_word_count\": 1603, \"provenance\": \"dclm_shard_00003684.jsonl.zstd:21831\", \"url\": \"http://promptpapers.com/research-paper-topics.php?term_paper=996840&title=Govern-And-Politics\", \"warcinfo\": \"isPartOf: CC-MAIN-2018-47\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for November 2018\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-166-161-213.ec2.internal\\r\\nsoftware: Apache Nutch 1.15 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 0.11-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "nor elected officials can interfere with these privileges. Some of the rights retained by individuals are described in the Bill of Rights, which limits the powers of Congress.\n\nOther types of law include Common law. This consists of the customary practices created by past judicial decisions. After a court makes a decision, that decision becomes an example of what can be applied to similar cases. Based on previous cases and their application to new cases, judicial reasoning proceeds from one case to another and accumulates to form the basis of common law. Today common law is relevant mostly to areas of family law and disputes over contracts and property. Administrative law is different than Common Law because it involves disputes regarding the authority of administrative agencies that are part of the executive branch. Regulations established by federal agencies such as the Food and Drug Administration regulates the testing of new medicine.\n\nThis agency is not elected bodies, and yet they have emerged as independent policy-makers. The rise in importance of these administrative agencies challenges the rule of law because officials who are appointed, not elected, exercise a great deal of power. As a result, their rules and procedures have been questioned. An issue is whether the authority of these agencies is abused and whether their actions are within the jurisdictions delegated to them by Congress. Another type of law is statute law which is enacted by a legislative body at the federal, state, or local level. This is the most common law.\n\nStatute law pertains to either criminal law or civil law. Civil law, which governs the relations of citizens among themselves, involves disputes between citizens and between government and citizen where no crime has happened. Criminal law deals with public law and public order and mostly covers acts of violence, theft, and fraud. The government at the federal, state or local level prosecutes criminal cases and imposes jail sentences, fines, or other forms of punishment on people who are found guilty. The federal government prosecutes comparatively few criminal cases, but it defines crimes, assists in investigations, and helps determine sentencing guidelines. Next we will look at Anarchism. Anarchism is another political theory that is opposed to all forms of government.\n\nAnarchists believe that the highest attainment of humanity is the freedom",
+                  null
+                ],
+                [
+                  "of individuals to express themselves",
+                  "0"
+                ],
+                [
+                  "unhindered by any form of repression. They hold that the perfection of humanity will not be attained until all government is abolished and each individual is left absolutely free. One limitation on such freedom, however, is the ban against injuring other human beings. If any human being attempts to injure another person, all well-meaning individuals have the right to organize against him or her, and the orderly class may repress the criminal class, although only by voluntary cooperation and not under any governmental organization. Another political system is Communism which involves the elimination of private property.\n\nCommunism is a concept or system of society in which the major resources and means of production are owned by the community rather than by individuals. In theory, such societies provide for equal sharing of all work. Some conceptions of communist societies assume that forceful government's would be unnecessary and therefore that such society would be without rulers. Third parties are political party that appears as an alternative to the two main parties, the groups now known as Democrats and Republicans. Third parties have repeatedly arisen to express powerful currents of political feeling not addressed by the two-party system, but none has endured. Third-party movements were significant in 1968, in 1980, and especially in 1992, when a billionaire businessman, Ross Perot, drew almost 19 percent of the popular vote, the highest for a third-party presidential candidate since Theodore Roosevelt's run in 1912. Despite Perot's appeal to voters disenchanted with \"politics as usual,\" he gained no electoral votes, and Democrat Bill Clinton defeated President George Bush.\n\nThe party system itself seemed to have been weakened, as voters became disillusioned with politicians and appeared to be influenced more by a candidate's overall message or positions on the issues than by party affiliation. Campaign techniques were changed by the increasing use of television advertisements and appearances. Media advisers became more prominent, often eclipsing traditional party leaders. In addition, the role of party conventions in selecting candidates was reduced by the growing prevalence of primary elections. Government and politics are serious issues that people should think about. There are a lot",
+                  null
+                ]
+              ],
+              "token_ids": [
+                310,
+                15724,
+                304,
+                4653,
+                6053
+              ],
+              "tokens": [
+                "\u2581of",
+                "\u2581individuals",
+                "\u2581to",
+                "\u2581express",
+                "\u2581themselves"
+              ]
+            },
+            "url": "http://promptpapers.com/research-paper-topics.php?term_paper=996840&title=Govern-And-Politics"
+          }
+        ]
+      },
+      {
+        "span_text": "are protected and revered.",
+        "search_results": [
+          {
+            "original_span": "are protected and revered.",
+            "normalized_span": "are protected and revered",
+            "span_candidate": "are protected and revered",
+            "shard": 0,
+            "rank": 44030753960,
+            "search_info": {
+              "shard": 0,
+              "rank": 44030753960
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 877,
+              "doc_ix": 152149149,
+              "doc_len": 9131,
+              "latency": 15.206336975097656,
+              "metadata": "{\"path\": \"dclm-1016.json.zst\", \"linenum\": 674940, \"metadata\": {\"id\": \"http://theracecardproject.com/yes-black-people-are-racist-too/\", \"metadata\": {\"Content-Length\": \"270864\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:2BYUFTBW4YEXZJCZML3P64TB2HU7TMDS\", \"WARC-Concurrent-To\": \"<urn:uuid:5da35120-062f-41b2-ab0a-32256d101d68>\", \"WARC-Date\": \"2014-10-23T02:24:50Z\", \"WARC-IP-Address\": \"50.62.39.1\", \"WARC-Payload-Digest\": \"sha1:YOZRYKT7DBEQR4HNIOG7OICLTBLACNBY\", \"WARC-Record-ID\": \"<urn:uuid:ebb24dda-a0a6-4069-a31c-8de70028cf16>\", \"WARC-Target-URI\": \"http://theracecardproject.com/yes-black-people-are-racist-too/\", \"WARC-Truncated\": \"length\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:b31c2891-fb3c-4069-84dc-8d64c027873a>\", \"bff_contained_ngram_count_before_dedupe\": 105, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.0819624662399292, \"language_id_whole_page_fasttext\": {\"en\": 0.964264750480652}, \"previous_word_count\": 6478, \"provenance\": \"dclm_shard_00014443.jsonl.zstd:11622\", \"url\": \"http://theracecardproject.com/yes-black-people-are-racist-too/\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-16-133-185.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2014-42\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web with URLs provided by Blekko for October 2014\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "how would life be if everyone dropped the whole discrimination act, and kicked it aside, and came together as one unity instead of fighting against one another because of greed, ignorance, stupidity, power, etc. Imagine how much more we would be able to accomplish together instead of killing each other segregated and divided. Is it so hard for each and everyone one of us to extend a hand out to the person next to you without looking and at least try to understand that person, and for that person to try to understand you and both try to meet the other half way? Are we really full of that much hatred? I believe we should all try placing ourselves in each others position to try to see things from not only our point of view but theirs as well. And another thing people\u2026 I do understand we have our trying experiences with those whom are different than us and depending on the situation we sometimes find it safe to \u201cmark\u201d others who may fit some sort or similarity to that experience in one way or form or another, but try to keep in control of that feeling. I\u2019ve been assaulted and robbed by two African american males, and until this day I still despise those two for what they did, but I refuse to label every African american guy I see the same as those two. God put us all on this planet and until he says otherwise we are stuck with each other, get used to it.\n\n  \u2022 Arlington Ccc\n\n    Racism against the few remaining whites happens everyday @ the world\u2019s biggest phone company. Management is black except for the one token white guy ( who makes a fool of himself daily for acceptance ). 95% of employees are now black as whites have been systematically driven out ,one way or another. Everyday when we walk through those doors, we are expected to apologize for being white . White service anniversaries are not celebrated unless we request it ( even though our black managers get an email for each person\u2019s anniversary ). Average work/ less than average work by a black is always celebrated & if a white person should excel @ their work it\u2019s diminished or sabotaged. We are spoken to in ebonics \u201cbecause it\u2019s the culture \u201d \u2013 Yes, the racist exclusionary culture that local management has created. Incompetent black managers",
+                  null
+                ],
+                [
+                  "are protected and revered",
+                  "0"
+                ],
+                [
+                  "& the subordinates who sleep with them ( in the office & get caught ) are given special privleges. The only people who are valued are: blacks, whites who have relationships with blacks ( like the token white married manager who has sex w his subordinates ) , otherwise you will never be good enough.\n\n  \u2022 Tasha Jaii\n\n    Nope. Nope. Nope. I have the need to contradict with this. To start off with my objection I can already tell that a white person wrote this invidious blog. I very much don\u2019t understand why this was written. Yeah, I am very aware that there are some black people who are racist. SOME not all but some. So limit that down to all black people. Secondly, I don\u2019t blame black people for being intensely racist towards white people or anybody for that matter. If I remember right, the white people were the ones who made African Americans their slaves. White people were the ones who beat African Americans while being their slave. White policeman where the ones who for no purpose beat African Americans to death. (Which is still going on today) And George Zimmerman pointlessly shot and killed Trayvon Martin. OH! And the situation of Michael Brown which just recently occurred in August, was shot and killed by a white police officer. So I think this little thing goes both ways. I myself am black and native, and I do have aggressive attention towards white people myself. So white people aren\u2019t the victims. I mean maybe if the whites never treated the blacks so wrongly back then, then maybe there wouldn\u2019t be so much racism going on now. :)\n\n\nTweets by Michele Norris",
+                  null
+                ]
+              ],
+              "token_ids": [
+                526,
+                6364,
+                322,
+                24187,
+                287
+              ],
+              "tokens": [
+                "\u2581are",
+                "\u2581protected",
+                "\u2581and",
+                "\u2581rever",
+                "ed"
+              ]
+            },
+            "url": "http://theracecardproject.com/yes-black-people-are-racist-too/"
+          }
+        ]
+      },
+      {
+        "span_text": "is what has allowed our country to",
+        "search_results": [
+          {
+            "original_span": "is what has allowed our country to",
+            "normalized_span": "is what has allowed our country to",
+            "span_candidate": "is what has allowed our country to",
+            "shard": 0,
+            "rank": 167793726775,
+            "search_info": {
+              "shard": 0,
+              "rank": 167793726775
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 24312379,
+              "doc_len": 5047,
+              "latency": 14.275550842285156,
+              "metadata": "{\"path\": \"dclm-0162.json.zst\", \"linenum\": 578360, \"metadata\": {\"id\": \"http://www.wbrc.com/story/12357676/transcript-of-president-obamas-speech-on-wall-street-reform\", \"metadata\": {\"Content-Length\": \"94112\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:RVFE2A3Z6EISHB2YRWVDNC363TB2BWNL\", \"WARC-Concurrent-To\": \"<urn:uuid:b19d8f46-5376-4b39-aaa3-ad006ec46e81>\", \"WARC-Date\": \"2017-08-16T15:05:58Z\", \"WARC-IP-Address\": \"151.101.32.204\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:5YKOAK4JMCY4TYRQH6M5K76PQ7QE5UGD\", \"WARC-Record-ID\": \"<urn:uuid:0c4914bd-f4b6-43bf-bbc0-4b899cd8d240>\", \"WARC-Target-URI\": \"http://www.wbrc.com/story/12357676/transcript-of-president-obamas-speech-on-wall-street-reform\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:d3151106-9298-4718-93b8-5ba2f8edbb2d>\", \"bff_contained_ngram_count_before_dedupe\": 76, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.03244704008102417, \"language_id_whole_page_fasttext\": {\"en\": 0.955669641494751}, \"previous_word_count\": 3564, \"provenance\": \"dclm_shard_00002307.jsonl.zstd:82469\", \"url\": \"http://www.wbrc.com/story/12357676/transcript-of-president-obamas-speech-on-wall-street-reform\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-184-218-100.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)\\r\\nisPartOf: CC-MAIN-2017-34\\r\\noperator: Common Crawl Admin\\r\\ndescription: Wide crawl of the web for August 2017\\r\\npublisher: Common Crawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "Let me close by saying this.\u00a0 I have laid out a set of Wall Street reforms.\u00a0 These are reforms that would put an end to taxpayer bailouts; that would bring complex financial dealings out of the shadows; that would protect consumers; and that would give shareholders more power in the financial system.\u00a0 But let's face it, we also need reform in Washington.\u00a0 (Applause.)\u00a0 And the debate -- the debate over these changes is a perfect example.\n\nI mean, we have seen battalions of financial industry lobbyists descending on Capitol Hill, firms spending millions to influence the outcome of this debate.\u00a0 We've seen misleading arguments and attacks that are designed not to improve the bill but to weaken or to kill it.\u00a0 We've seen a bipartisan process buckle under the weight of these withering forces, even as we\u2018ve produced a proposal that by all accounts is a commonsense, reasonable, non-ideological approach to target the root problems that led to the turmoil in our financial sector and ultimately in our entire economy.\n\nSo we've seen business as usual in Washington, but I believe we can and must put this kind of cynical politics aside.\u00a0 We've got to put an end to it.\u00a0 That's why I'm here today.\u00a0 (Applause.)\u00a0 That's why I'm here today.\n\nAnd to those of you who are in the financial sector, let me say this, we will not always see eye to eye.\u00a0 We will not always agree.\u00a0 But that doesn't mean that we've got to choose between two extremes.\u00a0 We do not have to choose between markets that are unfettered by even modest protections against crisis, or markets that are stymied by onerous rules that suppress enterprise and innovation.\u00a0 That is a false choice.\u00a0 And we need no more proof than the crisis that we've just been through.\n\nYou see, there has always been a tension between the desire to allow markets to function without interference and the absolute necessity of rules to prevent markets from falling out of kilter.\u00a0 But managing that tension, one that we've debated since the founding of this nation,",
+                  null
+                ],
+                [
+                  "is what has allowed our country to",
+                  "0"
+                ],
+                [
+                  "keep up with a changing world.\u00a0 For in taking up this debate, in figuring out how to apply well-worn principles with each new age, we ensure that we don't tip too far one way or the other -- that our democracy remains as dynamic and our economy remains as dynamic as it has in the past.\u00a0 So, yes, this debate can be contentious.\u00a0 It can be heated.\u00a0 But in the end it serves only to make our country stronger.\u00a0 It has allowed us to adapt and to thrive.\n\nAnd I read a report recently that I think fairly illustrates this point.\u00a0 It's from Time Magazine.\u00a0 I'm going to quote:\u00a0 \"Through the great banking houses of Manhattan last week ran wild-eyed alarm.\u00a0 Big bankers stared at one another in anger and astonishment.\u00a0 A bill just passed\u2026 would rivet upon their institutions what they considered a monstrous system\u2026 such a system, they felt, would not only rob them of their pride of profession but would reduce all U.S. banking to its lowest level.\"\u00a0 That appeared in Time Magazine in June of 1933.\u00a0 (Laughter and applause.)\u00a0 The system that caused so much consternation, so much concern was the Federal Deposit Insurance Corporation, also known as the FDIC, an institution that has successfully secured the deposits of generations of Americans.\n\nIn the end, our system only works -- our markets are only free -- when there are basic safeguards that prevent abuse, that check excesses, that ensure that it is more profitable to play by the rules than to game the system.\u00a0 And that is what the reforms we've been proposing are designed to achieve -- no more, no less.\u00a0 And because that is how we will ensure that our economy works for consumers, that it works for investors, and that it works for financial institutions -- in other words, that it works for all of us -- that's why we're working so hard to get this stuff passed.\n\nThis is the central lesson not only of this crisis but of our history.\u00a0 It's what I said when I spoke here two years ago.\u00a0 Because ultimately, there is no dividing line between Main",
+                  null
+                ]
+              ],
+              "token_ids": [
+                338,
+                825,
+                756,
+                6068,
+                1749,
+                4234,
+                304
+              ],
+              "tokens": [
+                "\u2581is",
+                "\u2581what",
+                "\u2581has",
+                "\u2581allowed",
+                "\u2581our",
+                "\u2581country",
+                "\u2581to"
+              ]
+            },
+            "url": "http://www.wbrc.com/story/12357676/transcript-of-president-obamas-speech-on-wall-street-reform"
+          }
+        ]
+      },
+      {
+        "span_text": "perspectives and opinions that shape our",
+        "search_results": [
+          {
+            "original_span": "perspectives and opinions that shape our",
+            "normalized_span": "perspectives and opinions that shape our",
+            "span_candidate": "perspectives and opinions that shape our",
+            "shard": 0,
+            "rank": 257464345700,
+            "search_info": {
+              "shard": 0,
+              "rank": 257464345700
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 215443993,
+              "doc_len": 3367,
+              "latency": 11.091232299804688,
+              "metadata": "{\"path\": \"dclm-1438.json.zst\", \"linenum\": 1147590, \"metadata\": {\"id\": \"https://www.fotisgeorgiadis.com/wisdom-from-the-women-leading-the-vr-ar-mixed-reality-industries-with-anastasia-pash-of/\", \"metadata\": {\"Content-Length\": \"67132\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:7GUDNH6L3ZWCIC4BDNGLHHCAVN42JELR\", \"WARC-Concurrent-To\": \"<urn:uuid:dc5fa87e-607e-465c-b6d2-e914ac688a65>\", \"WARC-Date\": \"2021-05-14T13:45:09Z\", \"WARC-IP-Address\": \"72.167.25.126\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:HRBRN6QYQ43WIAFNFTLNWV3T3ZAXYOZM\", \"WARC-Record-ID\": \"<urn:uuid:540c2066-0009-4442-9072-c4423514cf8f>\", \"WARC-Target-URI\": \"https://www.fotisgeorgiadis.com/wisdom-from-the-women-leading-the-vr-ar-mixed-reality-industries-with-anastasia-pash-of/\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:15a8f555-def9-4f3f-a40e-caa25d4cbaff>\", \"bff_contained_ngram_count_before_dedupe\": 248, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.02147787809371948, \"language_id_whole_page_fasttext\": {\"en\": 0.9655384421348572}, \"previous_word_count\": 2553, \"provenance\": \"dclm_shard_00020449.jsonl.zstd:76902\", \"url\": \"https://www.fotisgeorgiadis.com/wisdom-from-the-women-leading-the-vr-ar-mixed-reality-industries-with-anastasia-pash-of/\", \"warcinfo\": \"isPartOf: CC-MAIN-2021-21\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for May 2021\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-126.ec2.internal\\r\\nsoftware: Apache Nutch 1.18 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.2-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "separately. My 2014 laptop could barely handle 4K video. But the first time I saw one of my videos in a headset, I knew that I was onto something. I started knocking on doors and demonstrating what was possible with this new technology. Soon enough, I was working on commercial projects creating content for hotel brands and Tourism Boards. Of course, I had to upgrade my gear! A few years later, I find myself leading a whole team of brilliant people in a VR start up. It\u2019s been a fun ride, but I never really thought of it as a career, more as a passion\u00a0pursuit.\n\n\nThe initial idea for Globetrotter VR was an immersive guide to help travelers plan their trips. In February 2020, we were designing our MVP\u200a\u2014\u200aa virtual guide to Barcelona. In March 2020, Barcelona, and the rest of the world, went into lockdown. At the time, the authorities were saying this was going to be a two-week measure, and I remember thinking \u201cThis is going to last way longer than that, and it will devastate travel and the global economy.\u201d As my UX designer and I sat locked up in our respective homes, figuring out what tools to use for remote collaboration, I decided to pivot the company to create interactive and immersive virtual tours. I don\u2019t regret that decision. We\u2019re seeing so much interest from both businesses and consumers in our product due to continued lockdowns, but beyond COVID-19, the solution has value for people who are unable to travel to all the destinations they want due to physical, financial or time constraints. Also, the travel industry is looking for new ways to entice travelers after the pandemic. Finally, companies who have gone remote are always looking for exciting online team building activities.\n\n\nI consider myself a very well-rounded person, and when I was starting out, I thought that I would be able to get my company off the ground as a single founder. I found out quickly that investors shy away from single founders, especially single female founders. I quickly realized that if I want to build a great company, I need a brilliant team. I really enjoy working with my team and seeing the different",
+                  null
+                ],
+                [
+                  "perspectives and opinions that shape our",
+                  "0"
+                ],
+                [
+                  "products.\n\n\nYes, and not just one! My partner and my best friends have been incredibly supportive of me and I wouldn\u2019t be able to do it without them. My partner has been there for me from day 1 and has encouraged the transition I made from the corporate world to starting my own business. I am also grateful for amazing friends who are brilliant and successful, and always help me see the light. Finally, I\u2019m grateful for our angel investors who took the risk and trusted us to build something valuable. It\u2019s so important to surround yourself with people who believe in you and give you strength. Doing a start-up is tough, but it\u2019s also a lot of fun, and you want to be with people who will be there for the good and the\u00a0bad.\n\n\nAt Globetrotter VR, we\u2019re constantly creating new travel experiences. Right now, we\u2019re working on Dubai, Budapest, Edinburgh, Milan, Paris, New York, and have many other exciting destinations in the pipeline. We\u2019re collaborating with amazing tour guides, and content partners in these cities, so each experience is unique, and the production is a fascinating process. We aren\u2019t trying to replicate walking tours but creating truly interactive and immersive virtual experiences in their own right. We\u2019re also excited that our business model allows tour guides who have been so hard hit by the pandemic to have an alternative source of\u00a0income.\n\nOk super. Thank you for all that. Let\u2019s now shift to the main focus of our interview. The VR, AR and MR industries seem so exciting right now. What are the 3 things in particular that most excite you about the industry? Can you explain or give an\u00a0example?\n\nThe XR space is a really exciting one, as there is always something new and cutting edge happening. I\u2019m really excited for hardware becoming more user-friendly and not as clunky. I can\u2019t wait to try the Apple\u2019s Mixed Reality headset, as I\u2019m hoping their designers will do the same thing to VR headsets as they did to PCs. I\u2019m also excited about alternative to wearables, such as Ricoh",
+                  null
+                ]
+              ],
+              "token_ids": [
+                3736,
+                1103,
+                3145,
+                322,
+                26971,
+                393,
+                8267,
+                1749
+              ],
+              "tokens": [
+                "\u2581pers",
+                "pect",
+                "ives",
+                "\u2581and",
+                "\u2581opinions",
+                "\u2581that",
+                "\u2581shape",
+                "\u2581our"
+              ]
+            },
+            "url": "https://www.fotisgeorgiadis.com/wisdom-from-the-women-leading-the-vr-ar-mixed-reality-industries-with-anastasia-pash-of/"
+          }
+        ]
+      },
+      {
+        "span_text": "forge our identity as a nation.",
+        "search_results": [
+          {
+            "original_span": "forge our identity as a nation.",
+            "normalized_span": "forge our identity as a nation",
+            "span_candidate": "forge our identity as a nation",
+            "shard": 8,
+            "rank": 197123575804,
+            "search_info": {
+              "shard": 8,
+              "rank": 197123575804
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 2628610266,
+              "doc_len": 3339,
+              "latency": 15.912055969238281,
+              "metadata": "{\"path\": \"dclm-1804.json.zst\", \"linenum\": 712438, \"metadata\": {\"id\": \"http://jtfgc.net/Kalemtag/%E4%B8%8A%E6%B5%B7%E6%B0%B4%E7%A3%A8%E4%BC%9A%E6%89%80%E8%AE%BA%E5%9D%9B\", \"metadata\": {\"Content-Length\": \"44154\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:KZNZHGPMOUXBZZIKMXFXJDZBH4BNMLYP\", \"WARC-Concurrent-To\": \"<urn:uuid:fd279278-67f9-4031-b011-67de11c58e7c>\", \"WARC-Date\": \"2020-01-19T16:52:38Z\", \"WARC-IP-Address\": \"23.224.146.171\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:CXRULGGXIXVR7X2NKLRR4G2QCOEO5GVH\", \"WARC-Record-ID\": \"<urn:uuid:0ab781f7-e2a2-4672-b00d-959e0b6503da>\", \"WARC-Target-URI\": \"http://jtfgc.net/Kalemtag/%E4%B8%8A%E6%B5%B7%E6%B0%B4%E7%A3%A8%E4%BC%9A%E6%89%80%E8%AE%BA%E5%9D%9B\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:b4b0486f-403e-4776-9b8d-010c88aaf877>\", \"bff_contained_ngram_count_before_dedupe\": 1176, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.027294576168060303, \"language_id_whole_page_fasttext\": {\"en\": 0.9412511587142944}, \"previous_word_count\": 2770, \"provenance\": \"dclm_shard_00025613.jsonl.zstd:17709\", \"url\": \"http://jtfgc.net/Kalemtag/%E4%B8%8A%E6%B5%B7%E6%B0%B4%E7%A3%A8%E4%BC%9A%E6%89%80%E8%AE%BA%E5%9D%9B\", \"warcinfo\": \"isPartOf: CC-MAIN-2020-05\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for January 2020\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-103.ec2.internal\\r\\nsoftware: Apache Nutch 1.16 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.1-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "MAs) will take a trip down memory lane in celebration of its 25th anniversary, under the theme: 25toLife. The SAMAs present an opportunity to acknowledge the hard work and dedication of specialists in the local music industry.The awards ceremony and celebrations have noticeably evolved over the last 25 years. The first-ever awards show was hosted at the Alberton Civic Centre, later moving between Johannesburg, Sun City and Durban. This year, the SAMAs return to Sun City on 1 June 2019.In honouring the harmonious legacy created over the past 25 years, the hosts have decided to bring out a few big names in the entertainment industry; game-changers who have had a part to play in the advancement of artists and producers in the entertainment space. Seasoned radio and TV hosts Bob Mabena and Melanie Bala will be co-hosting the awards. The pair are well-known for presenting Studio Mix, a popular music show that was aired on SABC1 in the 1990s. They will be joined by other hosts throughout the night, like hip-hop star Khuli Chana and media personality, Nomzamo Mbatha.Over the years, the awards have paid homage to forerunners like Miriam Makeba, Manhattan Brothers, Dolly Rathebe, Dorothy Masuka. This year, a special honour will be bestowed upon late hip-hop star HHP, as well as legends TKZee and Mango Groove.The industry continues to take form, by appointing experts to address critical issues, while harnessing fresh talent eager to make a footprint.The SAMAs are hosted by The Recording Industry of South Africa (RiSA). The show will be aired at 20:00 on SABC 1 on Saturday 1 June. Nhlanhla Sibisi, RiSA CEO said in a press statement: \u201925 to Life is a celebration of the 25 years of SAMA\u2019s existence and the role music played in driving social cohesion. We have lived music since the dawn of time and it has shaped the way we think and feel, and has helped us",
+                  null
+                ],
+                [
+                  "forge our identity as a nation",
+                  "0"
+                ],
+                [
+                  ".\u2018We look forward to sharing memorable SAMA moments, from their humble beginning and how different genres have evolved in the last 25 years to reflect the country\u2019s evolution. There is no doubt that South Africans live music and appreciate its meaning and impact in their lives, that is why the SAMAs continue to honour the artists through this premium event.\u2019last_img read more\n\nJust Start Again\n\n\nT rex was actually bigger than we thought\n\n\nBody of headless woman found inside box near Delhi metro station probe\n\nfirst_imgGetty ImagesIn a spine-chilling incident, a\u00a0headless body of a woman was found in a box on a bicycle\u00a0near the national capital\u2019s Jahangirpuri metro station on Saturday, June 8.The body was discovered at around 5 pm in the evening by the Delhi Police when a local shop owner noticed water dripping from the box and an odour emanating from it and informed the police. They soon arrived at the scene, opened the box and found the decomposed body.\u201dInside, a woman\u2019s headless body was found wrapped in a blanket,\u201d Bhisham Singh, additional deputy commissioner of police (North West) told Hindustan Times. He added, \u201cThere were no identification proofs in the box.\u201d\u201dPrima facie it appears that the woman had been killed two-three days ago and was dumped here. The body had started to decompose and the skin had turned black,\u201d an officer was quoted as saying by PTI.Investigators revealed that the box was white in colour and that it was taped in many places so that it wouldn\u2019t come apart when the body was stuffed in it.A probe is underway and the footages from a CCTV camera\u00a0in the vicinity are being scrutinised to check who brought the bicycle. The body has also been sent for an autopsy to Babu Jagjivan Ram Memorial Hospital.last_img read more\n\nUnion Budget 2018 AI and robotics need more funds and policy framework\n\nfirst_img How artificial intelligence is transforming the stock market Close The business impact of Artifical Intelligence (AI) and robotics is rising by",
+                  null
+                ]
+              ],
+              "token_ids": [
+                363,
+                479,
+                1749,
+                10110,
+                408,
+                263,
+                5233
+              ],
+              "tokens": [
+                "\u2581for",
+                "ge",
+                "\u2581our",
+                "\u2581identity",
+                "\u2581as",
+                "\u2581a",
+                "\u2581nation"
+              ]
+            },
+            "url": "http://jtfgc.net/Kalemtag/%E4%B8%8A%E6%B5%B7%E6%B0%B4%E7%A3%A8%E4%BC%9A%E6%89%80%E8%AE%BA%E5%9D%9B"
+          }
+        ]
+      },
+      {
+        "span_text": "where the rule of law is upheld, and justice",
+        "search_results": [
+          {
+            "original_span": "where the rule of law is upheld, and justice",
+            "normalized_span": "where the rule of law is upheld, and justice",
+            "span_candidate": "where the rule of law is upheld,",
+            "shard": 0,
+            "rank": 389743526842,
+            "search_info": {
+              "shard": 0,
+              "rank": 389743526842
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 93315390,
+              "doc_len": 128493,
+              "latency": 15.00844955444336,
+              "metadata": "{\"path\": \"dclm-0623.json.zst\", \"linenum\": 1415760, \"metadata\": {\"id\": \"http://www.ted.com/conversations/15464/has_the_time_come_for_the_u_s.html?c=581515\", \"metadata\": {\"Content-Length\": \"1048980\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:DK75OCTVXYM6T2RSYMC6ZET2NKYTPQFQ\", \"WARC-Concurrent-To\": \"<urn:uuid:4984d620-0dc9-4c93-9bbe-ae8dc26d7419>\", \"WARC-Date\": \"2015-03-02T23:09:36Z\", \"WARC-IP-Address\": \"162.209.66.60\", \"WARC-Payload-Digest\": \"sha1:NOJFVRFH6E44PTR4MMWL54IXYYD52AD5\", \"WARC-Record-ID\": \"<urn:uuid:f7496e52-132e-4cf8-adc1-0896c4762b2b>\", \"WARC-Target-URI\": \"http://www.ted.com/conversations/15464/has_the_time_come_for_the_u_s.html?c=581515\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:0b49a55f-0c44-4794-9b4b-72723736adc6>\", \"bff_contained_ngram_count_before_dedupe\": 2331, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.07985138893127441, \"language_id_whole_page_fasttext\": {\"en\": 0.9735991954803468}, \"previous_word_count\": 88841, \"provenance\": \"dclm_shard_00008850.jsonl.zstd:47787\", \"url\": \"http://www.ted.com/conversations/15464/has_the_time_come_for_the_u_s.html?c=581515\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-28-5-156.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2015-11\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web with URLs provided by Blekko for February 2015\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "as an american you are part of the governmental process? Your posts constantly refer to \"them\" and the \"government\" as if you have no say or ability to effect change. But then you refer to court cases that adjudicated some of your issues in your favor, how you support current law, etc. so you must have some faith (a little?) in our system? I am not so sure. You bring so much anger and dire predictions of the awful hypothetical future we face, and you make them with such a broad brush and such certainty when predicting the future, a future nobody can be certain of. This topic is about making changes in public policy from the status quo in one specific area, but you have broadened your responses to such a level that it makes me wonder if your posts are about the topic at hand, or if you would be against any changes that involve governing or government. Try to keep it realistic in your response if you could-we aren't Cuba, or Hitler's Germany, Cambodia, or any of the other scare countries that have been brought up. We are a representative democracy, one that is attempting to fix a problem through thoughtful discussion by the people and their representatives. So do you think any changes to gun laws that could be interpreted as more restrictive to the general US population should not even be considered?\n        \u2022 thumb\n          Jan 11 2013: Characterize it any way that serves you, the fact is that the only reason to bring up the 2nd Amendment is to diminish the rights of citizens to be armed.\n\n          It is a demonstrable fact that local law enforcement agencies are on the receiving end of military ordinance, training and vehicles from the Federal Government at a time when violence is at an all time low in the United States.\n\n          It is also a demonstrable fact that innocent American Citizens were killed at both Ruby Ridge and Waco by United States Government agencies who acted illegally and later destroyed evidence and lied en mass at the Senate hearings.( In the case of Waco the government did pay off on a wrongful death suit. However there was no redress of grievances for WACO to restore the rule of law.)\n\n          Whether or not we are a nation",
+                  null
+                ],
+                [
+                  "where the rule of law is upheld,",
+                  "0"
+                ],
+                [
+                  "depends upon whether or not the people hold that to be a non-negotiable principle. In my experience, there are entire sectors of our society that can not differentiate between the rule of law and the rule of men. Foremost, it is important that our President believes in the rule of law. I find him unconvincing in that arena.\n\n          In a conversation of thoughtful discussion, some of the facts that have to be considered, in this case, are very ugly. They are as ugly as the list of dead at Waco. They are brought to this discussion in this progression:\n\n          Q Why do you think you need guns?\n\n          A The people reserved the right to themselves to armed revolt against the government.\n\n          Q How can you think that the US Government would do such a thing? We are not Cambodia.\n\n          A They did it at Ruby Ridge and Waco.\n\n          And your response is what? That those events didn't happen?\n          We shape our own future.\n          Nobody here has suggested a bilateral disarmament, only a disarming of the people at the bottom of the power structure.\n          So, it's a completely different conversation that what is wrong with the Adam Lanzas and what we need to do to stop this from happening again.\n        \u2022 thumb\n          Jan 11 2013: And Sean, I am not big on how people \"feel\" about important issues as much as what they intend to \"do\".\n          However, if you feel that you, as part of the electorate, still occupy the top rung of the social contact that we live under..please take me up on my invitation to invite the Federal an local LE agencies to stand down and begin this Messianic disarmament which will spring forth from their inner desire to tone down the violence and fear that they disseminate on a daily basis. Let them openly repudiate their \"secret\" Homeland Security memos that were issued against the advice of their own Civil Rights Division. See if you can get them to stack up their military ordinance that they purchased for Urban Warfare, into a big pile in the middle of the street and burn it. Oh",
+                  null
+                ]
+              ],
+              "token_ids": [
+                988,
+                278,
+                5751,
+                310,
+                4307,
+                338,
+                318,
+                561,
+                2495,
+                29892
+              ],
+              "tokens": [
+                "\u2581where",
+                "\u2581the",
+                "\u2581rule",
+                "\u2581of",
+                "\u2581law",
+                "\u2581is",
+                "\u2581u",
+                "ph",
+                "eld",
+                ","
+              ]
+            },
+            "url": "http://www.ted.com/conversations/15464/has_the_time_come_for_the_u_s.html?c=581515"
+          }
+        ]
+      },
+      {
+        "span_text": "fairly and equitably for all.",
+        "search_results": [
+          {
+            "original_span": "fairly and equitably for all.",
+            "normalized_span": "fairly and equitably for all",
+            "span_candidate": "fairly and equitably for all",
+            "shard": 0,
+            "rank": 44854228201,
+            "search_info": {
+              "shard": 0,
+              "rank": 44854228201
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 770,
+              "doc_ix": 39220855,
+              "doc_len": 1009,
+              "latency": 9.316682815551758,
+              "metadata": "{\"path\": \"dclm-0261.json.zst\", \"linenum\": 1304510, \"metadata\": {\"id\": \"https://missoulaelectric.com/member-care/capital-credits/\", \"metadata\": {\"Content-Length\": \"696705\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:ZTIYOUPPHXCO54OJ4CT23CERVRALR3WW\", \"WARC-Concurrent-To\": \"<urn:uuid:7d2c3f49-b038-475d-873a-73c6a8c73637>\", \"WARC-Date\": \"2019-07-24T04:45:12Z\", \"WARC-IP-Address\": \"34.235.76.8\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:GCWZ5YEGWWWHQBLURIEAOWSZUBMVOARG\", \"WARC-Record-ID\": \"<urn:uuid:90efc66a-42ec-49b0-bcf6-72bcf635225f>\", \"WARC-Target-URI\": \"https://missoulaelectric.com/member-care/capital-credits/\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:ebe1b501-8edf-4613-867a-6ea5db1e9e37>\", \"bff_contained_ngram_count_before_dedupe\": 0, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.023539364337921143, \"language_id_whole_page_fasttext\": {\"en\": 0.9553049802780152}, \"previous_word_count\": 731, \"provenance\": \"dclm_shard_00003715.jsonl.zstd:24938\", \"url\": \"https://missoulaelectric.com/member-care/capital-credits/\", \"warcinfo\": \"isPartOf: CC-MAIN-2019-30\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for July 2019\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-157-130-49.ec2.internal\\r\\nsoftware: Apache Nutch 1.15 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.1-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "formerly called the Rural Electrification Administration (REA) and now called Rural Utilities Services (RUS), supplied loan funds and covered the investment by taking a first mortgage on the Cooperative\u2019s property. As the first mortgage holder on the property, RUS sets conditions on the Co-op\u2019s operations to ensure that the mortgage and interest payments are met.\n\nWhen the REA set up the loan program, it stipulated that the equity ownership gained by the Cooperative should be transferred back to the members in the form of Capital Credits. Thus, all money paid by members on their electric bills, in excess of the actual cost of providing them with power, should be allocated back to them in the form of Capital Credits.\n\nJust as RUS sets requirements for the allocation of Capital Credits to members, it also sets equity levels so that there are sufficient funds to pay back the loans with interest first. It is only after that level is reached that Capital Credits can be paid back. If we did not follow the terms of the loans, it could be revoked and we would have to look elsewhere for funds, usually at higher interest rates.\n\nCapital Credits are your ownership in the Cooperative.\n\nAbandoned Capital Credits\n\nBelow is a searchable list of members who have unclaimed capital credits.\n\nFrequently Asked Questions\n\nHow are Capital Credits allocated?\n\nCapital Credits are allocated annually to each member. The margin percentage amount is applied to the amount you paid for electric service during the year. If margins are 10%, the amount left after all expenses are paid, then 10% of the amount you paid for electric power that year will be credited to your Capital Credit account.\n\nThis allocation is done only once a year. You will be sent an allocation statement each year which lists the balance in your Capital Credit account and the amount allocated that year. This statement is not a bill. It is a statement of your equity, or ownership, in the Cooperative.\n\nCan you apply my Capital Credits to my bill?\n\nNo. Your Capital Credit account is a separate account and is not interchangeable with your normal consumer account. Retirements from Capital Credits must be done",
+                  null
+                ],
+                [
+                  "fairly and equitably for all",
+                  "0"
+                ],
+                [
+                  "members of the Cooperative.\n\nIs there interest on my Capital Credits?\n\nNo. Since the Cooperative is a non-profit, member-owned company, you do not receive interest or dividends on your Capital Credits. To pay interest we would have to raise your present electric rates to cover the cost of the interest.\n\nWhen are Capital Credits paid back?\n\nUpon approval of the Board of Trustees and if the conditions of the lenders are met, then Capital Credits will be paid back to the members.\n\nCapital Credits are also paid to the estates of deceased members when a copy of the death certificate is on file. The name(s) on the membership application/card are the only ones for which Capital Credits can be earned and thus paid to.\n\nWhat if I move?\n\nIf you move from our service area, the Capital Credits accumulated in your account will remain in your name. It is important that you keep the Cooperative informed of your current address so that we can send you a refund when a general retirement is made.\n\nThe last year you receive service from the Cooperative is the last year you will receive an allocation and a Capital Credit statement.",
+                  null
+                ]
+              ],
+              "token_ids": [
+                12558,
+                322,
+                1592,
+                277,
+                2197,
+                363,
+                599
+              ],
+              "tokens": [
+                "\u2581fairly",
+                "\u2581and",
+                "\u2581equ",
+                "it",
+                "ably",
+                "\u2581for",
+                "\u2581all"
+              ]
+            },
+            "url": "https://missoulaelectric.com/member-care/capital-credits/"
+          }
+        ]
+      },
+      {
+        "span_text": "The rule of law is the cornerstone of our constitutional",
+        "search_results": [
+          {
+            "original_span": "The rule of law is the cornerstone of our constitutional",
+            "normalized_span": "The rule of law is the cornerstone of our constitutional",
+            "span_candidate": "The rule of law is the cornerstone",
+            "shard": 0,
+            "rank": 326400078068,
+            "search_info": {
+              "shard": 0,
+              "rank": 326400078068
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 807,
+              "doc_ix": 199034527,
+              "doc_len": 902,
+              "latency": 12.884855270385742,
+              "metadata": "{\"path\": \"dclm-1329.json.zst\", \"linenum\": 742950, \"metadata\": {\"id\": \"https://www.sparkfun.com/users/275528\", \"metadata\": {\"Content-Length\": \"56020\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:WWYXOOXE637VMAB4YFV3BOR3SYGBGXRZ\", \"WARC-Concurrent-To\": \"<urn:uuid:60e4bbd6-18d8-4317-b29e-f76b6b8d819b>\", \"WARC-Date\": \"2019-12-13T11:33:47Z\", \"WARC-IP-Address\": \"35.169.143.228\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:GHCKZ6INQNQVOSJPSULNMT52ZNM7QBQ6\", \"WARC-Record-ID\": \"<urn:uuid:0c38277f-655a-49ef-8944-400b09f5e312>\", \"WARC-Target-URI\": \"https://www.sparkfun.com/users/275528\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:0b079c7a-f3e7-4f89-b67d-3c3d3c9766d0>\", \"bff_contained_ngram_count_before_dedupe\": 23, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.038088977336883545, \"language_id_whole_page_fasttext\": {\"en\": 0.9649012088775636}, \"previous_word_count\": 532, \"provenance\": \"dclm_shard_00018886.jsonl.zstd:39970\", \"url\": \"https://www.sparkfun.com/users/275528\", \"warcinfo\": \"isPartOf: CC-MAIN-2019-51\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for December 2019\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-9.ec2.internal\\r\\nsoftware: Apache Nutch 1.16 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.1-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "on the reality of the current situation.\n\n    Thanks. I'm leaving now.\n\n  \u2022 Courage?\n\n    Courage is overcoming the fear and irrationality. It's looking past the emotion at the data. It's seeing the good people in bad situations.\n\n    Holding the right opinion isn't easy, I can tell. You're scared at the things that are happening. Terrorists are scary. The world's a scary place right now. You want to prevent these things from happening, and you're doing it the way you know how; closing the borders.\n\n    Sometimes the obvious choice isn't the right one.\n\n  \u2022 (1) Who cares, it's a ban whether for religious reasons or otherwise. The ramifications don't change.\n\n    (2) Temporary as in 90 days, with explicit declaration of strengthening it after such time.\n\n    (4) Incorrect, see Member #394180's comment above.\n\n    (5) A great overstatement of the ban in 2011:\n\n    \"Contrary to Trump\u2019s Sunday statement and the repeated claims of his defenders, the Obama administration did not \u201cban visas for refugees from Iraq for six months.\u201d For one thing, refugees don\u2019t travel on visas. More importantly, while the flow of Iraqi refugees slowed significantly during the Obama administration\u2019s review, refugees continued to be admitted to the United States during that time, and there was not a single month in which no Iraqis arrived here. In other words, while there were delays in processing, there was no outright ban.\"\n\n    (6) Haven't done research on this yet.\n\n  \u2022 \"Now what\"\n\n    \"Goddammit, you gotta be kind, babies.\" - Kurt Vonnegut.\n\n    Now what is that there are a bunch of people who are stuck out of their country, a bunch of people who are trapped in countries where they can't open a cupboard for fear of an IED blowing them up, and a bunch of people who are scared and confused everywhere else.\n\n  \u2022",
+                  null
+                ],
+                [
+                  "The rule of law is the cornerstone",
+                  "0"
+                ],
+                [
+                  "of our civilization. The right to disrespect such is also. She's not saying you can disobey it, but you can disrespect it.\n\n    Otherwise your country becomes North Korea.\n\n  \u2022 Correct, it's a very good abstraction to the human condition. Takes away all the us-vs-them baggage and shows you how things really are.\n\n  \u2022 \"demonstrate blind ideology slavery.\"\n\n    A tip:\n\n    You do not gain allies by insulting your fellow man. This merely reinforces their position, and demonstrates to them that you do not have an argument rooted in reality. If you wish to change their minds, present the facts and a reasoned conclusion, and let their brains do the rest.\n\n  \u2022 \"defense of our republic.\"\n\n    Lieutenant Worf: Sir, the Federation does have enemies. We must seek them out!\n\n    Captain Jean-Luc Picard: Oh, yes. That's how it starts. But the road from legitimate suspicion to rampant paranoia is very much shorter than we think. Something is wrong here, Mister Worf. I don't like what we have become.\n\n\n    But hey, that's just, like, my opinion, man.\n\nNo public wish lists :(",
+                  null
+                ]
+              ],
+              "token_ids": [
+                450,
+                5751,
+                310,
+                4307,
+                338,
+                278,
+                11155,
+                12734
+              ],
+              "tokens": [
+                "\u2581The",
+                "\u2581rule",
+                "\u2581of",
+                "\u2581law",
+                "\u2581is",
+                "\u2581the",
+                "\u2581corner",
+                "stone"
+              ]
+            },
+            "url": "https://www.sparkfun.com/users/275528"
+          }
+        ]
+      },
+      {
+        "span_text": "that our rights are protected and that our",
+        "search_results": [
+          {
+            "original_span": "that our rights are protected and that our",
+            "normalized_span": "that our rights are protected and that our",
+            "span_candidate": "that our rights are protected and that",
+            "shard": 0,
+            "rank": 241279483400,
+            "search_info": {
+              "shard": 0,
+              "rank": 241279483400
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 577,
+              "doc_ix": 274929999,
+              "doc_len": 1002,
+              "latency": 16.05081558227539,
+              "metadata": "{\"path\": \"dclm-1836.json.zst\", \"linenum\": 1017570, \"metadata\": {\"id\": \"https://blog.freelancersunion.org/2017/10/17/watch-out-for-this-arbitration-and-your-rights-as-a-freelancer/\", \"metadata\": {\"Content-Length\": \"43772\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:7YT7EPRG6R3DH72YACISAVDFZBWHBB5V\", \"WARC-Concurrent-To\": \"<urn:uuid:9ebbf5a1-4723-4d07-874b-e5a05e82226b>\", \"WARC-Date\": \"2020-05-28T01:01:36Z\", \"WARC-IP-Address\": \"104.18.129.189\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:RM4DJ5LI6QYK4QN7RDAY6YHR4P3Z6GD2\", \"WARC-Record-ID\": \"<urn:uuid:72319687-38da-420f-9180-c63971ab6b99>\", \"WARC-Target-URI\": \"https://blog.freelancersunion.org/2017/10/17/watch-out-for-this-arbitration-and-your-rights-as-a-freelancer/\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:4ab1b82f-be80-4d8e-8308-922cb4348204>\", \"bff_contained_ngram_count_before_dedupe\": 23, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.3941389322280884, \"language_id_whole_page_fasttext\": {\"en\": 0.9610588550567628}, \"previous_word_count\": 695, \"provenance\": \"dclm_shard_00026070.jsonl.zstd:1512\", \"url\": \"https://blog.freelancersunion.org/2017/10/17/watch-out-for-this-arbitration-and-your-rights-as-a-freelancer/\", \"warcinfo\": \"isPartOf: CC-MAIN-2020-24\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for May/June 2020\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-67-67-36.ec2.internal\\r\\nsoftware: Apache Nutch 1.16 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 1.1-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 77,
+              "spans": [
+                [
+                  "Watch out for this: Arbitration and your rights as a freelancer\n\nOct 17, 2017\n\nA few weeks ago, I wrote about the importance of retaining legal counsel. Contract laws, employment laws, tax laws and even intellectual property laws can be complicated. As freelancers, we want to make sure",
+                  null
+                ],
+                [
+                  "that our rights are protected and that",
+                  "0"
+                ],
+                [
+                  "we receive the fair and just treatment that we deserve. This is why we all need to pay attention to something that is happening in New York City.\n\nA few weeks ago, Public Advocate Letitia James released a comprehensive report (PDF) that focused on what is called arbitration clauses. Arbitration is often used when there are employment disputes that need to be mitigated. It\u2019s not uncommon for two parties to enter into arbitration in the employment sector in order to prevent such cases from having to go through the court system.\n\nThe perils of forced arbitration\n\nOn paper, arbitration can be more advantageous than going through the courts; it can be more efficacious and more cost-effective. This sounds marvelous, assuming that both parties have entered into arbitration voluntarily. However, what happens when arbitration is forced? Here\u2019s where things get a little tricky, but it also will explain why this is relevant to you regardless of where you live.\n\nAccording to the executive summary of the report:\n\n\u201cForced arbitration and nondisparagement clauses in employment contracts pose a significant threat to workers and their families. Forced arbitration, also known as mandatory arbitration, requires individuals or employees to resolve workplace disputes\u2014such as wage disputes, sexual harassment disputes, or wrongful termination disputes\u2014through a binding arbitration process... Forced arbitration promotes a system that exploits workers by stripping them of the right to access the court system, which denies them the opportunity to have their stories heard in front of a judge and jury, and the right to appeal an unfavorable decision. Workers are also denied the right to join fellow workers in collective action lawsuits.\u201d\n\nWhy is this disadvantageous for freelancers? Anything that takes away your right to present your case in court is problematic. Think about something like wage theft. UCLA Labor Center defines wage theft) as \u201cthe illegal practice of not paying workers for all of their work including violating minimum wage laws, not paying overtime, forcing workers to work off the clock and much more,\u201d including not paying someone at all for services rendered.\n\nImagine",
+                  null
+                ]
+              ],
+              "token_ids": [
+                393,
+                1749,
+                10462,
+                526,
+                6364,
+                322,
+                393
+              ],
+              "tokens": [
+                "\u2581that",
+                "\u2581our",
+                "\u2581rights",
+                "\u2581are",
+                "\u2581protected",
+                "\u2581and",
+                "\u2581that"
+              ]
+            },
+            "url": "https://blog.freelancersunion.org/2017/10/17/watch-out-for-this-arbitration-and-your-rights-as-a-freelancer/"
+          }
+        ]
+      },
+      {
+        "span_text": "are accountable to the people they serve.",
+        "search_results": [
+          {
+            "original_span": "are accountable to the people they serve.",
+            "normalized_span": "are accountable to the people they serve",
+            "span_candidate": "are accountable to the people they serve",
+            "shard": 0,
+            "rank": 42967571359,
+            "search_info": {
+              "shard": 0,
+              "rank": 42967571359
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 63550109,
+              "doc_len": 5279,
+              "latency": 13.94963264465332,
+              "metadata": "{\"path\": \"dclm-0424.json.zst\", \"linenum\": 490730, \"metadata\": {\"id\": \"http://www.edmundhall.com/index.html?entry=2019-best-year-ever\", \"metadata\": {\"Content-Length\": \"51417\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:LA6TFCOV6PY5SHLXFF4TKEJUWGSPAN3V\", \"WARC-Concurrent-To\": \"<urn:uuid:4b1c0159-943f-4c66-bb1c-40d5586a8f65>\", \"WARC-Date\": \"2019-01-23T13:07:47Z\", \"WARC-IP-Address\": \"108.167.135.124\", \"WARC-Identified-Payload-Type\": \"text/html\", \"WARC-Payload-Digest\": \"sha1:VVGVU6V65U6ZDBHFX2OAEL6VCV6PS2XW\", \"WARC-Record-ID\": \"<urn:uuid:902c6c3f-7fdf-4833-84ae-8330eb8c5f49>\", \"WARC-Target-URI\": \"http://www.edmundhall.com/index.html?entry=2019-best-year-ever\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:65558a56-eaca-475a-a889-bcfb6e42c3ac>\", \"bff_contained_ngram_count_before_dedupe\": 0, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.03489416837692261, \"language_id_whole_page_fasttext\": {\"en\": 0.965299129486084}, \"previous_word_count\": 3752, \"provenance\": \"dclm_shard_00006032.jsonl.zstd:64767\", \"url\": \"http://www.edmundhall.com/index.html?entry=2019-best-year-ever\", \"warcinfo\": \"isPartOf: CC-MAIN-2019-04\\r\\npublisher: Common Crawl\\r\\ndescription: Wide crawl of the web for January 2019\\r\\noperator: Common Crawl Admin (info@commoncrawl.org)\\r\\nhostname: ip-10-182-67-179.ec2.internal\\r\\nsoftware: Apache Nutch 1.15 (modified, https://github.com/commoncrawl/nutch/)\\r\\nrobots: checked via crawler-commons 0.11-SNAPSHOT (https://github.com/crawler-commons/crawler-commons)\\r\\nformat: WARC File Format 1.1\\r\\nconformsTo: http://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "emerged in Lisbon.\u00a0 The UK won\u2019t have a useful veto over almost any of the major policy areas as the terms of that treaty come into effect, and it\u2019s the threat or use of the veto that makes others at the European Council have to listen.\u00a0\n\nThe introduction of almost universal qualified majority voting means that the EU Commission, which is the only source of legislation in the EU only needs to persuade, cajole or bribe its way to a qualified majority of heads of government to pass anything.\u00a0 That is nothing at all like the EU we joined, or even the one that introduced the Single Market.\u00a0 I have lobbied in Brussels on broadcasting and retailing issues, and as anyone who has done so knows, it is nothing like Westminster.\u00a0 To lobby in Europe you need professional well-funded access to intelligence and political networks in the Commission, the parliament and the voting blocs, and in 28 capital cities.\u00a0 Only the largest and best-funded voices get heard in Brussels, it\u2019s farcical to suggest that ordinary voices and ordinary concerns have voice in the EU.\u00a0 They do not.\n\nThe EU is a body that has military power and ambition and is already the source of rules of engagement for naval forces in the Mediterranean and off the coast of Somalia.\u00a0 I think that is wrong, and it concerns me hugely.\u00a0 I don\u2019t believe anyone who voted in 1975 did so with the idea that the EEC intended to form a navy and an army and have it led by a retired unelected ex Italian Communist politician. \u00a0If that doesn\u2019t terrify you, then I think you are mistaken, it isn\u2019t how the modern world was intended to be, and I think its utterly bizarre that British Forces have been put under their command.\u00a0 Fortunately, the missions so far have been uncontroversial in nature, but what happens when the use of force is required?\u00a0 A drunk ex-Prime Minister of Luxembourg and an Italian communist directing our new carrier in operations?\u00a0 No thanks.\n\nThose who use such vast powers have to be held to account directly by the people.\u00a0 In the nation state those that wield power",
+                  null
+                ],
+                [
+                  "are accountable to the people they serve",
+                  "0"
+                ],
+                [
+                  ", and every member of our parliament faces regular elections, and even the Prime Minister has to walk the streets and leaflet her constituency and attend surgeries if she wants to keep her seat.\u00a0 Throughout his time in office David Cameron was available to his constituents in Witney and he was a regular part of the local community.\u00a0 I saw him more often in the Coop than I did in Downing Street.\n\nThe EU Commissioners face no election, and most of us haven\u2019t the faintest idea who they are.\u00a0 They come from countries we may never have visited, were appointed in back-room agreements in trade-offs between member states, and never, not once, not ever, do they have to leaflet the streets of their home town or face angry citizens in surgeries.\u00a0 They are, by definition, a self-selecting elite, one that according to the terms of the proposed transition agreement, can never in their lives face a tax bill or investigation in the UK.\u00a0 They remind me of the Russian politburo, unelected and accorded special and extraordinary rights.\n\nThe mysterious systems they control to create new European law are complex, and those systems have been criticised as secretive by the EU itself and enable only those with access to the participants in what they call trilogue negotiations to influence policy and law.\u00a0 The political blocs by which the European Parliament votes never produce manifestos that face a single voter, they are not political parties, but yet they whip MEPs and they make decisions that affect the lives of hundreds of millions of Europeans.\u00a0 I\u2019m not happy that a group of people I never voted for, who take the whip from a bloc that never faced a voter, meet in secret with unelected Commission officials and decide on the laws that run our country.\u00a0 They may be right and well-meaning in what they do most of the time, but the system itself is wrong, undemocratic, and enables those in power to exercise power, and ensures those without pan-continental power have no effective voice.\n\nAnd so, to the biggest reason why I voted to leave, the adoption and subsequent management of the Euro.\u00a0 The EU was not the source of the global financial crisis, but the actions it",
+                  null
+                ]
+              ],
+              "token_ids": [
+                526,
+                3633,
+                519,
+                304,
+                278,
+                2305,
+                896,
+                9080
+              ],
+              "tokens": [
+                "\u2581are",
+                "\u2581account",
+                "able",
+                "\u2581to",
+                "\u2581the",
+                "\u2581people",
+                "\u2581they",
+                "\u2581serve"
+              ]
+            },
+            "url": "http://www.edmundhall.com/index.html?entry=2019-best-year-ever"
+          }
+        ]
+      }
+    ]
+  }
+}

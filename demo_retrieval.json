@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "index": "v4_olmo-mix-1124_llama",
+    "api_url": "https://api.infini-gram.io/",
+    "total_categories": 1,
+    "total_spans_processed": 2
+  },
+  "results": {
+    "doc_0": [
+      {
+        "span_text": "That is the kind of America in which I believe",
+        "search_results": [
+          {
+            "original_span": "That is the kind of America in which I believe",
+            "normalized_span": "That is the kind of America in which I believe",
+            "span_candidate": "That is the kind of America in",
+            "shard": 0,
+            "rank": 249002441498,
+            "search_info": {
+              "shard": 0,
+              "rank": 249002441498
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 218385156,
+              "doc_len": 25720,
+              "latency": 13.048171997070312,
+              "metadata": "{\"path\": \"dclm-1458.json.zst\", \"linenum\": 1115410, \"metadata\": {\"id\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default\", \"metadata\": {\"Content-Length\": \"126408\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:6IBVKP3E57JFYBVO2OLPVOGZU65MMSSF\", \"WARC-Concurrent-To\": \"<urn:uuid:f4ca08f6-c4e6-46df-bdfb-339f5f175b29>\", \"WARC-Date\": \"2015-10-09T17:37:17Z\", \"WARC-IP-Address\": \"64.233.171.132\", \"WARC-Payload-Digest\": \"sha1:CPQEQB4PPH6QS4UVUVD5MBTIRFSNF2US\", \"WARC-Record-ID\": \"<urn:uuid:0d8a475b-c6bb-4982-b0b0-9f7489add1bd>\", \"WARC-Target-URI\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:0330291f-1a68-4bb1-bedc-7bca77b40e3f>\", \"bff_contained_ngram_count_before_dedupe\": 3379, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.029416203498840332, \"language_id_whole_page_fasttext\": {\"en\": 0.890246570110321}, \"previous_word_count\": 9166, \"provenance\": \"dclm_shard_00020722.jsonl.zstd:79862\", \"url\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-137-6-227.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2015-40\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web for September 2015\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "JK2PKLqF&amp;b=3455813&amp;content_id=%7B33D4DBC1-132C-4F7A-B267-31FE53327769%7D&amp;notoc=1\">United Methodist Church</a>: <blockquote>The United Methodist Church\u2019s official positions on abortion and immigration stand in opposition, however, to restrictions placed in the bill that limit coverage for all of God\u2019s children living in the United States. H.R. 3962 excludes immigrants and women whose circumstances indicate need for an abortion. These restrictions even include persons who now have such insurance.<br /><br />The bill establishes a two-tiered system of health delivery. It essentially penalizes women and immigrants with fewer economic resources.</blockquote> <a href=\"http://www.ncjw.org/content_4005.cfm?navID=218\">National Council of Jewish Women</a>: <blockquote>\"This Stupak-Pitts amendment is an egregious assault on the rights of women and an enormous step backward for those who believe in the separation of religion and state. It enshrines one religious view of abortion into law and enlists the federal government to enforce it.</blockquote> <a href=\"http://www.rcrc.org/\">Religious Coalition for Reproductive Choice</a>:<blockquote>We call on the Senate to ensure that health care reform is freed of religious ideology and restrictions that will prevent women from making their own reproductive health care choices.</blockquote> Ideally, I think our leaders should heed <a href=\"http://www.huffingtonpost.com/geoffrey-r-stone/church-and-state-in-jfks_b_356162.html\">JFK's words</a>: <blockquote>I believe in an America where the separation of church and state is absolute, where no Catholic prelate would tell the president (should he be Catholic) how to act, and no Protestant minister would tell his parishioners for whom to vote. . . .",
+                  null
+                ],
+                [
+                  "That is the kind of America in",
+                  "0"
+                ],
+                [
+                  "which I believe. . . . Whatever issue may come before me as president - on birth control, divorce, censorship, gambling or any other subject - I will make my decision in accordance with . . . what my conscience tells me to be the national interest, and without regard to outside religious pressures or dictates.</blockquote> Along with 40 other Democrats, Stupak is threatening there will be <a href=\"http://www.huffingtonpost.com/2009/11/12/bart-stupak-there-will-be_n_355083.html\">hell to pay</a> if his amendment is removed, and the Council of Catholic Bishops is threatening to withdraw their support for reform too. Their religion may condone turning their backs on the uninsured, but mine believes health care is a <a href=\"http://www.elca.org/What-We-Believe/Social-Issues/Social-Statements/Health-and-Healthcare.aspx\">matter of social justice</a>.<br /><br />There are hundreds of religions in this world and we'll never find common ground acceptable to everyone. However, as <a href=\"http://www.huffingtonpost.com/geoffrey-r-stone/church-and-state-in-jfks_b_356162.html\">this blogger</a> so eloquently put it... <blockquote>Freedom of religion in our nation means, first and foremost, the right of individuals to live their lives in accord with their most cherished religious beliefs, and free of government interference. [...]<br /><br />At the same time, though, the reciprocal of that freedom is an equally fundamental responsibility. This is the responsibility not to use the authority of the government to compel individuals to live their lives in accord with our \"religious dictates\" that they do not share. Muslims have the right not to consume pork, but they should not use the power of the government to forbid others to eat pork. Jews have the right not to work on Saturday, but they should not",
+                  null
+                ]
+              ],
+              "token_ids": [
+                2193,
+                338,
+                278,
+                2924,
+                310,
+                6813,
+                297
+              ],
+              "tokens": [
+                "\u2581That",
+                "\u2581is",
+                "\u2581the",
+                "\u2581kind",
+                "\u2581of",
+                "\u2581America",
+                "\u2581in"
+              ]
+            },
+            "url": "http://stonesoupmusings.blogspot.com/feeds/posts/default"
+          },
+          {
+            "original_span": "That is the kind of America in which I believe",
+            "normalized_span": "That is the kind of America in which I believe",
+            "span_candidate": "That is the kind of America in",
+            "shard": 1,
+            "rank": 248984538067,
+            "search_info": {
+              "shard": 1,
+              "rank": 248984538067
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 299021163,
+              "doc_len": 26514,
+              "latency": 17.19188690185547,
+              "metadata": "{\"path\": \"dclm-0028.json.zst\", \"linenum\": 131521, \"metadata\": {\"id\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default?alt=rss\", \"metadata\": {\"Content-Length\": \"104962\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:VD2QBC5OW4YM7OOJOHP26ZA5P5Z55VX4\", \"WARC-Concurrent-To\": \"<urn:uuid:a258e94b-4049-49d7-b3a0-0b7f9d24b381>\", \"WARC-Date\": \"2014-11-26T22:51:08Z\", \"WARC-IP-Address\": \"74.125.228.75\", \"WARC-Payload-Digest\": \"sha1:FUMQNWQUMX2WHBW6D67FYMC7OOITP2OE\", \"WARC-Record-ID\": \"<urn:uuid:fe242fe4-b68f-47f5-95f5-fc57ca944f73>\", \"WARC-Target-URI\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default?alt=rss\", \"WARC-Truncated\": \"length\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:42c3e377-60b4-4494-bdd1-0f36780f3c59>\", \"bff_contained_ngram_count_before_dedupe\": 6237, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.019253849983215332, \"language_id_whole_page_fasttext\": {\"en\": 0.8883649110794067}, \"previous_word_count\": 9333, \"provenance\": \"dclm_shard_00000401.jsonl.zstd:131558\", \"url\": \"http://stonesoupmusings.blogspot.com/feeds/posts/default?alt=rss\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-235-23-156.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2014-49\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web with URLs provided by Blekko for November 2014\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "JK2PKLqF&amp;b=3455813&amp;content_id=%7B33D4DBC1-132C-4F7A-B267-31FE53327769%7D&amp;notoc=1\">United Methodist Church</a>: <blockquote>The United Methodist Church\u2019s official positions on abortion and immigration stand in opposition, however, to restrictions placed in the bill that limit coverage for all of God\u2019s children living in the United States. H.R. 3962 excludes immigrants and women whose circumstances indicate need for an abortion. These restrictions even include persons who now have such insurance.<br /><br />The bill establishes a two-tiered system of health delivery. It essentially penalizes women and immigrants with fewer economic resources.</blockquote> <a href=\"http://www.ncjw.org/content_4005.cfm?navID=218\">National Council of Jewish Women</a>: <blockquote>\"This Stupak-Pitts amendment is an egregious assault on the rights of women and an enormous step backward for those who believe in the separation of religion and state. It enshrines one religious view of abortion into law and enlists the federal government to enforce it.</blockquote> <a href=\"http://www.rcrc.org/\">Religious Coalition for Reproductive Choice</a>:<blockquote>We call on the Senate to ensure that health care reform is freed of religious ideology and restrictions that will prevent women from making their own reproductive health care choices.</blockquote> Ideally, I think our leaders should heed <a href=\"http://www.huffingtonpost.com/geoffrey-r-stone/church-and-state-in-jfks_b_356162.html\">JFK's words</a>: <blockquote>I believe in an America where the separation of church and state is absolute, where no Catholic prelate would tell the president (should he be Catholic) how to act, and no Protestant minister would tell his parishioners for whom to vote. . . .",
+                  null
+                ],
+                [
+                  "That is the kind of America in",
+                  "0"
+                ],
+                [
+                  "which I believe. . . . Whatever issue may come before me as president - on birth control, divorce, censorship, gambling or any other subject - I will make my decision in accordance with . . . what my conscience tells me to be the national interest, and without regard to outside religious pressures or dictates.</blockquote> Along with 40 other Democrats, Stupak is threatening there will be <a href=\"http://www.huffingtonpost.com/2009/11/12/bart-stupak-there-will-be_n_355083.html\">hell to pay</a> if his amendment is removed, and the Council of Catholic Bishops is threatening to withdraw their support for reform too. Their religion may condone turning their backs on the uninsured, but mine believes health care is a <a href=\"http://www.elca.org/What-We-Believe/Social-Issues/Social-Statements/Health-and-Healthcare.aspx\">matter of social justice</a>.<br /><br />There are hundreds of religions in this world and we'll never find common ground acceptable to everyone. However, as <a href=\"http://www.huffingtonpost.com/geoffrey-r-stone/church-and-state-in-jfks_b_356162.html\">this blogger</a> so eloquently put it... <blockquote>Freedom of religion in our nation means, first and foremost, the right of individuals to live their lives in accord with their most cherished religious beliefs, and free of government interference. [...]<br /><br />At the same time, though, the reciprocal of that freedom is an equally fundamental responsibility. This is the responsibility not to use the authority of the government to compel individuals to live their lives in accord with our \"religious dictates\" that they do not share. Muslims have the right not to consume pork, but they should not use the power of the government to forbid others to eat pork. Jews have the right not to work on Saturday, but they should not",
+                  null
+                ]
+              ],
+              "token_ids": [
+                2193,
+                338,
+                278,
+                2924,
+                310,
+                6813,
+                297
+              ],
+              "tokens": [
+                "\u2581That",
+                "\u2581is",
+                "\u2581the",
+                "\u2581kind",
+                "\u2581of",
+                "\u2581America",
+                "\u2581in"
+              ]
+            },
+            "url": "http://stonesoupmusings.blogspot.com/feeds/posts/default?alt=rss"
+          }
+        ]
+      },
+      {
+        "span_text": "that I stand before you today to celebrate the",
+        "search_results": [
+          {
+            "original_span": "that I stand before you today to celebrate the",
+            "normalized_span": "that I stand before you today to celebrate the",
+            "span_candidate": "that I stand before you today to",
+            "shard": 0,
+            "rank": 239281078346,
+            "search_info": {
+              "shard": 0,
+              "rank": 239281078346
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 622,
+              "doc_ix": 39579674,
+              "doc_len": 4440,
+              "latency": 16.81685447692871,
+              "metadata": "{\"path\": \"dclm-0264.json.zst\", \"linenum\": 295120, \"metadata\": {\"id\": \"http://agts.edu/encounter/articles/2006_summer/watson_preaching.htm\", \"metadata\": {\"Content-Length\": \"43885\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:YRGOTZJ3EGSBUXQMJR2XT26CQMCUH6H2\", \"WARC-Concurrent-To\": \"<urn:uuid:316e8316-eff0-4185-9374-ba393e9c0be3>\", \"WARC-Date\": \"2016-07-01T15:13:25Z\", \"WARC-IP-Address\": \"64.22.242.243\", \"WARC-Payload-Digest\": \"sha1:ENZJJXDUGWMNTSAJTIMOHWJUFEDW62NS\", \"WARC-Record-ID\": \"<urn:uuid:62e69305-a704-4f1d-bf2d-11aa84b65d96>\", \"WARC-Target-URI\": \"http://agts.edu/encounter/articles/2006_summer/watson_preaching.htm\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:afe98f91-5790-4055-9753-52a7bdcb7232>\", \"bff_contained_ngram_count_before_dedupe\": 7, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.018454670906066895, \"language_id_whole_page_fasttext\": {\"en\": 0.9784879088401794}, \"previous_word_count\": 2761, \"provenance\": \"dclm_shard_00003749.jsonl.zstd:76647\", \"url\": \"http://agts.edu/encounter/articles/2006_summer/watson_preaching.htm\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-164-35-72.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)/CC WarcExport 1.0\\r\\nisPartOf: CC-MAIN-2016-26\\r\\noperator: CommonCrawl Admin\\r\\ndescription: Wide crawl of the web for June 2016\\r\\npublisher: CommonCrawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 122,
+              "spans": [
+                [
+                  "Notify me when new issues are released\n\n\nSummer 2006, Vol. 3, No. 1\n\nThe Preaching of Martin Luther King, Jr.\n\nMaurice Watson, D.D.\nSenior Pastor Beulahland Bible Church, Macon, Georgia\n\nA lecture presented to Assemblies of God Theological Seminary, January 17, 2006\n\nPrinter Friendly Version (PDF,Download Help)\n\nIt is with a deep sense of humility and trepidation",
+                  null
+                ],
+                [
+                  "that I stand before you today to",
+                  "0"
+                ],
+                [
+                  "talk about an American icon, a legend, a drum major for truth, and one of the most important and significant figures of the twentieth century\u2014Dr. Martin Luther King, Jr. I do not consider myself a scholar or an expert on the life and legacy of this great man of God. There are numerous scholars and researchers who are more qualified to speak on this subject than I. They have spent many years plumbing the depths of the complex theological, social and political tapestry of Dr. King\u2019s life and witness. They have put forth a gallant effort to capture the crucial identity of Martin Luther King, Jr. Furthermore, there are those who lived during King\u2019s era, who walked with him, talked with him, touched him and heard him preach who, perhaps, could better articulate his life\u2019s story and the effectiveness of his preaching.\n\nWe know about Dr. King\u2019s life as a civil rights leader. That is well documented in the pages of history. We know about the enormous struggles and the burden he carried as the principal spokesperson of the movement. We know about his Nobel Peace Prize. We know about the marches he led. We know about the ultimate price he paid in Memphis, Tennessee. We could spend a semester, or even a year, talking about Martin Luther King as a religious, political and social leader\u2014though it is hard to separate these important roles. But I am here to talk about Martin Luther King, Jr. as a preacher of the gospel.\n\nOne of the great sources on the subject is a book written by Richard Lischer, The Preacher King. It was named the outstanding book of 1995-1996 by the Religious Speech Communication Association. My lecture will be both a review of and a response to Lischer\u2019s seminal work on King as a preacher.\n\nInfluences on King\u2019s Life and Preaching\n\nWhile many would describe Dr. King as an iconoclastic hero for social justice, King described himself in more humble and down-to-earth terms. He often said, \u201cIn the quiet recesses of my heart, I am fundamentally a clergyman, a Baptist preacher.\u201d1 Like a",
+                  null
+                ]
+              ],
+              "token_ids": [
+                393,
+                306,
+                2317,
+                1434,
+                366,
+                9826,
+                304
+              ],
+              "tokens": [
+                "\u2581that",
+                "\u2581I",
+                "\u2581stand",
+                "\u2581before",
+                "\u2581you",
+                "\u2581today",
+                "\u2581to"
+              ]
+            },
+            "url": "http://agts.edu/encounter/articles/2006_summer/watson_preaching.htm"
+          },
+          {
+            "original_span": "that I stand before you today to celebrate the",
+            "normalized_span": "that I stand before you today to celebrate the",
+            "span_candidate": "that I stand before you today to",
+            "shard": 0,
+            "rank": 239281078336,
+            "search_info": {
+              "shard": 0,
+              "rank": 239281078336
+            },
+            "document_metadata": {
+              "blocked": false,
+              "disp_len": 1000,
+              "doc_ix": 36669385,
+              "doc_len": 21789,
+              "latency": 13.361930847167969,
+              "metadata": "{\"path\": \"dclm-0244.json.zst\", \"linenum\": 1130290, \"metadata\": {\"id\": \"http://bighominid.blogspot.com/2006/01/\", \"metadata\": {\"Content-Length\": \"311040\", \"Content-Type\": \"application/http; msgtype=response\", \"WARC-Block-Digest\": \"sha1:USQJUAPWZGHZ2DWAZVPRH5G7GU4CNPBB\", \"WARC-Concurrent-To\": \"<urn:uuid:ac36b1bd-9cf2-44a6-be3c-326c7dadb1e9>\", \"WARC-Date\": \"2018-07-20T12:27:21Z\", \"WARC-IP-Address\": \"172.217.7.161\", \"WARC-Identified-Payload-Type\": \"application/xhtml+xml\", \"WARC-Payload-Digest\": \"sha1:3FUDETDSWBME5ZK3YSFNAISOGOPABHSV\", \"WARC-Record-ID\": \"<urn:uuid:162906b1-1669-4b9d-ba27-758950488626>\", \"WARC-Target-URI\": \"http://bighominid.blogspot.com/2006/01/\", \"WARC-Type\": \"response\", \"WARC-Warcinfo-ID\": \"<urn:uuid:6d4d4ba8-1d57-41da-871f-a316ba5dd1d2>\", \"bff_contained_ngram_count_before_dedupe\": 970, \"fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob\": 0.03679054975509643, \"language_id_whole_page_fasttext\": {\"en\": 0.9660086631774902}, \"previous_word_count\": 15052, \"provenance\": \"dclm_shard_00003474.jsonl.zstd:42359\", \"url\": \"http://bighominid.blogspot.com/2006/01/\", \"warcinfo\": \"robots: classic\\r\\nhostname: ip-10-151-200-201.ec2.internal\\r\\nsoftware: Nutch 1.6 (CC)\\r\\nisPartOf: CC-MAIN-2018-30\\r\\noperator: Common Crawl Admin\\r\\ndescription: Wide crawl of the web for July 2018\\r\\npublisher: Common Crawl\\r\\nformat: WARC File Format 1.0\\r\\nconformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf\"}, \"source\": \"dclm-hero-run-fasttext_for_HF\", \"version\": \"1.0\"}}\n",
+              "needle_offset": 500,
+              "spans": [
+                [
+                  "medicine has made me a very unhappy camper: I remember a mid-90s concoction that knocked one of my ailments flat on its ass. It slunk away, muttering, never to return.\n\nThose were the days. But now... the sun no longer shines in my world, which lies buried under a thick layer of snot and phlegm. Alas for the disappearance of good medicine. This era, sadly, now belongs to the mucus.\n\nI'm supposed to return to the clinic on Wednesday. The troll will be expecting me. If she and her witchcraft prove insufficient, then I'll be off to a real doctor-- the kind who takes one look at your clogged nose, whips out a massive power drill, kicks you in the chest to stun you, then screams, \"It's GO TIME!\" as he jams that drill bit into your nostril and deep inside your brain.\n\n\nHappy Monday!\n\nBazaar in 10 Days!\n\nI think I'll be doing one of these a day.\n\nAlso of note in the wake of the Hwang scandal:\n\nOver two years ago, on New Year's Eve, I wrote this. Yes, it's snotty. But the sarcasm is prophetic.\n\n\nSunday, January 22, 2006\n\nSNU president on the \"painful lesson\" of Dr. Hwang\n\nBazaar in 11 days!\n\nThought I'd pass this along. I saw it on the Seoul National University website (English version). It's the public apology by SNU's president, Chung Un-chan, following the conclusion of the investigation into Dr. Hwang Woo-seok's work:\n\nFellow Koreans,\n\nJust yesterday the Seoul National University Investigation Committee submitted its Final Report on Professor Woo Suk Hwang's Research Allegations. The Final Report concludes that the research articles published in 2004 and 2005 in the journal Science were both fabricated. It is with a very heavy heart",
+                  null
+                ],
+                [
+                  "that I stand before you today to",
+                  "0"
+                ],
+                [
+                  "express my regrets that Professor Hwang's team at our university carried out such grave misconducts.\n\nAs the President of Seoul National University, I feel I owe the Korean people a deep apology for the public confusion and controversy caused by Professor Hwang's research team. The findings of the Investigation Committee make it clear that Professor Hwang's grievous misconduct has dishonored scientific communities in Korea and abroad. I am concerned that his research team has placed a heavy burden on Korean scientists who have been hard at work in their respective research fields. They are likely to come under much greater scrutiny in the future by the global scientific community. But most of all I would like to apologize to the patients whose hopes were raised by stem cell research and whose trust has been betrayed by the recent events.\n\nThe falsification of research results is nothing less than a crime in an academic community whose purpose is the pursuit of truth. We need to acknowledge, however, that the responsibility for the events surrounding Professor Hwang's misconduct must be shared.\n\nI speak of the responsibility for exaggerating the contributions of embryonic stem cell research for the purposes of Korean national interest. I speak of the responsibility for evading issues of bioethics in the naming of finding cures for incurable diseases. And I speak of our obsession with producing results without recollecting that the ends do not justify the means.\n\nHonesty and integrity are the fundamentals of science. There can be no science deserving of that name without honesty and integrity. We need to be wary of exaggerated hopes in scientific achievement. No single scientific achievement will single-handedly revive the national economy or cure all illnesses. During the last two years, we ignored this simple truth and wasted valuable resources. It is time now to reflect seriously on the true purpose of scholarship. And it is time for those who engaged in misconduct to take responsibility.\n\nI firmly believe, however, that we must not simply take the recent events as a one-time tragedy. We must make this an opportunity for the biological sciences in Korea to mature and leap forward. One thing we have gained from these events is the",
+                  null
+                ]
+              ],
+              "token_ids": [
+                393,
+                306,
+                2317,
+                1434,
+                366,
+                9826,
+                304
+              ],
+              "tokens": [
+                "\u2581that",
+                "\u2581I",
+                "\u2581stand",
+                "\u2581before",
+                "\u2581you",
+                "\u2581today",
+                "\u2581to"
+              ]
+            },
+            "url": "http://bighominid.blogspot.com/2006/01/"
+          }
+        ]
+      }
+    ]
+  }
+}

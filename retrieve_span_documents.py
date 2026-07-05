@@ -8,16 +8,39 @@ and retrieve snippets + whatever metadata is available (including URLs if
 exposed for v4_dolma-v1_7_llama).
 """
 
+import argparse
 import json
 import logging
 import re
 import random
+import time
 from typing import List, Dict, Any
 
 from framing_audit.infinigram import InfinigramClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+DEFAULT_INDEX = "v4_olmo-mix-1124_llama"   # OLMo's own training corpus (exposes URLs)
+
+
+def _call_with_retry(fn, *, desc, request_sleep=0.25, max_retries=6, **kwargs):
+    """Call an Infini-gram API method with throttle + cooldown retry.
+
+    The public API 403s bursts of requests (especially from datacenter IPs),
+    so we pace calls and back off longer than the client's fast retry loop.
+    """
+    for attempt in range(max_retries):
+        if request_sleep:
+            time.sleep(request_sleep)
+        try:
+            return fn(**kwargs)
+        except Exception as e:
+            cooldown = 2.0 * (attempt + 1)
+            logger.warning(f"{desc} retry {attempt+1}/{max_retries} "
+                           f"({str(e)[:60]}); sleeping {cooldown:.0f}s")
+            time.sleep(cooldown)
+    raise RuntimeError(f"{desc} failed after {max_retries} retries")
 
 # ----------------------------------------------------------------------
 # 1. Curated query spans (slightly longer phrases)
@@ -187,6 +210,8 @@ def search_span_documents(
     client: InfinigramClient,
     span_text: str,
     max_docs: int = 5,
+    index: str = DEFAULT_INDEX,
+    request_sleep: float = 0.25,
 ) -> List[Dict[str, Any]]:
     """
     Search for documents containing the span text using a robust strategy:
@@ -227,7 +252,9 @@ def search_span_documents(
 
         # 3a) Quick count filter
         try:
-            count_result = client.find(cand)
+            count_result = _call_with_retry(
+                client.find, desc=f"count {cand!r}",
+                request_sleep=request_sleep, query=cand, index=index)
         except Exception as e:
             logger.error(f"Error in count query for candidate {cand!r}: {e}")
             continue
@@ -240,7 +267,9 @@ def search_span_documents(
 
         # 3b) Use query_type="find" to get positions across shards
         try:
-            find_result = client.find_positions(cand)
+            find_result = _call_with_retry(
+                client.find_positions, desc=f"find {cand!r}",
+                request_sleep=request_sleep, query=cand, index=index)
         except Exception as e:
             logger.error(f"Error in find_positions for candidate {cand!r}: {e}")
             continue
@@ -283,12 +312,12 @@ def search_span_documents(
                     break
 
                 try:
-                    doc_metadata = client.get_doc_by_rank(
-                        query=cand,
-                        shard=shard_idx,
-                        rank=rank,
-                        max_disp_len=1000,
-                    )
+                    doc_metadata = _call_with_retry(
+                        client.get_doc_by_rank,
+                        desc=f"get_doc {cand!r} s{shard_idx}/r{rank}",
+                        request_sleep=request_sleep,
+                        query=cand, shard=shard_idx, rank=rank,
+                        index=index, max_disp_len=1000)
                 except Exception as e:
                     logger.error(
                         f"Error get_doc_by_rank for cand={cand!r} s={shard_idx} rank={rank}: {e}"
@@ -330,11 +359,48 @@ def search_span_documents(
 # ----------------------------------------------------------------------
 
 
+def load_spans_file(path: str) -> Dict[str, List[str]]:
+    """Load Stage A output from find_spans_dj --spans-out: {doc_id: [span_text, ...]}."""
+    with open(path) as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError("--spans-in must be a JSON object {doc_id: [span_text, ...]}")
+    return data
+
+
+def process_docs(
+    client: InfinigramClient,
+    spans_by_doc: Dict[str, List[str]],
+    max_docs_per_span: int = 3,
+    index: str = DEFAULT_INDEX,
+    request_sleep: float = 0.25,
+) -> Dict[str, Any]:
+    """Retrieve documents for each detected span, grouped by source document."""
+    results: Dict[str, Any] = {}
+    for doc_id, spans in spans_by_doc.items():
+        logger.info(f"\nDoc {doc_id}: {len(spans)} span(s)")
+        doc_results = []
+        seen = set()
+        for span_text in spans:
+            if span_text in seen:          # dedupe spans within a document
+                continue
+            seen.add(span_text)
+            search_results = search_span_documents(
+                client, span_text, max_docs=max_docs_per_span,
+                index=index, request_sleep=request_sleep,
+            )
+            doc_results.append({"span_text": span_text, "search_results": search_results})
+        results[doc_id] = doc_results
+    return results
+
+
 def process_spans(
     client: InfinigramClient,
     max_docs_per_span: int = 3,
+    index: str = DEFAULT_INDEX,
+    request_sleep: float = 0.25,
 ) -> Dict[str, Any]:
-    """Process all query spans and retrieve documents."""
+    """Process the built-in QUERY_SPANS demo list and retrieve documents."""
     results: Dict[str, Any] = {}
 
     for category, spans in QUERY_SPANS.items():
@@ -345,7 +411,8 @@ def process_spans(
                 f"  Processing span {i}/{len(spans)} in category {category}: {span_text!r}"
             )
             search_results = search_span_documents(
-                client, span_text, max_docs=max_docs_per_span
+                client, span_text, max_docs=max_docs_per_span,
+                index=index, request_sleep=request_sleep,
             )
             cat_results.append(
                 {
@@ -358,14 +425,14 @@ def process_spans(
     return results
 
 
-def save_results(results: Dict[str, Any], output_file: str):
+def save_results(results: Dict[str, Any], output_file: str, index: str = DEFAULT_INDEX):
     """Save results to JSON file."""
     logger.info(f"Saving results to {output_file}")
 
     total_spans = sum(len(spans) for spans in results.values())
     output_data = {
         "metadata": {
-            "index": "v4_dolma-v1_7_llama",
+            "index": index,
             "api_url": "https://api.infini-gram.io/",
             "total_categories": len(results),
             "total_spans_processed": total_spans,
@@ -380,24 +447,42 @@ def save_results(results: Dict[str, Any], output_file: str):
 
 
 def main():
-    output_file = "span_document_retrieval_results.json"
-    max_docs_per_span = 3
+    ap = argparse.ArgumentParser(
+        description="Stage B: retrieve source documents + URLs for detected spans")
+    ap.add_argument("--spans-in", default=None,
+                    help="JSON {doc_id: [span_text, ...]} from "
+                         "find_spans_dj --spans-out. If omitted, falls back to "
+                         "the built-in QUERY_SPANS demo list.")
+    ap.add_argument("--index", default=DEFAULT_INDEX,
+                    help="Infini-gram index to retrieve documents from")
+    ap.add_argument("--out", default="span_document_retrieval_results.json")
+    ap.add_argument("--max-docs", type=int, default=3, help="Max docs per span")
+    ap.add_argument("--request-sleep", type=float, default=0.25,
+                    help="Throttle between API calls to avoid rate-limit 403s")
+    args = ap.parse_args()
 
-    logger.info("Initializing Infinigram client...")
+    logger.info(f"Initializing Infinigram client... index={args.index}")
     client = InfinigramClient()
 
-    logger.info("Starting span processing...")
-    results = process_spans(client, max_docs_per_span=max_docs_per_span)
+    if args.spans_in:
+        spans_by_doc = load_spans_file(args.spans_in)
+        logger.info(f"Loaded spans for {len(spans_by_doc)} doc(s) from {args.spans_in}")
+        results = process_docs(client, spans_by_doc, max_docs_per_span=args.max_docs,
+                               index=args.index, request_sleep=args.request_sleep)
+    else:
+        logger.info("No --spans-in given; using built-in QUERY_SPANS demo list")
+        results = process_spans(client, max_docs_per_span=args.max_docs,
+                                index=args.index, request_sleep=args.request_sleep)
 
-    save_results(results, output_file)
+    save_results(results, args.out, index=args.index)
 
     logger.info("Document retrieval completed!")
-
     total_spans = sum(len(spans) for spans in results.values())
     print("\n=== SUMMARY ===")
-    print(f"Categories processed: {len(results)}")
+    print(f"Groups (docs/categories): {len(results)}")
     print(f"Total spans processed: {total_spans}")
-    print(f"Results saved to: {output_file}")
+    print(f"Index: {args.index}")
+    print(f"Results saved to: {args.out}")
 
 
 if __name__ == "__main__":
