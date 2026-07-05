@@ -7,7 +7,14 @@ corpus, which also exposes source URLs).
 """
 import json
 import logging
+import os
+import sys
 import textwrap
+
+# This script lives in outputs/; add the repo root so imports resolve when run
+# from anywhere.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(_HERE))
 
 logging.basicConfig(level=logging.WARNING)
 
@@ -15,11 +22,11 @@ from framing_audit.infinigram import InfinigramClient
 from framing_audit.find_spans_dj import DJSpanFinder
 from retrieve_span_documents import search_span_documents
 
-INDEX = "v4_dolma-v1_7_llama"
+INDEX = "v4_olmo-mix-1124_llama"
 MIN_NGRAM = 5
 
-# --- 1. OLMo output paragraph ---
-olmo = json.load(open("/tmp/creativity_index/data/speech/Olmo-7B-instruct_speech.json"))
+# --- 1. OLMo output paragraph (local sample, no external dependency) ---
+olmo = json.load(open(os.path.join(_HERE, "olmo_full_input.json")))
 text = olmo[0]["text"]
 
 print("=" * 90)
